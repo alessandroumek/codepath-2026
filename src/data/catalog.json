@@ -22,11 +22,12 @@
       "categories": 12
     },
     "notes": [
-      "Categoria e tag sono classificazioni redazionali, non track ufficiali Codemotion.",
-      "Tutte le sintesi sono redatte in italiano; soltanto quella di Elena Guidi è basata su abstract nel materiale originale.",
+      "Categorie e tag sono revisionati editorialmente usando titolo e abstract ufficiale di ogni sessione; non sono track ufficiali Codemotion.",
       "Il programma è una fotografia dell’HTML del 15 ottobre 2026 e può subire variazioni.",
-      "Quattro voci organizzative del Tech Lead Summit senza speaker non sono incluse nell’elenco dei talk."
-    ]
+      "Quattro voci organizzative del Tech Lead Summit senza speaker non sono incluse nell’elenco dei talk.",
+      "Gli abstract ufficiali sono importati da Sessionize nella lingua originale, senza traduzione."
+    ],
+    "abstractSnapshot": "2026-10-16"
   },
   "speakers": [
     {
@@ -1077,13 +1078,15 @@
       "tags": [
         "ai-agents",
         "agent-observability",
-        "tracing",
-        "monitoring"
+        "observability",
+        "token-usage"
       ],
       "summary": {
-        "text": "Visibilità, osservazione e controllo sul comportamento degli agenti AI e sulle loro interazioni con strumenti e dati.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "In this keynote, you'll take a look at why agents are worth spying on, bringing observability engineering into AI and agentic systems. Make sure your data and your tokens are doing what you think they are, and investigate how creating more visibility into agents helps you decide how to shape your agentic workflows and shift them to new settings.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1327744",
+        "retrievedAt": "2026-10-16T13:37:08.055Z"
       },
       "format": "talk",
       "schedule": {
@@ -1096,7 +1099,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1327744"
       ]
     },
     {
@@ -1107,18 +1111,21 @@
       ],
       "categoryIds": [
         "leadership-carriera",
-        "ai-llm"
+        "software-engineering"
       ],
       "tags": [
         "ai-adoption",
-        "team",
+        "mentoring",
         "collaborazione",
-        "engineering-management"
+        "psychological-safety",
+        "knowledge-sharing"
       ],
       "summary": {
-        "text": "Come l'introduzione dell'AI influisce sulle relazioni, sui processi e sulla condivisione della conoscenza nei team di sviluppo.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "AI is changing how we build software, but the biggest shift isn't in our codebases. It's between people. Every time a developer asks an AI instead of a colleague, something small breaks: a conversation that never happens, a mentoring moment that gets skipped, shared context that never forms.\n\nThis talk digs into what we're losing. The isolation paradox, where you're more productive but more alone. The echo chamber, where AI agrees instead of pushing back. The knowledge transfer gap, where juniors ship code without understanding why it works. And a quiet hit to psychological safety, especially for mid-level developers stuck between \"I should know this\" and \"I need help.\"\n\nThis isn't an anti-AI talk. AI removes real barriers for non-native speakers, introverts, and teams stuck in \"my idea vs. yours\" debates. The difference is whether your team treats AI as a shared resource or a private shortcut.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1216484",
+        "retrievedAt": "2026-10-16T13:37:08.489Z"
       },
       "format": "talk",
       "schedule": {
@@ -1131,7 +1138,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1216484"
       ]
     },
     {
@@ -1145,16 +1153,18 @@
         "ai-llm"
       ],
       "tags": [
-        "edge-ai",
+        "physical-ai",
+        "arduino",
         "sensors",
-        "on-device-ai",
-        "iot",
-        "embedded"
+        "edge-ai",
+        "model-deployment"
       ],
       "summary": {
-        "text": "Architettura di sistemi di Physical AI: sensori, interpretazione dei segnali e inferenza direttamente sui dispositivi.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Building AI systems on edge devices requires a different engineering mindset.\nIn this talk, we explore how to design Physical AI systems end-to-end, focusing on the constraints and trade-offs of moving from cloud to embedded environments.\nStarting from a real architecture on Arduino platforms, we’ll walk through the full pipeline: data acquisition, preprocessing, model deployment, and on-device optimization.\nThe session highlights practical design decisions, latency vs accuracy trade-offs, and the challenges of running reliable AI directly on hardware.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1213991",
+        "retrievedAt": "2026-10-16T13:37:09.321Z"
       },
       "format": "talk",
       "schedule": {
@@ -1167,7 +1177,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1213991"
       ]
     },
     {
@@ -1177,19 +1188,23 @@
         "70b99eb6-761f-4301-bf23-0d35bab3f1b3"
       ],
       "categoryIds": [
-        "ai-agents",
-        "leadership-carriera"
+        "software-engineering",
+        "leadership-carriera",
+        "ai-agents"
       ],
       "tags": [
         "ai-coding",
-        "produttivita",
-        "team",
-        "engineering-process"
+        "autonomia",
+        "conways-law",
+        "scrum",
+        "code-review"
       ],
       "summary": {
-        "text": "Impatto degli strumenti AI sulla produttività individuale, sul coordinamento e sui processi dei team di sviluppo; benefici e rischi del lavoro più autonomo.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Fred Brooks named the problem in 1975. Communication channels grow as n(n-1)/2, and every methodology since has been a coping mechanism. None solved it.\nAI has changed the equation. The cave engineer, one skilled developer with autonomy, taste, and an AI that removes the throughput constraint, now ships in two weeks what a team ships in two months. Over three months from Christmas 2025, I added nineteen thousand lines to the Node.js Virtual File System. Alone. The architecture is coherent because no team was there to mirror.\nThe model rests on autonomy and taste. Remove either and it breaks. I introduced CVE-2026-2581 into Undici with an AI-assisted PR I did not review properly. That is autonomy without taste. Cave engineering is the opposite.\nI will cover Conway’s Law, why Scrum taxes the absence of trust, and when the cave is the wrong call. The team of one was always magical. We finally have the tools to scale it.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1244834",
+        "retrievedAt": "2026-10-16T13:37:10.245Z"
       },
       "format": "talk",
       "schedule": {
@@ -1202,7 +1217,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1244834"
       ]
     },
     {
@@ -1217,12 +1233,16 @@
       "tags": [
         "kubernetes",
         "in-place-pod-resize",
+        "startup-boost",
+        "vpa",
         "resource-management"
       ],
       "summary": {
-        "text": "Come ridimensionare le risorse dei pod Kubernetes in esecuzione senza sostituirli, adattando CPU e memoria alle necessità operative.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "I runtime moderni soffrono di un \"resource gap\" critico: all'avvio richiedono un picco di CPU enorme per la compilazione JIT o il caricamento delle dipendenze, per poi assestarsi pochi secondi dopo su uno steady state molto più contenuto. Finora l'unica soluzione era dimensionare i Pod sul picco, sprecando migliaia di core nei cluster.\n\nCon l'In-Place Pod Resize di Kubernetes v1.35 possiamo finalmente implementare una strategia di startup boost. Questa sessione va oltre la teoria e si concentra sul \"come\" tecnico. Vedremo come costruire un workflow reattivo che assegna molte risorse all'avvio e poi riduce il footprint in modo trasparente tramite la subresource resize.\n\nVedremo anche come scegliere il momento giusto per recuperare le risorse, così da evitare un throttling aggressivo della CPU subito dopo il boot. Infine confronteremo diversi pattern di implementazione: patch gestite da un sidecar, un boost-operator dedicato e il Vertical Pod Autoscaler nativo. L'obiettivo è che le applicazioni non solo partano velocemente, ma restino anche stabili.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1226083",
+        "retrievedAt": "2026-10-16T13:37:11.348Z"
       },
       "format": "talk",
       "schedule": {
@@ -1235,7 +1255,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1226083"
       ]
     },
     {
@@ -1251,12 +1272,14 @@
         "comunicazione",
         "feedback",
         "conflitti",
-        "team"
+        "psychological-safety"
       ],
       "summary": {
-        "text": "Come riconoscere conversazioni rimandate, conflitti e feedback gestiti male; propone un framework pratico per ristabilire sicurezza, chiarezza e azioni condivise nei team.",
-        "language": "it",
-        "basis": "official-abstract-based"
+        "text": "Not everything that breaks a team can be fixed with better tools, cleaner code, or more robust testing. Sometimes, the most critical \"bug\" lies in the conversations we avoid, the feedback we mismanage, or the issues we raise too late. When disagreements arise, emotions run high, and the stakes are significant, we often default to two extremes: staying silent or saying it poorly.\n\nIn this session, you’ll learn how to identify these \"critical path\" conversations and handle them with clarity and less emotional fatigue.\n\nWe will move beyond vague advice and dive into a practical framework to:\n\n- Debug the interaction\n- Restore Safety\n- Speak Truth without Damage\n- From Friction to Action\n- Real experiences\n\nWhen the bottleneck isn't the tech stack, the ability to navigate the human stack is the most valuable skill you can develop. This talk is for anyone who wants to stop recurring conflicts and start building a culture of radical, respectful clarity.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1227394",
+        "retrievedAt": "2026-10-16T13:37:12.237Z"
       },
       "format": "talk",
       "schedule": {
@@ -1269,7 +1292,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1227394"
       ]
     },
     {
@@ -1279,19 +1303,20 @@
         "0f3579a4-27fe-410e-9b48-052ccc0c17b5"
       ],
       "categoryIds": [
-        "leadership-carriera",
-        "software-engineering"
+        "leadership-carriera"
       ],
       "tags": [
-        "code-review",
         "feedback",
+        "comunicazione",
         "team",
-        "comunicazione"
+        "direct-feedback"
       ],
       "summary": {
-        "text": "Come trasferire il rigore della code review al feedback tra colleghi e alle conversazioni professionali più difficili.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "We review code all day, commenting on abstractions, naming, tests, and patterns. But in standups, when someone derails the meeting, we stay quiet. In design reviews, when key requirements are ignored, we assume someone else will speak up. Often, no one does, and the design ships anyway.\n\nEngineers are confident giving feedback in pull requests, yet oddly silent everywhere else: standups, design reviews, pairing sessions, Slack threads, retros, and one-on-ones. The same people who request changes in code reviews often soften, defer, or redirect hard conversations to managers who lack context.\n\nThis session is about closing that gap. It argues for being willing to say the hard thing in the moment, clearly and constructively, outside the PR. We will explore why developers avoid these conversations, what effective directness looks like beyond code review, and how to build that skill without becoming that person everyone dreads working with.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1214501",
+        "retrievedAt": "2026-10-16T13:37:13.241Z"
       },
       "format": "talk",
       "schedule": {
@@ -1304,7 +1329,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1214501"
       ]
     },
     {
@@ -1315,18 +1341,21 @@
       ],
       "categoryIds": [
         "cloud-devops",
-        "ai-llm"
+        "iot-embedded"
       ],
       "tags": [
         "gpu",
-        "mlops",
+        "cuda",
+        "kairos",
         "immutable-infrastructure",
-        "infrastructure-as-code"
+        "edge-deployment"
       ],
       "summary": {
-        "text": "Come rendere riproducibili, versionati e distribuibili i nodi GPU impiegati per l'infrastruttura AI.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Run a fleet of GPU or edge inference nodes and you learn the stack is brittle: one mismatch across kernel, NVIDIA driver, CUDA, firmware, runtime or, at the edge, JetPack turns a working node into a debugging session. Rebuilding that state through runtime configuration lets drift creep back, until every node is its own special case.\n\nThis talk argues for a different model: the machine becomes a versioned, reproducible image that can be shipped and rolled back atomically. When a vendor supports a specific Ubuntu-based stack, preserve it while adding an immutable lifecycle. Using Kairos as a concrete example, we will examine how to compose a reproducible AI node image, what belongs in it, and how this model changes upgrades, rollback and fleet visibility across datacenter and edge deployments.\n\nIf your AI stack needs machine-level compatibility, can your OS lifecycle reproduce it?",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1246405",
+        "retrievedAt": "2026-10-16T13:37:14.429Z"
       },
       "format": "talk",
       "schedule": {
@@ -1339,7 +1368,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1246405"
       ]
     },
     {
@@ -1349,17 +1379,22 @@
         "36287254-0dc1-43d3-9cdd-54cc988486d7"
       ],
       "categoryIds": [
-        "ai-agents"
+        "ai-agents",
+        "architettura-backend"
       ],
       "tags": [
-        "agent-orchestration",
         "multi-agent",
-        "collaborazione"
+        "agent-orchestration",
+        "workflow-engines",
+        "human-in-the-loop",
+        "enterprise-integration"
       ],
       "summary": {
-        "text": "Necessità di coordinamento e integrazione degli agenti AI con persone, strumenti o altri agenti per operare in sistemi reali.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "The industry talks about agents as autonomous digital workers, but no useful worker operates in isolation. Agents depend on colleagues, tools, information, processes and supervision. This talk translates that organizational reality into software architecture, showing how an AI OS combines multi-agent collaboration, workflow engines, enterprise systems, data, user interfaces and human control.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1348517",
+        "retrievedAt": "2026-10-16T13:37:15.297Z"
       },
       "format": "talk",
       "schedule": {
@@ -1372,7 +1407,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1348517"
       ]
     },
     {
@@ -1388,14 +1424,17 @@
       ],
       "tags": [
         "byoa",
-        "sdlc",
-        "coding-agents",
-        "governance"
+        "agentic-sdlc",
+        "agent-evals",
+        "automated-testing",
+        "digital-sovereignty"
       ],
       "summary": {
-        "text": "Integrazione di agenti personalizzati nel ciclo di sviluppo software, con attenzione a controllo, sovranità e funzionamento in ambienti reali.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "To stay agile and maintain digital sovereignty, developers must fully own their Agentic Software Development Life Cycle (SDLC), treating AI agents like any other software artifact, with modular architectures, standardized workflows, and robust automated testing.\nThis talk explores how to architect a \"Bring Your Own Agent\" (BYOA) ecosystem using open frameworks and standards. We will demonstrate the Agentic SDLC in action by walking through a real-world engineering workflow: transforming Requests for Enhancements (RFEs) into fully realized features and releases using autonomous agents.\nCrucially, we will dive into Agent Evals—the CI/CD of the AI world—showing how to programmatically evaluate and score agent outputs to ensure safety, accuracy, and code quality before merging.\nYou will leave the session with actionable architectural patterns to standardize your agentic SDLC, implement rigorous evals, and deploy agents that genuinely accelerate your development cycles.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1330362",
+        "retrievedAt": "2026-10-16T13:37:16.274Z"
       },
       "format": "talk",
       "schedule": {
@@ -1408,7 +1447,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1330362"
       ]
     },
     {
@@ -1424,13 +1464,16 @@
       "tags": [
         "mongodb",
         "distributed-locks",
-        "concorrenza",
-        "backend"
+        "mutual-exclusion",
+        "fault-tolerance",
+        "distributed-systems"
       ],
       "summary": {
-        "text": "Uso di MongoDB per implementare meccanismi di lock distribuiti e gestire la concorrenza tra processi o servizi.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Managing shared resources in Distributed Systems is hard.\nDistributed Locks are a great solution, but there's a problem: they're difficult too.\nA common solution is to use a specialized software to get them but now you have another software to deploy in production just to use locks!\n\nIn this talk we will discover how to create Distributed Locks using only core MongoDB features and a few clever lines of code.\nAt the same time we will prove how the Safety and Liveness properties you want from a Distributed Lock are all valid (Mutual exclusion, Deadlock free and Fault tolerance).\nIn this way you can rely on your usual database to have Distributed Locks available for free!",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1234300",
+        "retrievedAt": "2026-10-16T13:37:17.311Z"
       },
       "format": "talk",
       "schedule": {
@@ -1443,7 +1486,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1234300"
       ]
     },
     {
@@ -1454,18 +1498,21 @@
       ],
       "categoryIds": [
         "software-engineering",
-        "ai-llm"
+        "ai-agents"
       ],
       "tags": [
-        "ai-coding",
-        "qualita-codice",
-        "produttivita",
-        "revisione"
+        "coding-agents",
+        "open-source",
+        "code-quality",
+        "technical-debt",
+        "sdlc"
       ],
       "summary": {
-        "text": "Critica alla produzione indiscriminata di codice e contenuti con AI; importanza di rallentare e giudicare qualità e valore di ciò che si produce.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Your OSS project is flooded with agent-generated slop issues and PRs? Your wonderful experience with coding agents in a hobby greenfield project did not translate to your production codebase, and instead turned it into a beautiful shit flower of complexity?\n\nThen this talk is the right support group for you. Come with me on a journey through how OSS and the software development lifecycle have changed for the worse, why coding agents compound our worst habits at machine speed, and how we might claw back some discipline, agency, and sanity while still benefiting from our new agentic friends.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1237064",
+        "retrievedAt": "2026-10-16T13:37:18.311Z"
       },
       "format": "talk",
       "schedule": {
@@ -1478,7 +1525,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1237064"
       ]
     },
     {
@@ -1488,19 +1536,21 @@
         "3d9a3287-cc36-4428-b6b4-1dd1df1e70e8"
       ],
       "categoryIds": [
-        "ai-llm",
-        "cloud-devops"
+        "ai-llm"
       ],
       "tags": [
-        "llm-inference",
+        "gemma-4",
         "mtp",
-        "performance",
-        "inference-optimization"
+        "speculative-decoding",
+        "llm-inference",
+        "memory-bandwidth"
       ],
       "summary": {
-        "text": "Ottimizzazione delle prestazioni dei modelli linguistici con tecniche di multi-token prediction e drafter per accelerare la generazione.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "The traditional autoregressive nature of Large Language Models, generating one token at a time, creates a massive bottleneck for production workloads, heavily constrained by memory bandwidth. As models grow, scaling inference while maintaining low latency becomes one of the most complex engineering challenges.\n\nGemma 4 solves this bottleneck head-on by integrating native MTP drafters, revolutionizing the concept of speculative decoding. Instead of relying on a separate, smaller draft model with the associated alignment overhead, it is architected to predict multiple future tokens simultaneously, drastically accelerating generation speed without sacrificing output quality.\n\nIn this session, we will explore the mechanics of MTP drafters and we will dissect how this architecture optimizes compute resources, maximizes memory bandwidth utilization, and redefines performance benchmarks for open-weights models.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1235212",
+        "retrievedAt": "2026-10-16T13:37:19.469Z"
       },
       "format": "talk",
       "schedule": {
@@ -1513,7 +1563,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1235212"
       ]
     },
     {
@@ -1524,18 +1575,23 @@
       ],
       "categoryIds": [
         "gaming-creative-coding",
-        "iot-embedded"
+        "iot-embedded",
+        "ai-agents"
       ],
       "tags": [
-        "retrocomputing",
-        "graphics",
-        "hardware",
-        "low-level"
+        "atari-2600",
+        "assembly",
+        "mcp",
+        "claude",
+        "go",
+        "retrocomputing"
       ],
       "summary": {
-        "text": "Tecnica del “racing the beam”, tipica della programmazione di hardware grafico vincolato, presumibilmente illustrata attraverso un caso pratico.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Nel 1977 Atari rilasciò una console leggendaria: il VCS 2600. La RAM era misurata in byte, 128 in tutto, senza la possibilità di avere un frame buffer e con capacità grafiche molto limitate: 2 sprite giocatore, due sprite proiettile, uno sprite \"palla\", playground a media risoluzione.\nDurante gli anni '80 coi miei amici si spendeva interi pomeriggi a giocare un gioco \"oscuro\" chiamato \"Slot Racers\" scritto dallo stesso autore del mitico Adventure, Warren Robinett. L'unico limite: richiedeva 2 giocatori, non c'era spazio per l'AI.\nNel talk mostrerò come ho:\n* creato un MCP che interfacciasse Claude con l'emulatore di Atari 2600 scritto in Go per debuggare l'assembly del gioco (in precedenza da me reverse engineered a manella)\n* chiedere a Claude di usare l'MCP per creare una AI che fosse abbastanza tosta da dare filo da torcere",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1265570",
+        "retrievedAt": "2026-10-16T13:37:20.303Z"
       },
       "format": "talk",
       "schedule": {
@@ -1548,7 +1604,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1265570"
       ]
     },
     {
@@ -1558,19 +1615,23 @@
         "73117d1d-312b-4364-91cb-a7b1dda5c162"
       ],
       "categoryIds": [
+        "cloud-devops",
         "ai-agents",
-        "cloud-devops"
+        "dati-observability"
       ],
       "tags": [
         "agentic-sre",
-        "skill-based",
-        "observability",
-        "troubleshooting"
+        "kubernetes",
+        "mcp",
+        "incident-response",
+        "observability"
       ],
       "summary": {
-        "text": "Uso di agenti e skill specializzate per diagnosticare incidenti e ragionare su segnali operativi nell'SRE.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Let’s be honest: debugging production at scale is manual labor. 🫠 At Google, we decided making thousands of SREs act like human search engines in 2026 was a bug, not a feature. Enter the Agentic SRE Extension—a skill-based framework that lives in your terminal and actually knows its way around Kubernetes. 🚀 In this high-energy deep dive, I’m showing you exactly how we use modular skills and MCP to chain diagnostic tools, analyze metric regressions, and execute safe mitigations (Rollbacks, Throttling) without the \"deleted production\" anxiety. 🔥 We’ll dissect the \"Outage Investigator\" agent's logic loop, see it draft a technical postmortem in seconds, and discuss why we built this as a portable framework whose skills can be easily leveraged by any modern AI harness. You’ll leave with the code to wire up your own Kubernetes stack and let the agent's skills do the heavy lifting while you drink espresso. ☕️ No fluff, no 101s. Just AI agents, specialized skills, and less toil.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1222188",
+        "retrievedAt": "2026-10-16T13:37:21.480Z"
       },
       "format": "talk",
       "schedule": {
@@ -1583,7 +1644,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1222188"
       ]
     },
     {
@@ -1597,14 +1659,18 @@
         "architettura-backend"
       ],
       "tags": [
-        "api-security",
-        "security",
-        "web-api"
+        "identity-verification",
+        "fraud-prevention",
+        "kyc",
+        "kyb",
+        "rest-api"
       ],
       "summary": {
-        "text": "Presentazione di cinque API utili per rafforzare la sicurezza di un progetto digitale; dettagli delle API non presenti nel documento.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Il tuo utente è davvero chi dice di essere? Il numero di telefono è reale? L'email è affidabile? L'IP nasconde un comportamento sospetto? L'azienda esiste davvero? E quel documento è autentico?\n\nLa sicurezza di un progetto digitale non si ferma a login e password. In questo talk vediamo come costruire un security layer API-first per verificare utenti, aziende e operazioni lungo il funnel, dalla registrazione alla firma del contratto o all'acquisto.\n\nPartiremo dalla verifica d'identità, tra analisi del documento, check antifrode e liveness. Vedremo poi come verificare email, telefono, IP e URL per individuare segnali di rischio in anticipo.\n\nAffronteremo KYC e KYB con dati ufficiali e screening su sanction list, PEP e adverse media, fino a SMS OTP e firma elettronica.\n\nFocus pratico: API REST, esempi di integrazione, flussi reali e trade-off tra sicurezza, compliance e UX.\n\nL'obiettivo? Aggiungere un security layer completo al progetto, un'API alla volta, senza sviluppare tutto da zero.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1340661",
+        "retrievedAt": "2026-10-16T13:37:22.628Z"
       },
       "format": "talk",
       "schedule": {
@@ -1617,7 +1683,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1340661"
       ]
     },
     {
@@ -1627,17 +1694,23 @@
         "14c3f2f6-f2d3-4b5c-9f6b-9e40fb95c546"
       ],
       "categoryIds": [
-        "gaming-creative-coding"
+        "gaming-creative-coding",
+        "ai-llm",
+        "dati-observability"
       ],
       "tags": [
-        "creative-coding",
-        "art",
-        "developer-experience"
+        "generative-art",
+        "p5js",
+        "embeddings",
+        "semantic-search",
+        "azure-cosmos-db"
       ],
       "summary": {
-        "text": "Programmazione usata come mezzo espressivo e creativo, tra aspetti tecnici e sperimentazione artistica.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Art speaks to the fundamental creative urge in people. It comes in many forms, and it's everywhere. It's in the way we write code, design systems and build tools.\n\nWhen I started my journey as an artist, I couldn’t leave my love for technology behind. This talk is about how that love of programming, combined with machinery and 3D modeling, has helped me develop a distinct style of art that's a natural blend of both painting and engineering.\n\nIn this session, I’ll talk about my inspirations and how my fascination with mathematics and art led me to build a tool for generating sketches. I’ll show how I process data with OpenAI’s models, use Azure Cosmos DB to store it, run semantic searches on embeddings, and turn that processed data into mathematical visualizations using the p5.js library.\n\nYou’ll hear the story of how I became an artist, seeing in detail how I bring shapes to life on canvas, the machines I use to do it, and how I built the system behind my generative art and paintings.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1232458",
+        "retrievedAt": "2026-10-16T13:37:24.184Z"
       },
       "format": "talk",
       "schedule": {
@@ -1650,7 +1723,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1232458"
       ]
     },
     {
@@ -1665,15 +1739,18 @@
         "ai-agents"
       ],
       "tags": [
-        "devex",
-        "developer-platform",
-        "coding-agents",
-        "workflow"
+        "developer-experience",
+        "codewiki",
+        "mcp",
+        "skills",
+        "codebase-understanding"
       ],
       "summary": {
-        "text": "Evoluzione degli strumenti, dei processi e delle piattaforme interne per un'esperienza di sviluppo in cui lavorano anche agenti AI.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "L’AI sta ridefinendo il modo in cui il software viene progettato, compreso e mantenuto. Non è più soltanto di autocomplete o chatbot integrati negli IDE: l’industria sta entrando nell’era dell’AI-Augmented Development, dove agenti intelligenti collaborano attivamente con gli sviluppatori per analizzare codebase, generare documentazione, spiegare architetture e accelerare attività di debugging e refactoring.\n\nIl talk esplorerà come strumenti come CodeWiki, MCP, Skills ed altre piattaforme AI moderne stiano trasformando la Developer Experience attraverso workflow sempre più intelligenti e conversazionali.\n\nUna demo pratica mostrerà come utilizzare l’AI per comprendere grandi repository, creare knowledge base automatiche, interrogare il codice in linguaggio naturale e migliorare onboarding e produttività dei team.\n\nLa sessione è pensata per sviluppatori, tech lead e innovatori interessati a comprendere come gli AI Agents stiano cambiando il futuro dell’ingegneria del software.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1234974",
+        "retrievedAt": "2026-10-16T13:37:24.668Z"
       },
       "format": "talk",
       "schedule": {
@@ -1686,7 +1763,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1234974"
       ]
     },
     {
@@ -1697,18 +1775,22 @@
       ],
       "categoryIds": [
         "software-engineering",
+        "ai-agents",
         "leadership-carriera"
       ],
       "tags": [
-        "produttivita",
-        "engineering-metrics",
-        "quality",
-        "delivery"
+        "ai-native-sdlc",
+        "agentic-workflow",
+        "verification",
+        "governance",
+        "engineering-metrics"
       ],
       "summary": {
-        "text": "Passaggio dal misurare la velocità di scrittura del codice al valutare risultati utili e affidabili rilasciati in produzione.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "AI is reshaping the entire software development lifecycle, from requirements and design to coding, testing, review, deployment and operations. As AI agents become active participants in software engineering, traditional processes, controls and metrics are no longer sufficient on their own. This talk explores what an AI-native SDLC looks like, how engineering practices must evolve around automation, verification, governance and observability, and how new metrics can help measure real production outcomes rather than simple code generation.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1330247",
+        "retrievedAt": "2026-10-16T13:37:26.243Z"
       },
       "format": "talk",
       "schedule": {
@@ -1721,7 +1803,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1330247"
       ]
     },
     {
@@ -1738,12 +1821,14 @@
         "green-ai",
         "prompting",
         "sustainability",
-        "efficienza"
+        "environmental-impact"
       ],
       "summary": {
-        "text": "Progettazione di prompt e interazioni AI considerando consumi, sprechi di risorse e sostenibilità.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Everyone uses AI, from highly skilled tech enthusiasts to individuals with few digital skills.\n\nWe’ve all heard about the importance of prompt engineering, and that writing \"good\" prompts leads to higher-quality responses from LLMs. We’ve also heard about AI's significant environmental impact.\n\nBut what if we could combine these two aspects and create prompts that align with sustainable goals?\n\nIn this session, I will introduce green prompting and share instructions that anyone can apply. I will show that, by carefully crafting prompts, it is possible to reduce the environmental footprint of AI systems while maintaining high-quality results.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1225977",
+        "retrievedAt": "2026-10-16T13:37:26.702Z"
       },
       "format": "talk",
       "schedule": {
@@ -1756,7 +1841,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1225977"
       ]
     },
     {
@@ -1766,19 +1852,22 @@
         "e1e9a44a-6c1f-46d9-99f6-c1490e19346c"
       ],
       "categoryIds": [
-        "ai-agents",
-        "architettura-backend"
+        "software-engineering",
+        "ai-agents"
       ],
       "tags": [
-        "tools",
-        "context-management",
-        "llm",
-        "mcp"
+        "moldable-development",
+        "glamorous-toolkit",
+        "contextual-tools",
+        "codebase-understanding",
+        "agent-memory"
       ],
       "summary": {
-        "text": "Come gestire contesto e moltissimi strumenti disponibili in sistemi AI, preservando la capacità di selezionare le azioni pertinenti.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "As AI accelerates code generation, it becomes impossible to ignore the real bottleneck in software development: making sense of systems. Code reading never really worked as a scalable solution and we should stop relying on it as the primary means of informing ourselves about systems. Instead, we should augment human cognition with deterministic, contextual tools built for each problem that compress the system around the question at hand and help both humans and AI reason faster.\n\nWe call this Moldable Development. It enables teams to see their systems clearly and answer questions quickly. These contextual tools do not help only people: they also help AI agents make sense of systems. Spread throughout the system, they become skills and form an extensible kind of agent memory.\n\nWhat exactly is a contextual tool? Come to the talk to see live examples built with Glamorous Toolkit, the open-source environment that helps you understand and steer systems through thousands of contextual tools.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1295740",
+        "retrievedAt": "2026-10-16T13:37:27.477Z"
       },
       "format": "talk",
       "schedule": {
@@ -1791,7 +1880,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1295740"
       ]
     },
     {
@@ -1801,19 +1891,23 @@
         "5fdb116d-05e0-4f06-acbc-8a58d7bfb867"
       ],
       "categoryIds": [
+        "dati-observability",
         "architettura-backend",
-        "dati-observability"
+        "ai-agents"
       ],
       "tags": [
-        "event-driven",
-        "document-processing",
         "knowledge-extraction",
-        "ddd"
+        "event-driven",
+        "ddd",
+        "provenance",
+        "knowledge-management"
       ],
       "summary": {
-        "text": "Trattare l'estrazione di conoscenza dai documenti come un dominio guidato da eventi anziché come semplice parsing o archiviazione di file.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Chunk, embed, retrieve, hope. Standard knowledge extraction works in every demo contest, but not when you have to do it properly to map domain expertise.\n\nWe rebuilt extraction as an event-driven domain: knowledge artifacts as first-class entities with identity, span-level provenance, and a lifecycle (proposed, verified, contested, superseded). Our approach walks every document composing the domain through six layer: source, structure, claims, entities, policies, executable workflow.\n\nThe core idea: treat knowledge base as a replayable projection over an immutable log, not a database to be migrated. Then we built an harness, specific to domain knowledge, to handle per-layer golden sets, drift detection, and facts.\n\nIn this session, you will be guided into Knowledge Management in the era of AI, where agents can speed the process, and when they introduce noise in the process. The result is an artifact suitable to be consumed to build expertise aware agents.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1296534",
+        "retrievedAt": "2026-10-16T13:37:28.460Z"
       },
       "format": "workshop",
       "schedule": {
@@ -1826,7 +1920,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1296534"
       ]
     },
     {
@@ -1837,18 +1932,21 @@
       ],
       "categoryIds": [
         "cloud-devops",
-        "software-engineering"
+        "leadership-carriera"
       ],
       "tags": [
         "incident-management",
-        "production",
-        "reliability",
-        "sre"
+        "sre",
+        "runbooks",
+        "triage",
+        "blameless-postmortem"
       ],
       "summary": {
-        "text": "Pratiche per gestire incidenti critici in produzione, diagnosticarli e recuperare il servizio.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "It's 3 AM. Your phone is ringing. The on-call alert is screaming. Production is down.\nWhat do you do next?\nEmergency responders, paramedics, firefighters, rescue teams, have faced this question for decades. They didn't solve it with better tools. They solved it with protocols, mindset, and training.\nIn this session we'll draw an unexpected parallel between managing a production incident and what it means to be a first responder. From triage to chain of command, from stabilizing before diagnosing to the blameless debrief: the patterns are surprisingly the same, and surprisingly absent in most engineering teams.\nWe'll explore:\nWhy triage matters more than speed when everything is on fire\nHow checklists and runbooks are the engineering equivalent of emergency protocols\nThe golden rule: stabilize first, understand later\nWhy communication beats heroism in a war room\nHow to learn from disasters without pointing fingers",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1218568",
+        "retrievedAt": "2026-10-16T13:37:29.434Z"
       },
       "format": "talk",
       "schedule": {
@@ -1861,7 +1959,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1218568"
       ]
     },
     {
@@ -1871,19 +1970,22 @@
         "33ecf2ee-dfb9-4a4c-9d21-9d14f5205986"
       ],
       "categoryIds": [
-        "ai-agents",
-        "leadership-carriera"
+        "leadership-carriera",
+        "ai-agents"
       ],
       "tags": [
+        "engineering-leadership",
         "multi-agent",
         "simulation",
-        "engineering-management",
-        "decision-making"
+        "decision-making",
+        "conflict-resolution"
       ],
       "summary": {
-        "text": "Uso di simulazioni con più agenti per esplorare scenari decisionali, processi o capacità di leadership nell'ingegneria.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "The transition from a senior technical contributor to an effective leader is often the most jarring pivot in an engineer's career. While we have CI/CD pipelines to test our code, how do we reliably \"test\" our empathy, conflict resolution, and strategic team-building skills before deploying them in production with real humans?\nIn this session, we will explore the architecture and psychology behind a custom-built AI application designed to simulate high-stakes leadership challenges. Rather than relying on static multiple-choice tests, this platform utilizes advanced AI agent orchestration to create dynamic, interactive scenarios. Attendees will see firsthand how the application places users in complex team-building dilemmas, forcing them to make difficult management decisions in real-time.\nYou will learn how the system evaluates human input, cross-references decisions against established business and leadership frameworks, and generates personalized, critical insights for improvement.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1235175",
+        "retrievedAt": "2026-10-16T13:37:30.544Z"
       },
       "format": "talk",
       "schedule": {
@@ -1896,7 +1998,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1235175"
       ]
     },
     {
@@ -1910,15 +2013,18 @@
         "sicurezza-privacy"
       ],
       "tags": [
-        "ai-watermarking",
         "synthid",
-        "contenuti-generati",
-        "autenticita"
+        "watermarking",
+        "tournament-sampling",
+        "content-authenticity",
+        "python"
       ],
       "summary": {
-        "text": "Funzionamento e limiti dei watermark per i contenuti generati dall'AI, con un approfondimento su SynthID.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Watermarking is the only reliable way to spot AI-generated content.\n\nThis talk analyses SynthID, the watermarking scheme DeepMind built for Gemini.\n\nThe core idea is tournament sampling: at each step of text generation, candidate tokens drawn from the model's output probability distribution are scored with pseudorandom values, and the token that wins the tournament gets emitted. This process leaves the model's output distribution unchanged, so watermarked text reads exactly like unwatermarked text. In DeepMind's own evaluation, the scheme added only 0.57% latency overhead per token, detected watermarked text with about 95% accuracy at a 1% false-positive rate, and caused no quality drop across 20 million Gemini responses.\n\nThe talk ends with a live demo: watermarking and detecting text on a local model with an open-source Python package.\n\nAttendees will leave knowing exactly how the algorithm embeds and detects its signal, and how to add the same capability to a model they control.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1319162",
+        "retrievedAt": "2026-10-16T13:37:31.465Z"
       },
       "format": "talk",
       "schedule": {
@@ -1931,7 +2037,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1319162"
       ]
     },
     {
@@ -1941,20 +2048,22 @@
         "2f17f9f6-9e49-40ab-8140-c9fa7e137594"
       ],
       "categoryIds": [
-        "ai-agents",
-        "architettura-backend"
+        "architettura-backend",
+        "ai-agents"
       ],
       "tags": [
-        "llm-agents",
-        "messaging",
-        "broker",
+        "message-broker",
         "kafka",
-        "architettura"
+        "raft",
+        "transactions",
+        "jepsen"
       ],
       "summary": {
-        "text": "Perché Kafka non era adatto alle esigenze di agenti LLM e quali problemi affronta un broker progettato appositamente per loro.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "One year ago we were building a runtime for LLM agents. Each session needed its own ordered queue, and one slow tool call couldn't stall everyone else. Kafka hashes your keys onto a fixed set of partitions, which makes head-of-line blocking unavoidable. So we wrote our own broker for agents. It became general-purpose, and it now powers almost every product at Smartness.\nEvery session, customer or order gets its own partition, created by its first message. We've run 10M of them in one queue at 1M msg/s. Each step is a transaction: the ack, the state change and the next events all commit or none do. It's one binary on its own Raft log, Kafka clients can talk to it, and it's battle-tested with Jepsen.\nI'll show the code, our benchmarks against Kafka and Pulsar, and what I'd do differently.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1229817",
+        "retrievedAt": "2026-10-16T13:37:32.560Z"
       },
       "format": "talk",
       "schedule": {
@@ -1967,7 +2076,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1229817"
       ]
     },
     {
@@ -1977,18 +2087,22 @@
         "987c2a62-d659-4204-af54-5b9b4056fe20"
       ],
       "categoryIds": [
+        "leadership-carriera",
         "software-engineering"
       ],
       "tags": [
-        "technical-debt",
-        "qualita-codice",
-        "ai-coding",
-        "manutenzione"
+        "ai-adoption",
+        "operating-model",
+        "engineering-metrics",
+        "governance",
+        "technical-debt"
       ],
       "summary": {
-        "text": "Costi nascosti del codice economico da produrre: revisione, manutenzione, integrazione, affidabilità e debito tecnico.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Se l’AI abbassa drasticamente il costo di produrre codice, il vantaggio competitivo non sarà avere team che sviluppano di più, ma organizzazioni capaci di trasformare quella velocità in valore senza moltiplicare complessità, rischio e debito tecnico. In questo talk vedremo come cambiano operating model, metriche, governance e competenze quando il coding smette di essere il collo di bottiglia, e quali decisioni devono prendere oggi CTO, engineering leader e manager per evitare che più output significhi semplicemente più software da mantenere.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1330263",
+        "retrievedAt": "2026-10-16T13:37:33.462Z"
       },
       "format": "talk",
       "schedule": {
@@ -2001,7 +2115,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1330263"
       ]
     },
     {
@@ -2015,14 +2130,17 @@
       ],
       "tags": [
         "web-performance",
+        "speculation-rules",
         "prefetching",
-        "frontend",
-        "browser"
+        "prerendering",
+        "view-transitions"
       ],
       "summary": {
-        "text": "Tecniche di prefetching e navigazione per rendere più rapida l'esperienza web, spiegate con riferimenti a Super Mario.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Long wait times are the \"Bowser\" of the good user experience. Even if your site looks great, slow transitions or blank loading screens can make users feel like they’ve fallen down a bottomless pit. But what if your website could predict the future and move between pages as smoothly as a Warp Pipe?\n\nIn this session, we’ll explore the \"Power-Up\" duo of modern web development:\n- Speculation Rules API: See how prefetching and prerendering can load pages before users click.\n- View Transition API: Use animations to help users move smoothly through your \"world map\" with ease.\n\nWe’ll break down the technical plumbing required to make these APIs work nicely together. You will leave this session with the cheat codes needed to deliver a fast, seamless experience that will have your users saying, \"Mamma Mia, that’s fast!\"",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1224608",
+        "retrievedAt": "2026-10-16T13:37:34.541Z"
       },
       "format": "talk",
       "schedule": {
@@ -2035,7 +2153,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1224608"
       ]
     },
     {
@@ -2051,14 +2170,17 @@
       ],
       "tags": [
         "ontology",
-        "knowledge-graph",
         "enterprise-knowledge",
-        "rag"
+        "rag",
+        "knowledge-modeling",
+        "ousia"
       ],
       "summary": {
-        "text": "Come la modellazione ontologica della conoscenza aziendale può rendere più esplicite e utilizzabili informazioni e relazioni.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Today we ask LLMs and RAG pipelines to query the knowledge of large companies. That knowledge lives in unstructured silos with no shared schema, and the same term means different things to different teams. Unfortunately, LLMs are fluent about the world and clueless about your company. Ontologies were supposed to bridge that gap, yet enterprise ontologies have almost always failed. This talk is about Ousia, the semantic ontology of Poste Italiane, and how an idea, not a bigger GPU, made it work.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1348290",
+        "retrievedAt": "2026-10-16T13:37:35.467Z"
       },
       "format": "talk",
       "schedule": {
@@ -2071,7 +2193,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1348290"
       ]
     },
     {
@@ -2083,18 +2206,22 @@
       ],
       "categoryIds": [
         "frontend-ux",
-        "ai-llm"
+        "software-engineering",
+        "ai-agents"
       ],
       "tags": [
-        "wcag",
         "accessibilita",
-        "genai",
-        "legacy-modernization"
+        "wcag",
+        "jasper-reports",
+        "legacy-modernization",
+        "genai"
       ],
       "summary": {
-        "text": "Modernizzazione di report finanziari e miglioramento dell'accessibilità WCAG con il supporto della GenAI.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Nel mondo enterprise, i sistemi di reporting sono spesso i giganti silenziosi del debito tecnico. Quando si profilano nuovi requisiti di accessibilità, modernizzare centinaia di template complessi e formattati (come quelli della libreria Jasper Reports) per soddisfare gli standard di conformità WCAG può sembrare una partita impossibile. E se potessi affidare questo rompicapo a un agente basato su Intelligenza Artificiale?\n\nIn questa sessione vi guideremo attraverso il percorso con cui abbiamo modernizzato il nostro portfolio di report dei clienti, condividendo come abbiamo addestrato e ottimizzato una pipeline di migrazione guidata dall'IA generativa, capace di ricomporre un puzzle ottimizzato.\n\nI partecipanti torneranno a casa con un esempio pratico di come usare la IA per affrontare scenari di modernizzazione dove sembra troppo difficile ricomporre i pezzi, ma la IA può aiutare a trovare l'incastro perfetto.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1327616",
+        "retrievedAt": "2026-10-16T13:37:36.465Z"
       },
       "format": "talk",
       "schedule": {
@@ -2107,7 +2234,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1327616"
       ]
     },
     {
@@ -2122,14 +2250,17 @@
       ],
       "tags": [
         "ai-infrastructure",
+        "suse-ai-factory",
+        "nvidia",
         "deployment",
-        "mlops",
-        "cloud"
+        "infrastructure-blueprints"
       ],
       "summary": {
-        "text": "Approcci e strumenti per semplificare il deployment di applicazioni e carichi AI, riducendo la complessità operativa.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "In questa sessione vi faremo vedere come costruire un'infrastruttura AI in pochi click, renderla scalabile e gestible e, sopratutto, ripetibile ancora e ancora. Vi faremo vedere come SUSE AI Factory with NVIDIA rende semplice e sicuro gestire i workload AI e come attraverso i suoi blueprint è semplice costruire la vostra infrastruttura AI.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1334014",
+        "retrievedAt": "2026-10-16T13:37:37.620Z"
       },
       "format": "talk",
       "schedule": {
@@ -2142,7 +2273,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1334014"
       ]
     },
     {
@@ -2152,17 +2284,20 @@
         "a7a05d04-bc83-40a6-a39f-b73453673aae"
       ],
       "categoryIds": [
-        "sostenibilita"
+        "ai-llm"
       ],
       "tags": [
-        "sostenibilita",
-        "energia",
-        "da-verificare"
+        "llm",
+        "temperature",
+        "token-sampling",
+        "predictability"
       ],
       "summary": {
-        "text": "Intervento su un tema legato al calore o all'impatto energetico della tecnologia; il titolo da solo non permette una classificazione più precisa.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "“Temperature” is one of the most quoted, misunderstood, and casually abused settings in the world of large language models. People turn it up for creativity, down for precision, and often treat it like a magic knob for “better results.” But what does temperature actually do?\n\nThis talk unpacks the real role of temperature in LLMs: how it affects token selection, why it changes the balance between predictability and variation, and when it matters less than people think.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1213691",
+        "retrievedAt": "2026-10-16T13:37:38.501Z"
       },
       "format": "talk",
       "schedule": {
@@ -2175,7 +2310,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1213691"
       ]
     },
     {
@@ -2185,20 +2321,22 @@
         "cb95763f-a586-4116-a70f-894bde9c7684"
       ],
       "categoryIds": [
-        "ai-agents",
-        "sicurezza-privacy"
+        "sicurezza-privacy",
+        "ai-agents"
       ],
       "tags": [
-        "ai-agents",
+        "sovereign-ai",
+        "digital-dignity",
+        "ethics-policy-layer",
         "governance",
-        "sovranita-digitale",
-        "etica",
-        "policy"
+        "agent-safety"
       ],
       "summary": {
-        "text": "Come incorporare governance, autonomia controllata, dignità digitale e principi etici nelle architetture a agenti.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "As we deploy autonomous AI agents globally, a critical friction point has emerged: these systems are fundamentally rooted in reinforcement learning that ruthlessly optimizes for generalized, monolithic reward functions. Consequently, they inherently clash with diverse global cultures, laws, and Sovereign AI mandates, threatening Digital Dignity.\nTo solve this, agentic systems require an Immutable Ethics Policy Layer (IEPL). While semantic filters (like Llama Guard) provide necessary moderation at the perception level, they fail during autonomous execution. Relying on a reasoning engine to self-police inevitably leads to hallucinated compliance.\nThis session introduces the IEPL—a deterministic control point between agent orchestration and tool execution. Grounded in foundational frameworks like The Human Blueprint, the IEPL shifts the AI from a general-purpose processor to a \"Loyal Agent\" bound by a fiduciary duty to the user.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1216673",
+        "retrievedAt": "2026-10-16T13:37:39.536Z"
       },
       "format": "talk",
       "schedule": {
@@ -2211,7 +2349,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1216673"
       ]
     },
     {
@@ -2226,13 +2365,16 @@
       "tags": [
         "transformers",
         "long-context",
-        "llm",
-        "architecture"
+        "attention",
+        "compressed-sparse-attention",
+        "hyper-connections"
       ],
       "summary": {
-        "text": "Evoluzioni delle architetture Transformer e tecniche che consentono ai modelli AI di gestire contesti molto estesi.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "For years, the Transformer block looked fixed: attention, feed-forward network, normalisation, and one residual stream. That design is changing.\n\nThis talk follows two shifts behind modern long-context models. First, the residual stream: each transform layer must “build knowledge” without destroying information that later layers may need. With one path, these goals compete. Multiple paths reduce this pressure by letting the model keep, change, and combine information at different depths. We will use Manifold-Constrained Hyper-Connections as a concrete example.\n\nSecond, attention is becoming a retrieval over working memory. As models work with code, documents, and tools, context becomes central. Standard attention cannot scale to million-token contexts, so we will present the recent Compressed Sparse Attention design implemented by DeepSeek.\n\nThe goal is to understand what is changing inside Transformers, why now, and with what trade-offs.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1226525",
+        "retrievedAt": "2026-10-16T13:37:41.337Z"
       },
       "format": "talk",
       "schedule": {
@@ -2245,7 +2387,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1226525"
       ]
     },
     {
@@ -2260,12 +2403,15 @@
       "tags": [
         "public-speaking",
         "comunicazione",
-        "carriera"
+        "carriera",
+        "presentation-skills"
       ],
       "summary": {
-        "text": "Tecniche e cinque passaggi proposti per rendere più efficaci presentazioni, public speaking e comunicazione tecnica.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Ready to elevate your career, captivate your workplace, or take the leap into the world of conference speaking? This session is for you! With over 30 years of experience in public speaking, I'm thrilled to share the essential five steps that will transform you into a dynamic speaker and presenter.\n\nIf you’re like I was at the start of my journey—nervous, unsure, and wondering how to capture the audience's attention—this session will help you conquer those fears. My unique approach to public speaking has not only helped me overcome stage fright but has also allowed me to build an impactful career as an award-winning developer, university educator, published author, blogger, patented inventor, and more!\n\nThis session isn’t just about speaking; it’s about empowering yourself and enhancing your career. Come join me for this electrifying talk, and let’s unlock your potential as a rockstar speaker, elevating your communication skills to new heights and amplifying your engineering expertise!",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1216557",
+        "retrievedAt": "2026-10-16T13:37:41.579Z"
       },
       "format": "talk",
       "schedule": {
@@ -2278,7 +2424,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1216557"
       ]
     },
     {
@@ -2292,14 +2439,17 @@
       ],
       "tags": [
         "product-thinking",
-        "business",
-        "revenue",
-        "marketing"
+        "b2b",
+        "value-proposition",
+        "marketing",
+        "business-value"
       ],
       "summary": {
-        "text": "Come collegare il lavoro tecnico a valore commerciale, metriche di prodotto e crescita dei ricavi.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Molti team di sviluppo costruiscono prodotti eccellenti, ma faticano a comunicare perché quelle funzionalità dovrebbero contare per clienti. Il risultato è un gap crescente tra valore creato e percepito.\nIn questo talk esploreremo un modello semplice immediato per trasformare una feature in una proposta di valore comprensibile a chi prende decisioni di acquisto. Partiremo da casi reali in ambito software B2B per mostrare come mappare in pochi passaggi feature → beneficio → problema del cliente → impatto sul business. Vedremo gli errori più comuni quando i team tecnici presentano roadmap o innovazioni (troppo linguaggio tecnico, poca centratura sul pain point) e come evitarli.\nL’obiettivo è dare ai developer, ai tech lead strumenti concreti per raccontare meglio ciò che costruiscono, aumentare l’adozione delle loro soluzioni . Un cambio di prospettiva che non chiede ai tecnici di \"fare marketing\", ma di usare un linguaggio che amplifica il valore del loro lavoro.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1234920",
+        "retrievedAt": "2026-10-16T13:37:42.934Z"
       },
       "format": "talk",
       "schedule": {
@@ -2312,7 +2462,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1234920"
       ]
     },
     {
@@ -2322,19 +2473,23 @@
         "000e7162-82b5-4498-9cca-53d356e0b427"
       ],
       "categoryIds": [
-        "iot-embedded",
-        "ai-llm"
+        "dati-observability",
+        "ai-llm",
+        "iot-embedded"
       ],
       "tags": [
-        "telemetry",
-        "llm",
         "automotive",
-        "predictive-analysis"
+        "telemetry",
+        "predictive-maintenance",
+        "llm",
+        "anomaly-analysis"
       ],
       "summary": {
-        "text": "Utilizzo di dati telemetrici reali di un'automobile per ricavare interpretazioni e indicazioni predittive con modelli linguistici.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Modern cars produce far more data than what appears on the dashboard: sensor readings, diagnostic codes, pressure changes, temperature values, service intervals, and component health trends.\n\nIn this talk, we’ll explore how to turn telemetry collected from different real Porsche sports cars into clear, useful insights using a structured LLM-based analysis pipeline. We’ll detect measurable signals such as declining health, warning states, critical sensors, performance patterns, and upcoming maintenance needs. Then we’ll use an LLM as an explanation layer to summarize driving behavior, anomalies, and maintenance signals.\n\nThe goal is not to let the LLM control the car or replace expert inspection, but to make complex telemetry easier to understand, explain, and act on.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1230228",
+        "retrievedAt": "2026-10-16T13:37:43.803Z"
       },
       "format": "talk",
       "schedule": {
@@ -2347,7 +2502,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1230228"
       ]
     },
     {
@@ -2358,19 +2514,22 @@
       ],
       "categoryIds": [
         "ai-llm",
-        "cloud-devops"
+        "cloud-devops",
+        "iot-embedded"
       ],
       "tags": [
         "localai",
-        "local-llm",
         "hybrid-ai",
-        "self-hosting",
-        "privacy"
+        "distributed-inference",
+        "edge-ai",
+        "model-routing"
       ],
       "summary": {
-        "text": "Architetture ibride che affiancano modelli AI locali (LocalAI) al cloud, con attenzione a controllo, latenza e privacy.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Does every AI request really need a massive model running in the cloud?\n\nIn this talk, we'll build a hybrid, distributed AI architecture with LocalAI: small and fast models running directly at the edge, with harder tasks dynamically offloaded to larger models running on your own infrastructure.\n\nUsing a real voice assistant as our use case, we'll explore the key engineering question: where should inference run? We'll look at routing strategies, distributed inference across heterogeneous nodes, and the trade-offs between latency, model quality, resource usage, and cost.\n\nWe'll also cover what didn't work, what we learned, and real-world performance.\n\nThe result: a local-first AI architecture spanning edge devices and powerful GPU nodes, without making the cloud a requirement.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1331302",
+        "retrievedAt": "2026-10-16T13:37:44.932Z"
       },
       "format": "talk",
       "schedule": {
@@ -2383,7 +2542,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1331302"
       ]
     },
     {
@@ -2395,18 +2555,21 @@
       ],
       "categoryIds": [
         "dati-observability",
-        "gaming-creative-coding"
+        "ai-llm"
       ],
       "tags": [
-        "indexing",
-        "search-engine",
-        "memes",
-        "data-pipeline"
+        "data-pipeline",
+        "deduplication",
+        "embeddings",
+        "image-classification",
+        "content-moderation"
       ],
       "summary": {
-        "text": "Progetto di indicizzazione e ricerca di meme su Internet; possibili tecniche di raccolta e organizzazione di contenuti multimediali.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "I meme sembrano caos: immagini riciclate, testi sovrapposti, sottoculture, remix e inside joke. Con The Memedex abbiamo provato a trasformare questo caos in un database navigabile.\n\nNato da una tesi universitaria sulla storia e sulla cultura dei meme, il progetto è diventato una pipeline per raccogliere, catalogare, filtrare e moderare milioni di immagini tramite AI.\n\nIn questo talk racconteremo le sfide tecniche dietro il progetto: raccolta da fonti eterogenee, deduplicazione, classificazione per sottoculture, moderazione automatica, controllo dei costi AI e uso di embedding e grafi per trovare meme simili.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1260726",
+        "retrievedAt": "2026-10-16T13:37:46.307Z"
       },
       "format": "talk",
       "schedule": {
@@ -2419,7 +2582,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1260726"
       ]
     },
     {
@@ -2429,19 +2593,23 @@
         "42767f6e-7503-4017-b3e3-250175e1e00a"
       ],
       "categoryIds": [
+        "architettura-backend",
         "ai-agents",
-        "architettura-backend"
+        "sicurezza-privacy"
       ],
       "tags": [
-        "ai-commerce",
-        "transactions",
-        "checkout",
-        "distributed-systems"
+        "agentic-commerce",
+        "atomic-checkout",
+        "ucp",
+        "ap2",
+        "payment-authorization"
       ],
       "summary": {
-        "text": "Gestione di carrelli dinamici e checkout atomici quando sono agenti AI, non solo utenti umani, a effettuare acquisti.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "AI agents are moving beyond product discovery and into purchasing. That shift exposes a weak spot in today’s retail checkout systems.\n\nIn fashion retail this assumption is especially fragile: prices change, loyalty discounts expire, sizes disappear from inventory. A five-item cart can become a three-item order moments before payment authorization.\n\nThis talk looks at a specific problem in agentic commerce: how to connect a cryptographically signed, immutable payment mandate to a checkout session that is constantly changing, without freezing every transaction or approving something the user did not intend.\n\nUsing UCP for commerce orchestration and AP2 mandates for verifiable payment authority, we will examine the design of a merchant-side system for high-churn fashion catalogs.\n\nThe session includes a reference implementation that focuses on the failure modes that show up in real checkout flows. We will face what may fail when autonomous purchasing meets production retail systems.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1231176",
+        "retrievedAt": "2026-10-16T13:37:47.288Z"
       },
       "format": "talk",
       "schedule": {
@@ -2454,7 +2622,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1231176"
       ]
     },
     {
@@ -2470,14 +2639,17 @@
       ],
       "tags": [
         "coding-agents",
-        "orchestrazione",
-        "backlog",
-        "automazione"
+        "agent-orchestration",
+        "persistent-memory",
+        "human-in-the-loop",
+        "backlog-automation"
       ],
       "summary": {
-        "text": "Progettazione e gestione di più coding agent autonomi che prendono in carico task da un backlog e producono cambiamenti software.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Are you tired of having an infinite backlog where people lose track of tickets? Do you feel you don't have enough workforce to tackle it? Sprint plannings taking forever? So did we!\n\nWe embraced the problem and dove into AI-augmented automation to get tickets tackled FAST and turn months into days. The journey wasn't easy though, and we had to learn many critical lessons along the way when dabbling with AI orchestration, verifiable identities, persistent memory, red commits handling, making sure agents don't get stuck, figuring out where to put humans in the loop for best efficiency, and much, much more.\n\nThis talk walks you through our journey, clearly identifying all the key tenets and highlighting critical aspects such as security boundaries, cost optimization, observability, along with important pitfalls and numerous protips. Blazing through that backlog won't ever be the same.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1233101",
+        "retrievedAt": "2026-10-16T13:37:47.960Z"
       },
       "format": "talk",
       "schedule": {
@@ -2490,7 +2662,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1233101"
       ]
     },
     {
@@ -2500,19 +2673,21 @@
         "4c00dc98-d1b3-4d90-b1f6-acb3b024f625"
       ],
       "categoryIds": [
-        "ai-agents",
-        "software-engineering"
+        "software-engineering",
+        "ai-agents"
       ],
       "tags": [
         "coding-agents",
-        "spec-driven",
-        "futuro-del-lavoro",
-        "programmazione"
+        "software-engineering",
+        "human-judgment",
+        "code-review"
       ],
       "summary": {
-        "text": "Come cambia il mestiere del programmatore mentre le macchine generano codice: specifiche, progettazione e valore dell'intervento umano.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Programming is obviously changing: more and more code is generated by agents and LLMs, people often struggle to keep up with code reviews, and overall building software feels incredibly easy to more and more people.\n\nWhat is the role of humans in the future of software engineering? Can agents just do all the planning, coding, reviewing, and testing? What do humans have that LLMs don’t?\n\nIn this talk, I’ll share my take on what can and can not be, at least until Skynet has actually taken over :)",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1265470",
+        "retrievedAt": "2026-10-16T13:37:48.635Z"
       },
       "format": "talk",
       "schedule": {
@@ -2525,7 +2700,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1265470"
       ]
     },
     {
@@ -2535,17 +2711,22 @@
         "6e470f2c-f90f-4b91-a4d0-e6d5d5e7e66b"
       ],
       "categoryIds": [
-        "sicurezza-privacy"
+        "sicurezza-privacy",
+        "software-engineering"
       ],
       "tags": [
-        "threat-modeling",
-        "security",
-        "secure-coding"
+        "security-by-design",
+        "compliance",
+        "dependencies",
+        "permissions",
+        "risk-management"
       ],
       "summary": {
-        "text": "Introduzione provocatoria al ragionamento sulle minacce e agli errori di sicurezza che gli sviluppatori dovrebbero prevedere.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Your code compiles. Your tests pass. Your deployment is green. So why are you in a meeting with Legal?\n\nSome disasters begin with perfectly working software—and a developer who thought “someone else is handling that.”\n\nIn this talk, Matteo Flora explores ten “what could possibly go wrong?” scenarios behind everyday engineering decisions: the data you collect, the dependencies you trust, the permissions you grant, and the shortcuts that become production infrastructure. Discover the regulatory blind spots that turn ordinary technical choices into expensive surprises.\n\nAt the heart of it all: human error, misplaced confidence, and how quickly “it should be fine” becomes an incident report.\n\nThe takeaway? Paranoia as preventive practice: question defaults, challenge assumptions, and design for your own fallibility.\n\nBecause the best time to ask “what could go wrong?” is while you can still change the answer.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1361549",
+        "retrievedAt": "2026-10-16T13:37:49.733Z"
       },
       "format": "talk",
       "schedule": {
@@ -2558,7 +2739,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1361549"
       ]
     },
     {
@@ -2572,15 +2754,18 @@
         "dati-observability"
       ],
       "tags": [
-        "version-control",
+        "git",
         "legal-tech",
-        "github",
+        "version-control",
+        "legislative-data",
         "data-modeling"
       ],
       "summary": {
-        "text": "Analogia tra versionamento software e storia delle leggi italiane, applicando concetti da repository e pull request ai cambiamenti normativi.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "200,000+ commits. One repository. Every law the Italian state has ever passed, from 1861 to last week. It turns out almost everything Parliament does has a surprisingly clean analogue in a workflow you already use every day — until, suddenly, it doesn't, and the place it stops mapping is exactly the place the constitutional lawyers start arguing. In this talk I'll take you through the corpus as a developer would read it: which legislative moves become one-liners, which ones become traps, and what falls out of git log once you give it 165 years of a country's rulebook to chew on. You'll leave seeing legislation the way you see a codebase — and you'll never read a news headline about a new decree the same way again.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1218655",
+        "retrievedAt": "2026-10-16T13:37:50.614Z"
       },
       "format": "talk",
       "schedule": {
@@ -2593,7 +2778,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1218655"
       ]
     },
     {
@@ -2607,14 +2793,17 @@
       ],
       "tags": [
         "arc",
-        "benchmarks",
-        "evaluation",
-        "reasoning"
+        "ai-benchmarks",
+        "reasoning",
+        "generalization",
+        "intelligence-measurement"
       ],
       "summary": {
-        "text": "Limiti dei benchmark convenzionali per l'AI e cosa insegnano le prove ARC nella valutazione dell'intelligenza e della generalizzazione.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Most AI benchmarks measure performance on tasks we can easily collect, score and scale. But do they measure intelligence? Starting from François Chollet’s 2019 paper On the Measure of Intelligence, this talk revisits a century-old question through a modern engineering lens: what should it mean for a machine to learn efficiently, generalize from few examples and solve genuinely novel problems?\n\nWe will trace the path from historical ideas of intelligence measurement to ARC, the Abstraction and Reasoning Corpus: a benchmark designed around abstract reasoning, minimal priors and tasks that are easy for humans but hard for current AI systems. The goal is not to debate AGI hype, but to understand why benchmark design shapes research, product expectations and our mental models of progress.\n\nAttendees will leave with a clearer framework for reading AI benchmarks critically and asking better questions about “reasoning” claims.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1226121",
+        "retrievedAt": "2026-10-16T13:37:51.718Z"
       },
       "format": "talk",
       "schedule": {
@@ -2627,7 +2816,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1226121"
       ]
     },
     {
@@ -2642,15 +2832,17 @@
       ],
       "tags": [
         "claude-code",
-        "coding-agents",
-        "agentic-workflow",
-        "automation",
-        "self-healing"
+        "agent-loops",
+        "hooks",
+        "verification",
+        "agent-memory"
       ],
       "summary": {
-        "text": "Evoluzione da una semplice chiamata a un tool verso un agente basato su Claude Code capace di iterare e correggere autonomamente problemi nel corso di esecuzioni prolungate.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Every coding agent already runs a loop. Few are designed. The prompt is one turn, the loop is the product: what ships depends on when the agent stops and who agreed it could.\nWe take Claude Code's loop apart into four parts the model does not own: trigger, exit, verifier and memory. Then we follow them through five rings, from seconds to nights: hooks in the agentic loop, /loop on a clock, /goal with a separate judge, an executed gate with contract and budget, cross-model review on PRs, and a nightly routine that fixes open defects.\nLive demos and one real case: an all-green gate, coverage 1.0, that still shipped the wrong code. Because an instruction in a prompt persuades, a hook or an executed check refuses, and no check replaces the person who decides whether it is the right work.\nFor engineers already using coding agents who want to move from supervised sessions to loops that run with nobody watching.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1362869",
+        "retrievedAt": "2026-10-16T13:37:52.815Z"
       },
       "format": "talk",
       "schedule": {
@@ -2663,7 +2855,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1362869"
       ]
     },
     {
@@ -2674,18 +2867,22 @@
       ],
       "categoryIds": [
         "gaming-creative-coding",
+        "iot-embedded",
         "ai-llm"
       ],
       "tags": [
+        "esp32-c3",
+        "e-ink",
         "retrocomputing",
         "gemini",
-        "hardware",
         "game-development"
       ],
       "summary": {
-        "text": "Esperimento di porting del videogioco Parachute su hardware apparentemente inadatto, con assistenza di Gemini.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Doom gira ovunque, ma Parachute (un Game & Watch Nintendo 1981)?\nSicuramente ora gira su un ESP32-C3 collegato ad un display e-ink a 3 colori da 2.9 pollici.\nChe c'e' di strano? Che il display nasce con un refresh time di 18 secondi.\nSe vi interessa sapere:\n- come ho fatto a passare da 18 secondi a 300 millisecondi\n- come ho sfruttato le limitazioni intrinseche del sistema e trasformate in feature, esattamente come si faceva negli anni 80\n- la ricerca filologica nel riprodurre tutti gli elementi del gioco, suoni inclusi\n- com'e' andato il rapporto col mio coding partner Gemini Gem\n- ma soprattutto, perche' l'ho fatto???\n\nvi invito a seguire questa allegra vicenda",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1234927",
+        "retrievedAt": "2026-10-16T13:37:53.693Z"
       },
       "format": "talk",
       "schedule": {
@@ -2698,7 +2895,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1234927"
       ]
     },
     {
@@ -2713,15 +2911,17 @@
       ],
       "tags": [
         "opensearch",
-        "observability",
-        "logging",
-        "monitoring",
-        "open-source"
+        "opentelemetry",
+        "prometheus",
+        "logs-metrics-traces",
+        "kubernetes"
       ],
       "summary": {
-        "text": "Come realizzare un sistema di osservabilità open source con OpenSearch e correlare dati di monitoraggio e diagnostica.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "What if you could have a complete, production-grade observability platform that is fully open source, built on open standards, and led by The Linux Foundation?\n\nIn this session, OpenSearch Ambassador Dotan Horovits demonstrates how OpenSearch delivers a complete, open-source, OpenTelemetry-native observability platform for logs, metrics, traces, APM, and even AI agent observability. You’ll also learn how to integrate with Prometheus metrics, how to create powerful dashboards, and how to easily deploy it to Docker or Kubernetes.\n\nWhether you’re struggling with finding insights in your mounts of logs, fighting a vendors’ bills and proprietary instrumentation, or looking for advanced agentic observability, this session will give you the open source you don’t want to miss.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1230660",
+        "retrievedAt": "2026-10-16T13:37:54.792Z"
       },
       "format": "talk",
       "schedule": {
@@ -2734,7 +2934,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1230660"
       ]
     },
     {
@@ -2744,19 +2945,23 @@
         "6b154a22-5948-4445-a2d5-34f03f9f2887"
       ],
       "categoryIds": [
+        "architettura-backend",
         "ai-agents",
-        "software-engineering"
+        "sicurezza-privacy"
       ],
       "tags": [
-        "ai-agents",
-        "architettura",
-        "workflow",
-        "affidabilita"
+        "agent-architecture",
+        "autonomy",
+        "structured-output",
+        "mcp-security",
+        "reliability"
       ],
       "summary": {
-        "text": "Criteri per capire quando un agente autonomo non è la soluzione giusta e quando preferire sistemi o workflow più prevedibili.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "\"Build an agent\" has become the default answer to every AI systems question. But autonomy is a feature, not a default. In production systems we've shipped, granting it made things measurably worse: recursive loops burning 20-30x normal token spend, latency drift, boundary violations turning a simple question into an unauthorized action, and evaluation collapsing once a model chose its own path.\n\nDrawing on real systems that failed in traceable ways, we walk through the architectural replacements that fixed them - cutting p99 latency and error rate with the same underlying models.\n\nWe'll cover: six failure modes, from recursive loops to the MCP attack surface; what replaced the agent (router patterns, structured output, step-level observability); a two-axis framework for when autonomy earns its place; and a 6-question checklist for your next agentic build.\n\nYou'll leave with a mental model for the question that matters more than \"can we build an agent\": should we?",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1219093",
+        "retrievedAt": "2026-10-16T13:37:55.674Z"
       },
       "format": "talk",
       "schedule": {
@@ -2769,7 +2974,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1219093"
       ]
     },
     {
@@ -2785,14 +2991,16 @@
       ],
       "tags": [
         "developer-experience",
-        "ai-adoption",
-        "engineering-process",
-        "team"
+        "developer-journey",
+        "delivery-bottlenecks",
+        "ai-adoption"
       ],
       "summary": {
-        "text": "Perché introdurre strumenti di AI non risolve automaticamente i problemi di Developer Experience e quali aspetti organizzativi e di processo richiedono ancora interventi diretti.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Coding assistant e agenti AI possono rendere gli sviluppatori più veloci, ma non risolvono automaticamente ambienti complessi, pipeline lente, test fragili, documentazione difficile da trovare o processi poco chiari.\nAnzi, aumentando la velocità di produzione del codice, l'AI può rendere ancora più evidenti i colli di bottiglia del software delivery lifecycle.\nIn questo talk vedremo come mappare le developer journey, identificare i reali punti di friction e progettare una Developer Experience capace di evolvere insieme ai nuovi workflow AI-assisted, attraverso esempi e lezioni apprese in Docebo.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1354856",
+        "retrievedAt": "2026-10-16T13:37:56.772Z"
       },
       "format": "talk",
       "schedule": {
@@ -2805,7 +3013,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1354856"
       ]
     },
     {
@@ -2815,18 +3024,22 @@
         "17ef53a2-0ee6-4b36-a3db-ecc8041c5a3d"
       ],
       "categoryIds": [
-        "ai-agents"
+        "ai-agents",
+        "software-engineering"
       ],
       "tags": [
-        "ai-agents",
         "google-adk",
-        "agent-development",
-        "automazione"
+        "coding-agents",
+        "multi-agent",
+        "context-management",
+        "structured-specs"
       ],
       "summary": {
-        "text": "Come utilizzare agenti AI come strumenti per sviluppare altri agenti e accelerare la costruzione di sistemi agentici.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Coding agents are changing how we write software. But can they change how we build other agents?\n\nIn this session, I will show how to use a coding agent, leveraging skills, context management, and structured specs, to design and generate a complex multi-agent architecture with the Google Agent Development Kit (ADK).\n\nThe result is a meta-development workflow where the agent drives the architecture, writes the code, and wires up the system, turning hours of scaffolding into a collaborative, spec-to-agent pipeline.\n\nWhether you are new to ADK or already building production agents, this talk will challenge how you think about the role of AI in your development workflow.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1232889",
+        "retrievedAt": "2026-10-16T13:37:57.669Z"
       },
       "format": "talk",
       "schedule": {
@@ -2839,7 +3052,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1232889"
       ]
     },
     {
@@ -2855,12 +3069,16 @@
       "tags": [
         "indie-games",
         "carriera",
-        "game-development"
+        "game-development",
+        "entrepreneurship",
+        "sales"
       ],
       "summary": {
-        "text": "Esperienza di transizione professionale dallo sviluppo software bancario alla creazione indipendente di videogiochi.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "A 40 anni ho lasciato un posto sicuro da responsabile software in banca per fondare uno studio di videogiochi. Non è stato un salto nel vuoto, ma l'arrivo di un lungo percorso.\n\nIn questo talk lo racconto: la passione per i videogiochi da bambino, gli anni da informatico tra reti, sviluppo e gestione di team, la parentesi da giornalista, i primi passi sugli app store appena nati, un piccolo lavoro diventato un grande progetto e il lavoro per la Marina americana.\n\nPoi arrivo al cuore del discorso: cosa cambia tra software aziendale e videogiochi, e cosa significa fondare uno studio indipendente. Parlo di difficoltà economiche, di adattamento e di una scoperta scomoda: per fare i giochi che ami, prima devi imparare a vendere.\n\nUn racconto onesto per chi sogna di cambiare strada o di lavorare nei videogiochi.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1348385",
+        "retrievedAt": "2026-10-16T13:37:58.752Z"
       },
       "format": "talk",
       "schedule": {
@@ -2873,7 +3091,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1348385"
       ]
     },
     {
@@ -2884,18 +3103,22 @@
         "f742d009-90c4-46cd-808f-d2d05880106a"
       ],
       "categoryIds": [
-        "ai-llm",
-        "software-engineering"
+        "software-engineering",
+        "ai-agents"
       ],
       "tags": [
         "legacy-modernization",
-        "ai-coding",
-        "refactoring"
+        "scriba-ai",
+        "multi-agent",
+        "code-conversion",
+        "orchestration"
       ],
       "summary": {
-        "text": "Presentazione di SCRIBA.AI come strumento per comprendere e modernizzare codice legacy attraverso l'intelligenza artificiale.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Presentiamo SCRIBA.AI, la soluzione di IA per convertire codice legacy in codice moderno.\n\nSviluppata interamente in Italia, SCRIBA.AI non è la classica interfaccia per richiamare un modello generalista come ChatGPT o ClaudeCode. Al contrario, ha una struttura di agenti, modelli e orchestratori che convertono - senza tradurre - oltre 100 linguaggi obsoleti in applicativi ISO-equivalenti in linguaggio moderno (Java, Python ecc)\n\nQuesto consente di convertire codice in modo completamente automatico, con un risultato di precisione che sfiora il 97%, dunque quasi deterministico.\n\nDurante il Workshop mostreremo il funzionamento della piattaforma, faremo una demo live mostrando il risultato che si riesce ad ottenere, ed offriremo una conversione gratuita ad un partecipante.\n\nSCRIBA.AI ha come missione la modernizzazione dei sistemi informatici del mondo intero; ricerchiamo partner affidabili per questa operazione, questa è la ragione della nostra presenza a Codemotion.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1342030",
+        "retrievedAt": "2026-10-16T13:37:59.854Z"
       },
       "format": "workshop",
       "schedule": {
@@ -2908,7 +3131,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1342030"
       ]
     },
     {
@@ -2919,19 +3143,22 @@
       ],
       "categoryIds": [
         "sicurezza-privacy",
-        "software-engineering"
+        "software-engineering",
+        "ai-llm"
       ],
       "tags": [
-        "dependency-track",
-        "sast",
+        "software-supply-chain",
         "ast",
-        "supply-chain",
-        "ai-security"
+        "local-llm",
+        "vex",
+        "reachability-analysis"
       ],
       "summary": {
-        "text": "Riduzione dei falsi positivi negli strumenti di sicurezza delle dipendenze, usando AST e AI per capire meglio l'effettivo impatto sul codice.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Modern software is assembled, not just written: nearly 90% of a typical application consists of third-party libraries. If a critical vulnerability like Log4Shell were disclosed tomorrow, how long would it take your team to identify every affected microservice?\nIn this session, we will explore how to democratize Software Supply Chain Security (SSCS) by building an automated defense perimeter at zero licensing cost. Through a Live Demo featuring a Docker-based prototype, we will walk through a real-world architecture integrating AST analysis, local LLMs, and automated VEX generation.\nWe will go beyond basic scanning by demonstrating how to leverage Artificial Intelligence for code reachability analysis, generating VEX (Vulnerability Exploitability eXchange) files to silence false positives and focus only on actionable risks. We will also discuss how this stack prepares organizations for the upcoming EU Cyber Resilience Act (CRA) requirements",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1220576",
+        "retrievedAt": "2026-10-16T13:38:01.395Z"
       },
       "format": "talk",
       "schedule": {
@@ -2944,7 +3171,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1220576"
       ]
     },
     {
@@ -2957,16 +3185,18 @@
         "ai-llm"
       ],
       "tags": [
-        "llm",
-        "deterministic-inference",
-        "temperature",
-        "evaluation",
-        "reliability"
+        "llm-inference",
+        "reproducibility",
+        "batch-size",
+        "floating-point",
+        "deterministic-inference"
       ],
       "summary": {
-        "text": "Perché una configurazione di temperatura zero non garantisce risultati identici e perfettamente deterministici nei modelli linguistici.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Deterministic LLM inference sounds simple: set temperature to zero and get consistent answers. But reality is messier, and asking the same question a thousand times might yield dozens of different responses.\n\nWhile GPU parallelism and floating-point arithmetic play a role, a study by Thinking Machine Labs identifies the real culprit as… other users. Concurrent requests to the same server change the batch size, which silently alters the order of transformer computations, making the output look like uncontrollable randomness.\n\nThis talk will debunk the common myths about LLM nondeterminism, walk through the actual mechanics of inference engines, and explain what it would take to achieve true reproducibility.\n\nWhether calling an external API or running a self-hosted inference stack, attendees will leave with a clear understanding of why this happens, which strategies can help address it, and how to think about reproducibility in AI systems.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1234879",
+        "retrievedAt": "2026-10-16T13:38:01.832Z"
       },
       "format": "talk",
       "schedule": {
@@ -2979,7 +3209,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1234879"
       ]
     },
     {
@@ -2993,14 +3224,17 @@
       ],
       "tags": [
         "git",
-        "version-control",
-        "developer-tools",
-        "collaborazione"
+        "jujutsu",
+        "sapling",
+        "gitbutler",
+        "version-control"
       ],
       "summary": {
-        "text": "Esplorazione delle possibili evoluzioni del versionamento del codice e dei workflow di collaborazione oltre Git.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Are the version control system wars over? It mostly looks like that, as Git has been the default contender for more than the past 10 years. But how did that even happen? And what will it take to dethrone the most dominating piece of software our industry has ever seen? New version control systems are rising on the horizon, with promising new features to simplify development workflows and improve developer experience, that are often inherently complex, or even outright impossible, to do with Git. In this talk, we are going to take a look at the history of version control systems, how new rising young stars like Jujutsu, Sapling or GitButler are innovating in that space today and how to use and integrate them into your existing Git-based project.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1215971",
+        "retrievedAt": "2026-10-16T13:38:02.771Z"
       },
       "format": "talk",
       "schedule": {
@@ -3013,7 +3247,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1215971"
       ]
     },
     {
@@ -3023,19 +3258,21 @@
         "c04f20d4-cd2f-4fb0-9ee2-c7b8cac9871f"
       ],
       "categoryIds": [
-        "ai-agents",
-        "software-engineering"
+        "software-engineering",
+        "ai-agents"
       ],
       "tags": [
-        "ai-agents",
         "coding-agents",
-        "supervisione",
-        "sviluppo-software"
+        "domain-knowledge",
+        "design-judgment",
+        "verification"
       ],
       "summary": {
-        "text": "Il ruolo ancora indispensabile delle persone quando si usano coding agent: definizione degli obiettivi, giudizio architetturale, verifica e responsabilità sul risultato.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "“Will AI make developers obsolete?” The hype says the developer is finished. The denial says it’s just autocomplete. Both are comforting false simplicity.\n\nCapable coding agents don’t make software engineering obsolete; they make it indispensable. An LLM is a remarkable generative engine, but by its architecture, it has no internal reference for correctness, no grasp of the domain it is building for, no orientation toward the system’s future, and no memory across sessions. That isn’t a benchmark gap the next model closes; it’s a structural vacuum.\n\nFilling it takes method, domain knowledge, design judgment, process, and engineering depth to distinguish the correct from the merely plausible. The quality problems of AI-generated software are exactly why coding and design skills matter more, not less.\n\nThe uncomfortable, liberating consequence: capable agents demand more software engineering, not less. The discipline isn’t in decline. Its moment has arrived.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1254733",
+        "retrievedAt": "2026-10-16T13:38:03.705Z"
       },
       "format": "talk",
       "schedule": {
@@ -3048,7 +3285,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1254733"
       ]
     },
     {
@@ -3062,15 +3300,18 @@
         "gaming-creative-coding"
       ],
       "tags": [
-        "ai-fundamentals",
+        "neural-networks",
+        "genetic-algorithms",
         "flappy-bird",
-        "agent",
-        "learning"
+        "compose-multiplatform",
+        "evolutionary-learning"
       ],
       "summary": {
-        "text": "Dimostrazione pratica di concetti fondamentali dell'AI mediante un agente che impara a giocare a Flappy Bird.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "We use LLMs every day, but how many of us could explain what's actually happening under the hood? This talk explores the fundamentals behind modern AI through a small, fully transparent agent that learns to play Flappy Bird.\n\nStarting from the familiar Transformer architecture, we zoom in step by step to explore the feed-forward neural network. We then look at how these concepts translate into working code, using a Flappy Bird implementation built with Compose Multiplatform as our playground.\n\nFirst, we let a neural network with random, untrained weights take control. Unsurprisingly, it plays terribly. With no labeled dataset to train on, we introduce a genetic algorithm: a population of networks, a simple fitness signal, and successive generations of selection, crossover, and mutation. As the algorithm runs, we watch random behavior evolve into a competent player.\n\nThrough code walkthroughs and visual demonstrations, we unpack each component of the process, making neural networks and evolutionary algorithms tangible without getting lost in mathematical formalism.\n\nNo black boxes, no magic: just a neural network, an evolutionary process, and a clear look at how they work together. Attendees will leave with an intuitive understanding of these AI fundamentals and why they still matter in the age of LLMs.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1210841",
+        "retrievedAt": "2026-10-16T13:38:04.731Z"
       },
       "format": "talk",
       "schedule": {
@@ -3083,7 +3324,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1210841"
       ]
     },
     {
@@ -3097,13 +3339,16 @@
       ],
       "tags": [
         "game-audio",
-        "game-development",
+        "unreal-engine",
+        "interactive-audio",
         "sound-design"
       ],
       "summary": {
-        "text": "Tecniche e architetture dell'audio nei videogiochi oltre la semplice riproduzione di un suono.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Dalla semplice riproduzione di suoni ai moderni sistemi audio interattivi. Attraverso esempi pratici di integrazione audio in Unreal Engine, vedremo come eventi e parametri di gioco permettano agli audio designer di costruire sistemi sonori complessi, in collaborazione con i programmatori.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1360406",
+        "retrievedAt": "2026-10-16T13:38:05.971Z"
       },
       "format": "talk",
       "schedule": {
@@ -3116,7 +3361,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1360406"
       ]
     },
     {
@@ -3126,18 +3372,21 @@
         "f4d61fd8-1738-46f6-b83e-d60e833596bd"
       ],
       "categoryIds": [
-        "leadership-carriera"
+        "leadership-carriera",
+        "software-engineering"
       ],
       "tags": [
         "hiring",
-        "interview",
-        "ai-era",
-        "engineering-management"
+        "engineering-interviews",
+        "ai-assisted-development",
+        "engineering-judgment"
       ],
       "summary": {
-        "text": "Come ripensare i colloqui e la valutazione degli ingegneri quando l'AI modifica le abilità verificabili e i metodi di lavoro.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "AI has fundamentally changed how engineers work, but most hiring processes haven't changed at all.\n\nCoding assistants can generate solutions in seconds. System design answers can be refined with prompts. Candidates walk into interviews with powerful AI tools at their side. Yet many companies are still evaluating engineers as if AI didn't exist.\n\nAfter interviewing hundreds of engineers at Elementor, I redesigned my hiring process for the AI era. I changed what we evaluate. Today we test how engineers think, how they collaborate with AI, and how they apply judgment when AI-generated solutions are incomplete, incorrect, or misleading.\n\nIn this talk, I'll share what changed in our hiring process and what actually works in practice.\n\nWhether you're hiring engineers, preparing for interviews, or leading an engineering organization, you'll leave with a practical framework for evaluating engineering talent in the AI era.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1216127",
+        "retrievedAt": "2026-10-16T13:38:06.860Z"
       },
       "format": "talk",
       "schedule": {
@@ -3150,7 +3399,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1216127"
       ]
     },
     {
@@ -3160,18 +3410,21 @@
         "6fc71432-0fc4-4160-a7c9-0284e55e6398"
       ],
       "categoryIds": [
-        "ai-agents",
-        "cloud-devops"
+        "ai-agents"
       ],
       "tags": [
-        "orchestrazione",
-        "ai-agents",
-        "automazione"
+        "hermes-agent",
+        "skills",
+        "harness",
+        "agent-orchestration",
+        "personal-productivity"
       ],
       "summary": {
-        "text": "Organizzazione e controllo di una flotta di componenti o agenti chiamati Hermes; focus presumibile sulla loro gestione operativa.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Spin up a VPS, run `install.sh`, plug in a Telegram bot token, and boom - our first Hermes AI agent is alive. A couple of prompts and it is already sending news reports, organizing emails, and build our second brain. It feels effortless, almost magical. We add more minions and turn everything into a workflow. Until a month later, we realize we're spending more time firefighting and patching issues than building anything new.\n\nThis talk distills months of lost sleep trying to tame the bill that non-deterministic agentic workflows inevitably hands us. We'll dive into skill design, organizational patterns, and harness support tools. Using a Hermes Agent and personal productivity as example, but with principles applicable across the board.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1357782",
+        "retrievedAt": "2026-10-16T13:38:08.053Z"
       },
       "format": "talk",
       "schedule": {
@@ -3184,7 +3437,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1357782"
       ]
     },
     {
@@ -3198,16 +3452,18 @@
         "ai-agents"
       ],
       "tags": [
-        "spec-driven",
-        "requirements",
+        "spec-driven-development",
         "ears",
         "walden",
-        "ai-coding"
+        "requirements",
+        "traceability"
       ],
       "summary": {
-        "text": "Utilizzo di requisiti strutturati e approcci spec-driven (EARS, Walden) per rendere lo sviluppo assistito dall'AI più verificabile del semplice vibe coding.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Partendo da un sistema critico come quello che governa i motori di un aereo, esploreremo perché la vera sfida del vibe coding non è generare più codice, ma definire specifiche chiare, governare ciò che chiediamo all’AI di costruire e verificarne il risultato.\nIntrodurremo EARS (Easy Approach to Requirements Syntax), una sintassi leggera per esprimere requisiti chiari e verificabili, e useremo Walden, un kernel CLI open source, per collegare requisiti, design, task e verifiche eseguibili.\nVedremo infine come queste metodologie siano portate su scala con il framework di Agentic Software Delivery di Engineering che integra tracciabilità, verificabilità e controllo lungo l’intero Software Development Lifecycle.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1355009",
+        "retrievedAt": "2026-10-16T13:38:08.766Z"
       },
       "format": "talk",
       "schedule": {
@@ -3220,7 +3476,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1355009"
       ]
     },
     {
@@ -3231,18 +3488,21 @@
       ],
       "categoryIds": [
         "software-engineering",
-        "sicurezza-privacy"
+        "ai-agents"
       ],
       "tags": [
         "code-review",
         "pr-quality",
-        "quality-gates",
-        "ci-cd"
+        "layered-verification",
+        "spec-driven-development",
+        "multi-agent"
       ],
       "summary": {
-        "text": "Controllo della qualità delle pull request mediante più barriere complementari, anziché affidarsi a una singola revisione o scansione.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "PRs sitting unreviewed for days. Reviewers skimming 500-line diffs. Rubber-stamp approvals on changes nobody fully understood. Most engineering teams quietly accepted that PR reviews were a known weak point as the cost of moving fast.\n\nThen AI coding agents arrived and made it unsustainable, flooding review queues with high-volume, low-quality PRs.\n\nThe fix isn't a single solution. It's layers.\n\nThis talk introduces the Swiss cheese model as a framework for thinking about PR quality: stack enough imperfect defensive layers and you get a system more reliable than any individual component. The emerging layers (spec-driven development, multi-agent competition, automated verification, and giving agents the right runtime context from the start, etc.) each address a specific failure mode. None of them are mutually exclusive.\n\nWhat you'll leave with: a concrete mental model for where your current review process is failing and what a layered verification system looks like.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1249272",
+        "retrievedAt": "2026-10-16T13:38:09.866Z"
       },
       "format": "talk",
       "schedule": {
@@ -3255,7 +3515,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1249272"
       ]
     },
     {
@@ -3270,14 +3531,18 @@
       ],
       "tags": [
         "claude-code",
-        "coding-agents",
         "harness",
-        "workflow"
+        "hooks",
+        "skills",
+        "mcp",
+        "subagents"
       ],
       "summary": {
-        "text": "Come impostare ambiente, regole e flussi di lavoro intorno a Claude Code, trasformandolo da singolo strumento in un sistema operativo di sviluppo.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Un coding agent moderno arriva già con il suo harness. Quello che cambia i risultati non è costruirne uno, è configurarlo. In questa sessione si lavora su Claude Code come implementazione di riferimento e si attraversano le superfici che governano davvero il comportamento dell’agente: istruzioni di progetto, skill, permessi, hook, subagent, MCP, fino al plugin che impacchetta la configurazione e la rende condivisibile nel team.\nIl filo conduttore non è il tutorial, è la decisione: quale superficie deve possedere quale regola. Una conoscenza contestuale non è un hook, un vincolo che deve valere sempre non è una riga di istruzioni. Poi si apre il loop a grafo, con subagent in parallelo e un nodo di giudizio, e si verifica se serva davvero. Le decisioni si trasferiscono agli altri coding agent: cambiano i nomi dei file, non il ragionamento.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1301534",
+        "retrievedAt": "2026-10-16T13:38:10.968Z"
       },
       "format": "workshop",
       "schedule": {
@@ -3290,7 +3555,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1301534"
       ]
     },
     {
@@ -3300,17 +3566,22 @@
         "87e12d99-9e42-47d2-b6e5-73dafd25ef45"
       ],
       "categoryIds": [
+        "software-engineering",
         "architettura-backend"
       ],
       "tags": [
-        "data-prediction",
-        "algoritmi",
+        "lossless-compression",
+        "entropy-coding",
+        "openzl",
+        "data-formats",
         "performance"
       ],
       "summary": {
-        "text": "Tecniche legate alla predizione di bit o dati; il titolo non consente di confermare l'approccio specifico o la tecnologia impiegata.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "80s sci-fi movies gave us rays that miniaturized humans and things without losing a single atom. That's what we call \"lossless\" compression in computing, where we want to shrink web assets, code, and payloads where 100% bit fidelity is non-negotiable.\n\nAs an article that circulated a lot this summer states, compression is prediction. The better a system can predict what comes next, the fewer bits we need to transmit. But we have real engineering constraints!\n\nIn this talk, we will explore:\n\n- The classical and modern web stack, how we evolved from basic redundancy to today's landscape\n- Why the model must be part of the message\n- The format-aware frontier, so how OpenZL uses DAGs, structural knowledge and universal decompressors\n- The connection with LLMs, where the prediction of the next token and the cross-entropy loss are mathematically identical to optimal entropy coding... and why language models are great predictors, but impractical compressors",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1324797",
+        "retrievedAt": "2026-10-16T13:38:11.845Z"
       },
       "format": "talk",
       "schedule": {
@@ -3323,7 +3594,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1324797"
       ]
     },
     {
@@ -3334,20 +3606,23 @@
         "91312c7d-3a93-45aa-8f81-cb280ed48a8b"
       ],
       "categoryIds": [
+        "dati-observability",
         "ai-agents",
-        "dati-observability"
+        "sicurezza-privacy"
       ],
       "tags": [
         "text-to-sql",
         "semantic-layer",
-        "data-agents",
-        "database",
-        "affidabilita"
+        "metricflow",
+        "mcp",
+        "row-level-security"
       ],
       "summary": {
-        "text": "Come costruire agenti di accesso ai dati più affidabili del semplice text-to-SQL grazie a un semantic layer e a concetti di business condivisi.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Ask an LLM \"how many policies did each agency sell last quarter?\" and let it write SQL. It works in the demo, much less in production: it invents JOINs, forgets filters, picks the wrong granularity, and business logic leaks from data models into prompts.\nA semantic layer fixes this: metrics are defined once, versioned with your data models and compiled into correct SQL. The model selects, the semantic layer computes. Mistakes become visible instead of plausible.\nWe share how we built Flowmetrics, an internal tool on top of open-source MetricFlow. It gives AI agents governed access to metrics via a Python library, an MCP server and versioned agent skills. Through code, we cover hybrid search for metric discovery, saved queries as canonical answers, row-level security the LLM can't bypass, and design decisions we had to revisit.\nYou'll leave with patterns for any semantic layer and a live demo on a real insurance use case.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1355799",
+        "retrievedAt": "2026-10-16T13:38:12.948Z"
       },
       "format": "talk",
       "schedule": {
@@ -3360,7 +3635,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1355799"
       ]
     },
     {
@@ -3374,16 +3650,18 @@
         "gaming-creative-coding"
       ],
       "tags": [
-        "small-models",
         "modernbert",
-        "latency",
+        "small-models",
         "doom",
-        "on-device-ai"
+        "supervised-fine-tuning",
+        "reinforcement-learning"
       ],
       "summary": {
-        "text": "Impiego di un piccolo modello ModernBERT da circa un milione di parametri per prendere decisioni rapidamente in Doom.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Frontier LLMs get the headlines, but a lot of production AI runs on small, specialized models, where cost and latency matter more than raw capability.\nIn this talk, I’ll push that idea to its limit by training a tiny 1M-parameter ModernBERT model to play Doom on a CPU.\n\nWe’ll explore why encoder architectures are making a comeback through projects like ModernBERT and GLiNER, and look at practical use cases like embedding retrieval, information extraction, anonymization, and safety guardrails.\n\nThen I’ll walk through the Doom player training: the architecture, Supervised Fine-Tuning from human gameplay, and Reinforcement Learning for autonomous improvement, all trained and deployed on consumer hardware. Getting there meant several failed attempts, and I’ll share lessons from them.\n\nBy the end, you'll know when small encoder models are the right tool, and you’ll see one playing Doom in real time.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1233377",
+        "retrievedAt": "2026-10-16T13:38:13.827Z"
       },
       "format": "talk",
       "schedule": {
@@ -3396,7 +3674,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1233377"
       ]
     },
     {
@@ -3411,12 +3690,16 @@
       "tags": [
         "kubernetes",
         "cloud-native",
-        "quiz"
+        "pods",
+        "secrets",
+        "services"
       ],
       "summary": {
-        "text": "Quiz interattivo sui concetti, componenti e casi d'uso di Kubernetes, per consolidare la conoscenza dell'ecosistema.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Kubernetes has become the de facto standard for deploying and operating containerized applications. We use it, as well as its ecosystem, on a daily basis, but do we know them as well as we think we do?\n\nWith a mix of quiz and live demos, come learn and/or improve your knowledge. You will discover (or rediscover) the key concepts of Kubernetes (pods, secrets, services...), internal components but also best practices.\n\nIn this fun and dynamic talk, come compete throughout the quiz and explore the wonderful world of Kubernetes.\n\nIcing on the cake: the first will win some swags.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1223092",
+        "retrievedAt": "2026-10-16T13:38:14.927Z"
       },
       "format": "talk",
       "schedule": {
@@ -3429,7 +3712,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1223092"
       ]
     },
     {
@@ -3440,17 +3724,22 @@
         "2ca97891-f213-44c1-b420-b3dd8949e05c"
       ],
       "categoryIds": [
+        "gaming-creative-coding",
         "leadership-carriera"
       ],
       "tags": [
-        "carriera",
-        "crescita-professionale",
-        "motivazione"
+        "indie-games",
+        "antab-studio",
+        "post-mortem",
+        "game-development",
+        "business-management"
       ],
       "summary": {
-        "text": "Riflessione sul trovare il proprio spazio o ruolo professionale. Il tema specifico non è precisato nell’HTML dell’agenda, quindi questa interpretazione è provvisoria.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Drawing on the experience Antab Studio has gained over its ten years of activity, we will highlight the deep synergy that exists between business management, technical and creative decision-making, software design, and day-to-day development. In this sense, the talk takes the form of a somewhat unconventional post-mortem, examining the two titles we have released as an independent micro-team.\nAfter sharing our experience, we would like to leave time for questions and discussion with the audience.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1362542",
+        "retrievedAt": "2026-10-16T13:38:15.806Z"
       },
       "format": "talk",
       "schedule": {
@@ -3463,7 +3752,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1362542"
       ]
     },
     {
@@ -3474,18 +3764,21 @@
         "350e8d2b-9e61-45ee-9259-dc298452dd4d"
       ],
       "categoryIds": [
-        "frontend-ux"
+        "frontend-ux",
+        "architettura-backend"
       ],
       "tags": [
         "accessibilita",
-        "wcag",
-        "ux",
-        "inclusive-design"
+        "inclusive-design",
+        "event-platform",
+        "software-architecture"
       ],
       "summary": {
-        "text": "Progettazione di una piattaforma con l'accessibilità come requisito iniziale, non come correzione successiva.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Cosa succede quando l’accessibilità non è una feature da aggiungere, ma il requisito fondamentale su cui costruire tutto?\n\nIn questo talk racconteremo lo sviluppo del nuovo ecosistema di gestione eventi di Accessibility Days, progettato con un approccio realmente accessibility first.\n\nLa differenza, questa volta, era concreta: molte delle persone che utilizzano quotidianamente questi strumenti sono persone con disabilità.\n\nPartendo da esigenze reali, mostreremo come l’accessibilità abbia influenzato architettura, frontend, componenti e workflow fin dalle prime decisioni progettuali.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1235267",
+        "retrievedAt": "2026-10-16T13:38:16.908Z"
       },
       "format": "talk",
       "schedule": {
@@ -3498,7 +3791,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1235267"
       ]
     },
     {
@@ -3509,17 +3803,21 @@
         "be964b25-3d59-46c3-8985-7c87fb884497"
       ],
       "categoryIds": [
+        "leadership-carriera",
         "ai-llm"
       ],
       "tags": [
-        "ai-culture",
-        "dibattito",
-        "innovazione"
+        "ai-adoption",
+        "future-of-work",
+        "business-models",
+        "engineering-skills"
       ],
       "summary": {
-        "text": "Intervento provocatorio sull'intelligenza artificiale e il suo impatto; dettagli delle tesi specifiche non disponibili nel file.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Il SaaS è morto? Le aziende di consulenza falliranno in 18 mesi? Cosa succede se un Senior Dev scopre di essere solo un Junior che conosce a memoria le API? È possibile una startup da un miliardo con un solo dipendente?\nIn questo talk interattivo, Daniel e Stefano lanceranno sul palco le provocazioni più scottanti su business, competenze e mercato del lavoro stravolti dall’AI. Regola numero uno: siamo tutti speaker e se parli non verrai giudicato da nessuno. Se una tesi ti sembra una follia, prendi il microfono e ribaltala.\nEsagerando le previsioni cercheremo il confine tra distopia e opportunità, per portarci a casa qualcosa di più del semplice hype: una visione aperta, critica e maledettamente creativa.\nIl nostro obiettivo è quello di dare ai partecipanti argomenti da approfondire durante le prossime pause caffè e qualche spunto per reinventare il nostro lavoro.\nPorta la tua idea, la tua esperienza e un bel po’ di spirito critico. Ne avremo bisogno.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1253908",
+        "retrievedAt": "2026-10-16T13:38:18.005Z"
       },
       "format": "talk",
       "schedule": {
@@ -3532,7 +3830,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1253908"
       ]
     },
     {
@@ -3543,18 +3842,21 @@
       ],
       "categoryIds": [
         "leadership-carriera",
-        "ai-agents"
+        "software-engineering"
       ],
       "tags": [
         "ai-adoption",
-        "engineering-management",
-        "change-management",
-        "team"
+        "ai-native-engineering",
+        "spec-driven-development",
+        "upskilling",
+        "change-management"
       ],
       "summary": {
-        "text": "Problemi organizzativi e tecnici incontrati nell'introdurre pratiche AI in un'organizzazione di centinaia di ingegneri.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Most companies talk about becoming “AI-native.” Very few actually do it.\n\nIn this talk, I’ll share how we’re approaching the upskilling of ~300 engineers to move beyond experimentation and into real, repeatable AI-native development.\n\nWe’ll cover how we’re introducing new paradigms like AI-Native Engineering (AINE) and Spec-Driven Development, how we’re structuring the individual contributor journey, and how we’re driving adoption across teams with very different levels of maturity.\n\nMore importantly, we’ll dive into what doesn’t work: resistance patterns, false starts, over-reliance on tools, and the gap between perceived and actual productivity gains.\n\nThis talk will give you a concrete blueprint along with the trade-offs and lessons learned along the way.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1230211",
+        "retrievedAt": "2026-10-16T13:38:18.886Z"
       },
       "format": "talk",
       "schedule": {
@@ -3567,7 +3869,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1230211"
       ]
     },
     {
@@ -3581,14 +3884,17 @@
         "software-engineering"
       ],
       "tags": [
-        "informatica",
-        "etica",
-        "riflessione"
+        "history-of-computing",
+        "philosophy-of-computing",
+        "parallel-computing",
+        "lambda-calculus"
       ],
       "summary": {
-        "text": "Riflessione critica sull'informatica e sui suoi presupposti, con una prospettiva più concettuale rispetto ai talk dedicati a framework e strumenti.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Le schede perforate, le macchine calcolatrici programmabili, gli operatori booleani, gli automi, le architetture di calcolo parallelo, le funzioni ricorsive, le lambda: sono solo esempi di concetti che gli informatici credono di aver scoperto, ma che in realtà hanno solo riscoperto dopo che alcuni filosofi, magari secoli prima, le avevano pensate.\n\nCosa possiamo imparare da questa storia? Che possiamo credere d’essere il miglior programmatore, architetto, informatico del mondo, ma molto probabilmente non lo siamo, e il miglior modo per diventarlo è capire di non esserlo.\n\nIl talk sarà disseminato di esempi tecnici, per cuori impavidi e menti aperte, somministrati in modo giocoso ma rigoroso perché, \"quanno se gioca bisogna esse' seri\".",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1225761",
+        "retrievedAt": "2026-10-16T13:38:19.838Z"
       },
       "format": "talk",
       "schedule": {
@@ -3601,7 +3907,8 @@
       "status": "scheduled",
       "sources": [
         "speakers-page",
-        "agenda-page"
+        "agenda-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1225761"
       ]
     },
     {
@@ -3611,24 +3918,29 @@
         "56cfe09d-ecca-443e-b9c9-cd3b20d7d360"
       ],
       "categoryIds": [
-        "leadership-carriera"
+        "leadership-carriera",
+        "software-engineering"
       ],
       "tags": [
-        "inclusion",
         "neurodiversity",
-        "teamwork",
-        "process"
+        "inclusion",
+        "collaboration",
+        "onboarding",
+        "decision-making"
       ],
       "summary": {
-        "text": "Progettazione di processi di lavoro inclusivi per persone con differenti modalità cognitive e di attenzione.",
-        "language": "it",
-        "basis": "editorial-title-based"
+        "text": "Engineering teams obsess over system design, yet many still run on workflows that only work for one kind of brain. The result is familiar friction: ambiguous meetings, noisy emails, unclear requirements, and fragile onboarding. This talk treats inclusion not as a slogan but as an engineering problem: if a workflow only works for a narrow cognitive profile, it is badly designed.\nI will share practical patterns to redesign technical collaboration (yes, I will show code!), models for decision‑making, checklists, case studies from large‑scale, legacy environments. I draw on three sources: my activism and lived experience as a neurodivergent professional, my legal training and nearly two decades at the intersection of law and technology, and a career inside major Italian tech and finance organisations where I’ve seen what breaks and what works. This session is for tech leads and IT managers who want to reduce ambiguity and build workflows that scale across different cognitive profiles.",
+        "language": "und",
+        "basis": "official-sessionize-abstract",
+        "sourceUrl": "https://sessionize.com/api/v2/cdpvhngf/session?id=1234564",
+        "retrievedAt": "2026-10-16T13:38:20.868Z"
       },
       "format": "talk",
       "schedule": null,
       "status": "schedule-unconfirmed",
       "sources": [
-        "speakers-page"
+        "speakers-page",
+        "https://sessionize.com/api/v2/cdpvhngf/session?id=1234564"
       ]
     }
   ],

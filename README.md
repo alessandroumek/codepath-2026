@@ -34,7 +34,7 @@ La vista **Griglia oraria** è selezionata per impostazione predefinita. Le sale
 
 Niente viene trasmesso a un server: i dati restano **sul dispositivo e su quell'origine web**. Possono essere persi se l'utente cancella i dati del sito o naviga in modalità privata. Installazioni PWA e browser possono usare spazi di memorizzazione differenti (specialmente su iOS): per trasferire la selezione, esporta/importa il JSON. Nessuna sincronizzazione cloud automatica.
 
-Nota: lo snapshot del programma risale al **15 ottobre 2026**. Le categorie sono editoriali e molte delle sintesi degli interventi sono dedotte dai titoli, non abstract ufficiali; l'interfaccia lo chiarisce nei dettagli.
+Nota: lo snapshot del programma risale al **15 ottobre 2026**. Categorie e tag sono stati revisionati leggendo titolo e abstract di tutte le sessioni; la prima categoria indica il tema principale. Le motivazioni per ogni assegnazione sono disponibili in [Revisione editoriale delle sessioni](docs/session-classification.md). Gli abstract ufficiali delle 74 sessioni sono stati recuperati da **Sessionize il 16 ottobre 2026** e conservati nella lingua originale.
 
 ## Esecuzione locale
 
@@ -129,3 +129,55 @@ Sostituisci `src/data/catalog.json` con uno snapshot aggiornato preservando ID S
 - https://conferences.codemotion.com/milan/agenda/
 
 Questo è un planner indipendente e non un'applicazione ufficiale Codemotion.
+
+
+## Download degli abstract da Sessionize
+
+Con Node.js >=20.19, dalla root del progetto (non richiede `npm install`):
+
+```bash
+node scripts/scrape-sessionize.mjs
+```
+
+Lo script legge tutti gli ID da `src/data/catalog.json` ed esegue una POST vuota per
+sessione al feed `cdpvhngf`, con Origin e Referer del sito Codemotion. Attende un
+secondo tra le richieste, applica un timeout di 20 secondi e riprova gli errori di
+rete, HTTP 429 e HTTP 5xx fino a tre tentativi, rispettando Retry-After.
+
+Salva nella cartella locale ignorata da Git `.sessionize-downloads/`:
+
+- `<id>.json`: HTML originale, ID, titolo, URL sorgente e data di recupero.
+- `sessions.json`: raccolta dei risultati disponibili per il catalogo corrente.
+- `errors.json`: sessioni non scaricate e relativi errori.
+
+Rilancia lo stesso comando per riprendere: i download validi sono riutilizzati.
+Usa `--force` per riscaricarli o `--help` per le altre opzioni. Non avviare due
+istanze contemporaneamente sulla stessa cartella di output. Il codice di uscita
+è 1 se alcune sessioni non sono state scaricate.
+
+Il catalogo e le scelte personali non vengono modificati. L'HTML è conservato
+integralmente: va verificato ed eventualmente sanitizzato prima di inserirlo
+nell'interfaccia. Un HTTP 200 non garantisce da solo che contenga l'abstract.
+Esegui il comando da una rete che consente l'accesso a sessionize.com.
+
+
+### Importazione nel catalogo
+
+Dopo il download, con Python 3 (su Windows puoi usare `py` al posto di `python3`):
+
+```bash
+python3 scripts/import-sessionize.py
+npm run validate:data
+npm run check
+npm run build
+```
+
+L'importatore verifica evento, copertura completa, ID, URL sorgente e titolo HTML
+prima di scrivere il catalogo. Estrae solo il testo della descrizione, decodifica
+le entità HTML e conserva gli a capo, senza eseguire o incorporare markup remoto.
+Sostituisce `summary` e aggiunge fonte/data per ogni abstract, preservando ID,
+programma, categorie e speaker. Il codice lingua `und` indica che non è stata
+eseguita una classificazione automatica della lingua; il testo non è tradotto.
+La data del programma resta distinta dalla data di aggiornamento degli abstract.
+I download originali restano in `.sessionize-downloads/`, esclusa da Git; il
+catalogo aggiornato è invece incluso nella build e disponibile offline.
