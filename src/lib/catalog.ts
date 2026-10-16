@@ -16,7 +16,7 @@ export interface Session {
   speakerIds: string[];
   categoryIds: string[];
   tags: string[];
-  summary: { text: string; language: string; basis: string };
+  summary: { text: string; language: string; basis: string; sourceUrl?: string; retrievedAt?: string };
   format: 'talk' | 'workshop';
   schedule: {
     date: string;
@@ -38,6 +38,7 @@ export interface Catalog {
     timeZone: string;
     dates: string[];
     sourceSnapshot: string;
+    abstractSnapshot?: string;
     sourcePages: { speakers: string; agenda: string };
   };
   speakers: Speaker[];
