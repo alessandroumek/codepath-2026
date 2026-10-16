@@ -1,0 +1,29 @@
+{
+  "name": "codemotion-milano-pathfinder",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/generate-pwa-sw.mjs",
+    "preview": "vite preview",
+    "check": "tsc --noEmit -p tsconfig.app.json",
+    "validate:data": "node scripts/validate-data.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5",
+    "@types/node": "^22.15.21"
+  }
+}

@@ -1,0 +1,3894 @@
+{
+  "event": {
+    "id": "codemotion-milan-2026",
+    "name": "Codemotion Milano 2026",
+    "location": "Superstudio Più, Milano, Italia",
+    "timeZone": "Europe/Rome",
+    "dates": [
+      "2026-10-28",
+      "2026-10-29"
+    ],
+    "sourceSnapshot": "2026-10-15",
+    "sourcePages": {
+      "speakers": "https://conferences.codemotion.com/milan/speakers/",
+      "agenda": "https://conferences.codemotion.com/milan/agenda/"
+    },
+    "statistics": {
+      "speakers": 86,
+      "sessions": 74,
+      "scheduledSessions": 73,
+      "unscheduledSessions": 1,
+      "rooms": 8,
+      "categories": 12
+    },
+    "notes": [
+      "Categoria e tag sono classificazioni redazionali, non track ufficiali Codemotion.",
+      "Tutte le sintesi sono redatte in italiano; soltanto quella di Elena Guidi è basata su abstract nel materiale originale.",
+      "Il programma è una fotografia dell’HTML del 15 ottobre 2026 e può subire variazioni.",
+      "Quattro voci organizzative del Tech Lead Summit senza speaker non sono incluse nell’elenco dei talk."
+    ]
+  },
+  "speakers": [
+    {
+      "id": "0f3579a4-27fe-410e-9b48-052ccc0c17b5",
+      "name": "Abiodun Olowode",
+      "role": "CTO & Co-Founder, Metrifox",
+      "biography": "Abiodun is the CTO and Co-Founder at Metrifox, where she leads the engineering team building impactful software. She specialises in streamlining workflows, reducing technical debt, and building reusable abstractions that unlock developer productivity through automation and strong defaults. She’s passionate about growing engineers and building cultures where excellence is the norm — and she writes and speaks regularly about leadership, engineering, and the uncomfortable parts of both.",
+      "photoUrl": "https://cdn.sessionize.com/image/80f3-200o200o2-YHyGVoPSt6gg8dmF7HzrMe.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-0f3579a4-27fe-410e-9b48-052ccc0c17b5",
+      "sessionIds": [
+        "1214501"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "5ded1f41-b33f-4e38-945f-9b6c877c5156",
+      "name": "Alessandro Festa",
+      "role": "Sr. Product Manager - SUSE AI",
+      "biography": "Highly energetic, charismatic leader with Technical proficiency as well as a Business attitude. Product Manager, Coder, Passionate.",
+      "photoUrl": "https://cdn.sessionize.com/image/06ce-200o200o2-T5W6w5TZvEWPEsKG1h87iU.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-5ded1f41-b33f-4e38-945f-9b6c877c5156",
+      "sessionIds": [
+        "1334014"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "8323e944-4c6f-4534-abbd-985c2ca459ed",
+      "name": "Alessandro Miliucci",
+      "role": "Solution Architect @ Fabrick S.p.a.",
+      "biography": "I am Alessandro Miliucci, a developer, author and speaker. Although I have many interests, software development is what I devote most of my time to and what I am best known for. I have also written a few books on software development. My interests range over all aspects of software: from user interfaces to databases, including network protocols. I am a co-organizer of RomaJS meetup and the leader of MongoDB User Group in Rome. During my career I have spent a lot of time working on start-ups such as Hype, the first Italian neo-bank, and Vidra, an e-commerce SaaS that I co-Founded. Nowadays I work as a Solution Architect for Fabrick S.p.a. one of the leading Italian Fintech companies.",
+      "photoUrl": "https://cdn.sessionize.com/image/1427-200o200o2-KRrs3HHyPxy2kMQYvDhzSr.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-8323e944-4c6f-4534-abbd-985c2ca459ed",
+      "sessionIds": [
+        "1234300"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "91312c7d-3a93-45aa-8f81-cb280ed48a8b",
+      "name": "Alessandro Riboni",
+      "role": "AI Engineer",
+      "biography": "Alessandro Riboni is a Staff Engineer at Generali, specializing in AI engineering and GenAI platforms. Supports internal teams and builds horizontal tooling that standardizes and simplifies GenAI development: from a framework for prompt management, automated evaluation and CI/CD-based release of prompts, to Flowmetrics, a semantic layer that gives AI agents governed access to business metrics. Before that, five years in consulting for insurance and banking: first as a data engineer on real-time pipelines, then as an ML engineer building LLM-based claims assistants, RAG systems for policy risk assessment and document-parsing tools on AWS. Holds an MSc in Data Science from the University of Milano-Bicocca.",
+      "photoUrl": "https://cdn.sessionize.com/image/9647-200o200o2-QTrWgpTNU8QG5pQm7Rbs5L.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-91312c7d-3a93-45aa-8f81-cb280ed48a8b",
+      "sessionIds": [
+        "1355799"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "350e8d2b-9e61-45ee-9259-dc298452dd4d",
+      "name": "Alessio Acella",
+      "role": "CTO, Founder, Software engineer at Omnes",
+      "biography": "Alessio is CTO and Software Engineer at Omnes. Over the years, he has specialized in building tailored digital platforms, evolving from early work in C, C++, JAVA, PHP and Laravel to large-scale projects powered by modern stacks such as Vue.js, Nuxt, TypeScript, React and Node.js. His technical journey has been shaped by constant curiosity for scalable architectures and performance-driven design. Alessio has worked extensively with cloud infrastructures on AWS, relational as well as NoSQL databases, real-time messaging, and modern headless frameworks. Today he leads teams building B2B and B2C platforms that combine strong engineering foundations with a focus on user experience and accessibility, while exploring how AI and automation are reshaping development practices.",
+      "photoUrl": "https://cdn.sessionize.com/image/c295-200o200o2-ppGW3tjJJfrwNJ9hgbnW9D.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-350e8d2b-9e61-45ee-9259-dc298452dd4d",
+      "sessionIds": [
+        "1235267"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "923911ba-8be5-43c5-a704-632013b0572c",
+      "name": "Alex Pagnoni",
+      "role": null,
+      "biography": null,
+      "photoUrl": null,
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-923911ba-8be5-43c5-a704-632013b0572c",
+      "sessionIds": [
+        "1354856"
+      ],
+      "profileSource": "agenda-page-only"
+    },
+    {
+      "id": "ca23aaf7-dd72-4e46-bc76-bd54b5195ffb",
+      "name": "Alexio Cassani",
+      "role": "Co-Founder & CEO FairMind - Claude Ambassador",
+      "biography": "Alexio Cassani is an Italian entrepreneur and thought leader in generative AI, AI agents, and corporate digital transformation. He is co-founder of FairMind, a startup that is building AI agent solutions that boost software development team productivity. A Computer Engineering graduate from Politecnico di Milano (2003), he was CTO at Cortilia and Webscience (now part of the Adesso group), founded the retail and e-commerce startup Stentle (acquired in 2019), and worked as a researcher with the Intranet and Cloud Observatories at Politecnico di Milano. He is adjunct professor at Politecnico di Milano School of Management, teaching Generative AI and advising companies on AI adoption and transformation. A frequent speaker at Italian and international conferences on generative AI, AI agents, software factory innovation, and responsible technology adoption, he is the author of \"Code Revealed\", a guide to how roles, organization, and tools in software development are evolving in the AI era.",
+      "photoUrl": "https://cdn.sessionize.com/image/0766-200o200o2-JW3nhaZJRDWhphe1ryDpf9.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-ca23aaf7-dd72-4e46-bc76-bd54b5195ffb",
+      "sessionIds": [
+        "1301534",
+        "1362869"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "c04f20d4-cd2f-4fb0-9ee2-c7b8cac9871f",
+      "name": "Alfonso Fuggetta",
+      "role": "Politecnico di Milano",
+      "biography": "Alfonso Fuggetta is a Full Professor of Computer Science at Politecnico di Milano, where his work spans software engineering and digital transformation in their technical and managerial dimensions. He is the former CEO and Scientific Director of Cefriel and former Chief Digital Transformation Officer of Ferrari, and has been a Visiting Professor at NTNU, CU Boulder, and UC Irvine. For over thirty years, he has worked at the crossroads of software engineering research, industry, and innovation, advising companies and public institutions on digital transformation and the impact of AI. He is ranked among the top 2% of researchers worldwide (Elsevier/Stanford) and writes about technology and society on his Substack, \"A bassa voce\".",
+      "photoUrl": "https://cdn.sessionize.com/image/7279-200o200o2-7AqrMHRBYiv5cf3nzfrwhN.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-c04f20d4-cd2f-4fb0-9ee2-c7b8cac9871f",
+      "sessionIds": [
+        "1254733"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "4f4a677c-44c3-484e-accb-5ba8b38463ef",
+      "name": "Alfonso Graziano",
+      "role": "AI Tech Lead @ Nearform",
+      "biography": "Alfonso Graziano is a AI Tech Lead with a strong background in software engineering, specializing in JavaScript, AI and distributed systems. Currently at Nearform, Alfonso leads engineering teams to deliver impactful projects. Passionate about knowledge sharing, he loves to solve problems and contributes to tech communities.",
+      "photoUrl": "https://cdn.sessionize.com/image/97c2-200o200o2-E73XiN6VYoSJZGcZjsnQY3.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-4f4a677c-44c3-484e-accb-5ba8b38463ef",
+      "sessionIds": [
+        "1230211"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "6fc71432-0fc4-4160-a7c9-0284e55e6398",
+      "name": "Alfredo Morresi",
+      "role": "Developer Relations @ Google",
+      "biography": "I help people to get things done, at the intersection of technology, community, leadership and fun. Community builder and developer by passion, Developer Relation @ Google by profession , I love being a dad, free-software, running on the beach, snowboarding. I relentlessly train myself in preparing (and eating) Tiramisù. I’m definitely yellow.",
+      "photoUrl": "https://cdn.sessionize.com/image/aae3-200o200o2-7c73sVM7TS3brN2TjxT9CE.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-6fc71432-0fc4-4160-a7c9-0284e55e6398",
+      "sessionIds": [
+        "1357782"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "2f17f9f6-9e49-40ab-8140-c9fa7e137594",
+      "name": "Alice Viola Setti",
+      "role": "Senior Staff Engineer @ Smartness, author of Queen MQ",
+      "biography": "Alice Viola Setti is a proud neurodivergent transgender woman, software engineer, architect, and sysadmin with a master's degree in Mechatronic Engineering and a product-builder mindset. Her background spans the entire technical spectrum, from provisioning bare-metal datacenters to architecting complex distributed systems and leading engineering teams. She is highly autonomous and drives end-to-end product delivery. She works mainly with Kubernetes, Kafka, Postgres, C++, Node, and Vue, and has shipped with Python, Ruby, Objective-C++, Swift, Rust, OpenCV, Proxmox, VMware, Nginx, HAProxy, Scylla, Redis, MySQL, MariaDB, MongoDB, OpenSearch, Solr, Neo4j, Cassandra, Pulsar, RabbitMQ, NATS, and MQTT. She has installed and managed clusters in on-premise datacenters using bare-metal servers, hypervisors, and Kubernetes; configured network switches and firewalls; developed microservice architectures; built drone control systems; and conducted research in computer vision.",
+      "photoUrl": "https://cdn.sessionize.com/image/24ab-200o200o2-ENJ7xNpXv9PGv9o37WhFap.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-2f17f9f6-9e49-40ab-8140-c9fa7e137594",
+      "sessionIds": [
+        "1229817"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "e196e7a4-2761-40e4-8e1d-29e90d2375c4",
+      "name": "Andrea Ferlito",
+      "role": "CTO",
+      "biography": "ICT professional with over 20 years experience in software design and development and project management. His insane passion for videogames brought him to be well known through the italian and international game developer communities. He is also leader of Roma Game Dev community, organizing dedicated meetups and the famous Global Game Jam. He is CTO and Game Developer Content manager of Codemotion",
+      "photoUrl": "https://cdn.sessionize.com/image/74cf-200o200o2-SduDu9NeyKMAZo3Js8M9ar.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-e196e7a4-2761-40e4-8e1d-29e90d2375c4",
+      "sessionIds": [
+        "1234927"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "cb869b7c-d81b-46f8-86b8-755c7d2f3a0c",
+      "name": "Andrea Raponi",
+      "role": "Technical Manager @ Engineering · Software Craftsman",
+      "biography": "Andrea Raponi è Technical Manager in Engineering, dove si occupa di architetture software, tecnologie Cloud Native e Intelligenza Artificiale Generativa. Ha trascorso buona parte della sua carriera a metà strada tra infrastruttura e sviluppo software, con una particolare curiosità per tutto ciò che succede “sotto il cofano”. È appassionato di open source, developer experience e di tecnologie costruite senza legarsi troppo a strumenti o vendor specifici. Quando non disegna architetture o scrive codice, probabilmente sta leggendo Thoreau, andando in bici o trasformando qualche nuova ossessione tecnologica in un side project.",
+      "photoUrl": "https://cdn.sessionize.com/image/6f94-200o200o2-p6Sf2nMGFMHuSc8KRqD3gn.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-cb869b7c-d81b-46f8-86b8-755c7d2f3a0c",
+      "sessionIds": [
+        "1355009"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "2ca97891-f213-44c1-b420-b3dd8949e05c",
+      "name": "Andrea Tabacco",
+      "role": null,
+      "biography": null,
+      "photoUrl": null,
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-2ca97891-f213-44c1-b420-b3dd8949e05c",
+      "sessionIds": [
+        "1362542"
+      ],
+      "profileSource": "agenda-page-only"
+    },
+    {
+      "id": "e1e9a44a-6c1f-46d9-99f6-c1490e19346c",
+      "name": "Andrei Chiș",
+      "role": "tool crafter at feenk",
+      "biography": "Andrei Chiș is a tool crafter at feenk (feenk.com), where he builds tools and techniques to improve software development both with and without AI. He is also a co-author of the Glamorous Toolkit (gtoolkit.org) platform.",
+      "photoUrl": "https://cdn.sessionize.com/image/7be8-200o200o2-3UqFytQWz5JXPyi66ykYxb.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-e1e9a44a-6c1f-46d9-99f6-c1490e19346c",
+      "sessionIds": [
+        "1295740"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "4c00dc98-d1b3-4d90-b1f6-acb3b024f625",
+      "name": "Andrey Breslav",
+      "role": "Creator of Kotlin and CodeSpeak",
+      "biography": "Andrey created the Kotlin programming language and led its development at JetBrains from 0 to millions of users. He’s the founder of CodeSpeak, a spec-based AI coding solution.",
+      "photoUrl": "https://cdn.sessionize.com/image/842c-200o200o2-DiDERqotJ4LrTzY69vF7s1.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-4c00dc98-d1b3-4d90-b1f6-acb3b024f625",
+      "sessionIds": [
+        "1265470"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "a46ab5b7-3951-4879-923b-2c5ee2f9ca46",
+      "name": "Aniello Bossa",
+      "role": "Senior Data Engineer",
+      "biography": "Aniello Bossa è Senior Data Engineer in Generali Italia, dove progetta e gestisce microservizi e pipeline dati su Google Cloud per i processi di gestione sinistri e antifrode. Lavora ogni giorno con Python, FastAPI, Kubernetes e Airflow, e si occupa di portare in produzione sistemi affidabili e osservabili su larga scala. Crede nella semplicità, nell'automazione e nel codice che si spiega da solo.",
+      "photoUrl": "https://cdn.sessionize.com/image/2124-200o200o2-3sWF7qwT3Pdnk1N5eeJ2xs.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-a46ab5b7-3951-4879-923b-2c5ee2f9ca46",
+      "sessionIds": [
+        "1355799"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "24cbeef1-2467-4bd6-9a0e-a931b625f3d5",
+      "name": "Aurélie Vache",
+      "role": "Developer Advocate at OVHcloud, Docker Captain, CNCF Ambassador & GDE",
+      "biography": "Aurélie Vache is a Developer Advocate at OVHcloud in Toulouse, France. She is a Docker Captain, CNCF ambassador, Google Cloud Developer Expert & Women techmarkers Ambassador. She has been working as a Developer and Ops for over 20 years. Cloud enthusiast and advocates DevOps/Cloud/Golang best practices. Technical writer (dev.to/aurelievache), a book author & reviewer, a sketchnoter and a speaker at international conferences. Conferences and meetups organizer since 2016. Creator and maintainer of https://developers.events/ , a collaborative, open-source platform that aggregates & list developer/tech-focused conferences/events and call-for-papers (CFP) opportunities worldwide, helping speakers, organizers, sponsors and attendees. She created a new visual way for people to learn and understand Cloud technologies: \"Understanding Kubernetes/Istio/Docker in a visual way\" in sketchnotes, books and videos. Blog: https://dev.to/aurelievache/ YouTube: https://www.youtube.com/c/AurelieVache",
+      "photoUrl": "https://cdn.sessionize.com/image/c561-200o200o2-TYNNshoAbQhm1MEx7B2DUL.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-24cbeef1-2467-4bd6-9a0e-a931b625f3d5",
+      "sessionIds": [
+        "1223092"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "8c159868-7bac-46db-afe8-7f76e6b494b6",
+      "name": "Christian Schabetsberger",
+      "role": "Freelance Software Engineer & Architect",
+      "biography": "Christian Schabetsberger, the world's okayest developer, is a Freelance Software Engineer & Architect from Linz, Austria with over a decade of experience. Having spend half of his life in the .NET ecosystem (amongst others), he likes to stay on the bleeding edge of technology to become the (tech-savvy) ninja he pretends to be since he is six. He is also an active community member, organising the .NET Meetup in Linz and supporting other local user groups. Furthermore he is a member of the .NET Foundation.",
+      "photoUrl": "https://cdn.sessionize.com/image/9090-200o200o2-YW8GokVBE7PPj7swgfvDKT.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-8c159868-7bac-46db-afe8-7f76e6b494b6",
+      "sessionIds": [
+        "1215971"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "0c865efe-fc5e-457c-8753-94091d270728",
+      "name": "Costantino Cavallo",
+      "role": "altermaind, Chief A.I. Officer",
+      "biography": "Costantino Cavallo is the Chief Artificial Intelligence Officer at altermAInd and an international speaker with a strong passion for technology and continuous learning. He focuses on Automation and Artificial Intelligence, helping organizations maximize team efficiency through innovative methodologies and practical adoption of emerging technologies. Deeply committed to exploring new approaches, Costantino blends strategic vision with hands-on experimentation.",
+      "photoUrl": "https://cdn.sessionize.com/image/6ec5-200o200o2-JP9m37Kr1Lrh1kTcYHusKF.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-0c865efe-fc5e-457c-8753-94091d270728",
+      "sessionIds": [
+        "1330247"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "a68d9b27-86f2-41f9-aede-6a6a455180c2",
+      "name": "Daniel Zotti",
+      "role": "Tech Lead & Team Lead @ Bitrock, Podcaster @ Shiftati di Testa",
+      "biography": "Daniel è un software engineer da quasi 20 anni, specializzato nel frontend dal lontano 2013. Si definisce un Creative Web Developer perché ama portare una visione non banale nei progetti in cui è coinvolto. Nella sua carriera ha visto di tutto: da un’azienda di 5 persone al reparto IT di un ospedale, fino a una multinazionale da 20 mila dipendenti, senza farsi mancare il “classico” anno da freelance. Dal 2021 lavora nell'area front-end di Bitrock, una società di consulenza di Milano. Fuori dall'ufficio calca i palchi come improvvisatore teatrale, e si spaccia per stand-up comedian con i Gin Comici. Insieme a Stefano conduce Shiftati di Testa: Il podcast più atteso del web (anche se il web ancora non lo sa!)",
+      "photoUrl": "https://cdn.sessionize.com/image/1b1c-200o200o2-NbpSeLdoohKtgLSi96GUz1.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-a68d9b27-86f2-41f9-aede-6a6a455180c2",
+      "sessionIds": [
+        "1253908"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "a349a8c8-4d72-4dcd-91da-a504fce86d59",
+      "name": "Daniele Zonca",
+      "role": "Distinguished Engineer - Red Hat",
+      "biography": "Daniele Zonca is a Distinguised Engineer working for Red Hat. He contributes to many open source projects like TrustyAI, KServe, vLLM and llm-d. He is the Chief Architect for Red Hat Openshift AI product and before this he led Big Data development team of one of the largest Italian bank.",
+      "photoUrl": "https://cdn.sessionize.com/image/263b-200o200o2-Y3KQmiCbLfM6hfMA6UVEbG.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-a349a8c8-4d72-4dcd-91da-a504fce86d59",
+      "sessionIds": [
+        "1330362"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "7b1b04ee-5397-4308-bc16-3b643ce7ee74",
+      "name": "Danilo Deponti",
+      "role": "Senior Software Engineer",
+      "biography": "Danilo Deponti is a Senior Software Engineer, currently working in Doctolib, where he helps build the internal AI-augmented developer tools. His work focuses on autonomous coding agents, AI orchestration, and developer productivity, turning experimental LLM tooling into something teams can trust in production. He's passionate about pushing the boundaries of what AI can do inside a real engineering organisation: from agent fleets and persistent memory to observability, cost control, and keeping humans meaningfully in the loop.",
+      "photoUrl": "https://cdn.sessionize.com/image/1f6f-200o200o2-Li2j1bx4BY4YpUrVavJFWq.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-7b1b04ee-5397-4308-bc16-3b643ce7ee74",
+      "sessionIds": [
+        "1233101"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "9f65cf94-df17-447d-b1e0-6a0fb0eb92a5",
+      "name": "David McCarter",
+      "role": "Microsoft MVP (Developer Technologies), Software Architect, Speaker, Trainer, Inventor, and Mentor.",
+      "biography": "**As David gradually winds down his career and looks toward retirement, now is the time to benefit from his experience, insight, and availability.** David McCarter is an exceptionally seasoned software engineer, a celebrated author, and a captivating speaker with a remarkable track record spanning over two decades within the industry. Holding the distinguished title of Microsoft MVP (Most Valuable Professional), David also serves as a solutions architect, Code Quality Zar, consultant, proficient code reviewer, and the esteemed editor-in-chief of dotNetTips.com. He has left an indelible mark on user groups, educational institutions, and prominent conferences worldwide, such as BuildStuff, Øredev, NDC, Copenhagen Developers Festival, Code Camp, SQL Saturday, DevConnections, and VSLive, among others. His instructional legacy even includes a tenure at the University of California, San Diego.",
+      "photoUrl": "https://cdn.sessionize.com/image/dfe8-200o200o2-nficXnMa7uZZSDsnw5Jwa7.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-9f65cf94-df17-447d-b1e0-6a0fb0eb92a5",
+      "sessionIds": [
+        "1216557"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "f8f1a3a8-6682-42e9-9df8-d3f6600c9a6f",
+      "name": "Davide Caldarulo",
+      "role": "Senior Software Developer",
+      "biography": "Davide Caldarulo is a Senior Software Developer at Objectway's Bari office, where he designs and develops Java backend solutions for the financial sector. Passionate about technology and problem-solving, he enjoys turning complex challenges into simple, efficient solutions, always striving to deliver high-quality software that creates real value.",
+      "photoUrl": "https://cdn.sessionize.com/image/4ff4-200o200o2-YMs3G2nbsovSm2HV5SgQaV.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-f8f1a3a8-6682-42e9-9df8-d3f6600c9a6f",
+      "sessionIds": [
+        "1327616"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "6f100b75-b8fa-4181-93d4-51e905936436",
+      "name": "Davide Pensato",
+      "role": "Audio Director and Founder",
+      "biography": "In 1999 Davide Pensato starts his career as in-house Audio DirectorSound Designer at Ubisoft Studios Milano. In a couple of years he is responsible of audio team. Both a creative and technical figure, he can create audio for a game as well as integrating it using software and hardware tools. In January 2007 creates his own company (dpstudios) offering consulting and services for game audio. He develops web and multimedia projects too, as a new activity branch.",
+      "photoUrl": "https://cdn.sessionize.com/image/3a95-200o200o2-3KQKLGosgX9oab7k2Frh8J.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-6f100b75-b8fa-4181-93d4-51e905936436",
+      "sessionIds": [
+        "1360406"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "f4d61fd8-1738-46f6-b83e-d60e833596bd",
+      "name": "Dennis Nerush",
+      "role": "Director of AI Engineering @Elementor",
+      "biography": "Dennis Nerush is the Director of AI at Elementor, where he leads the company's AI strategy and guides teams through the integration of GenAI technologies that enhance productivity while preserving human creativity and accountability. With over 15 years of experience as a developer, manager, director, and adviser across multiple tech companies and startups, Dennis has dedicated his career to building people-first cultures rooted in continuous learning, curiosity, and growth. He believes that when individuals thrive, teams and businesses flourish, a philosophy that has guided him in founding dozens of teams and mentoring over 100 managers. Dennis is a seasoned public speaker and writer who shares his insights on AI integration, leadership, and team performance at international conferences. He's passionate about helping leaders develop the skills and confidence to excel in a world where human leadership and AI collaboration go hand in hand.",
+      "photoUrl": "https://cdn.sessionize.com/image/ad08-200o200o2-Vt4AzQorAHSBSEjPFxFNsn.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-f4d61fd8-1738-46f6-b83e-d60e833596bd",
+      "sessionIds": [
+        "1216127"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "7094a6e4-e65a-4574-8010-844557ad2edb",
+      "name": "Diana Bernabei",
+      "role": "CEO, Co-Founder & Senior Accessibility Engineer @ AriaLab",
+      "biography": "Sono una Frontend Developer freelance specializzata in consulenza sull'accessibilità, design UI/UX e sviluppo web. Il mio obiettivo è garantire che ogni sito web sia accessibile a tutti, indipendentemente dalle capacità fisiche o cognitive. Da oltre 5 anni, mi dedico con passione e professionalità a questo obiettivo, lavorando con semplicità e attenzione al dettaglio. Per me, l'accessibilità web va oltre la tecnologia: rappresenta una questione di diritti, uguaglianza e libertà.",
+      "photoUrl": "https://cdn.sessionize.com/image/e076-200o200o2-UD8vVBvsx1ZDYeL6LLQapV.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-7094a6e4-e65a-4574-8010-844557ad2edb",
+      "sessionIds": [
+        "1235267"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "cc1e50f9-dc4a-4a1b-86fa-a012194cc751",
+      "name": "Dotan Horovits",
+      "role": "OpenSearch Ambassador",
+      "biography": "Horovits lives at the intersection of technology, product and open source. With over 20 years in the tech industry as a software developer, a solutions architect and a product manager, he brings a wealth of knowledge in cloud-native architectures, big data solutions, DevOps practices and more. Horovits is an international speaker, an Ambassador of the Cloud Native Computing Foundation, and host of the popular OpenObservability Talks podcast. On the OpenSearch front, Horovits is an OpenSearch Ambassador under the Linux Foundation, he serves as a lead for the Observability technical advisory group, and is on the project’s outreach committee. Horovits works as a senior open source advocate at Amazon Web Services, with special focus on the OpenSearch project, open observability, and open source practices.",
+      "photoUrl": "https://cdn.sessionize.com/image/9f20-200o200o2-suaWqZz8r8Sb9QT353GRd1.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-cc1e50f9-dc4a-4a1b-86fa-a012194cc751",
+      "sessionIds": [
+        "1230660"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "87e12d99-9e42-47d2-b6e5-73dafd25ef45",
+      "name": "Edoardo Dusi",
+      "role": "Senior Developer Relations Engineer",
+      "biography": "Edoardo is a Developer Relations Engineer. He has a strong software developer and team leader background, working on various projects and platforms. He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. He enjoys connecting with the developer community and promoting the benefits of open source software.",
+      "photoUrl": "https://cdn.sessionize.com/image/d2c1-200o200o2-3n1jVxeW9jBF4EgAjmk9AR.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-87e12d99-9e42-47d2-b6e5-73dafd25ef45",
+      "sessionIds": [
+        "1324797"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "fc8ff68b-5890-48cd-8de6-05a062d962b5",
+      "name": "Egon Ferri",
+      "role": "AI engineer @ Gamindo",
+      "biography": "Putting AI into production is not just about connecting a model to a chat interface. In Gamindo AI, we built a workflow that turns vague requirements, source materials and live game state into structured game-based learning content: it refines the initial intent, generates a validated learning experience, supports controlled edits through structured patches, and produces contextual commentary and audio aligned with gameplay. This talk walks through the architecture behind it: typed contracts with PydanticAI, FastAPI endpoints, fallback strategies across OpenAI, Anthropic and Google, streaming events, output validation, eval datasets, custom evaluators, observability with Logfire, and practical error handling. Attendees will leave with patterns and tradeoffs for designing AI workflows that are robust, observable, measurable and flexible enough to evolve without rewriting everything.",
+      "photoUrl": "https://cdn.sessionize.com/image/8514-200o200o2-ReFBXrwGWaXCVq7XihiBnV.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-fc8ff68b-5890-48cd-8de6-05a062d962b5",
+      "sessionIds": [
+        "1226121"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "9967748f-0c55-466c-acb0-e7e5e3e6060f",
+      "name": "Elena Guidi",
+      "role": "Senior Software Engineer - Thoughtworks",
+      "biography": "Senior Software Developer at Thoughtworks A developer with 8 years of experience across Italy and abroad, Elena bridges the gap between clean code and clear communication. At Thoughtworks, she balances technical delivery with a mission to debug the \"Human Stack.\" Through the lens of Crucial Conversations and Green Computing, she equips teams to handle high-stakes friction and build a more sustainable digital future. Code is logical; people are complex. She helps you master both.",
+      "photoUrl": "https://cdn.sessionize.com/image/0716-200o200o2-JCZuJboxenQ8h5yaDtdXp1.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-9967748f-0c55-466c-acb0-e7e5e3e6060f",
+      "sessionIds": [
+        "1227394"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "83fedb47-af35-4d0a-8cf1-699bc04fd016",
+      "name": "Emanuele Fabbiani",
+      "role": "Co-founder and head of AI at xtream (acquired by TeamSystem), Professor at Catholic University of Milan",
+      "biography": "Emanuele is an entrepreneur, engineer, and researcher passionate about achieving impact with AI. After earning his PhD in machine learning and working as a guest researcher at EPFL in Lausanne, he is now co-founder and Head of AI at xtream, a company that applies AI to solve complex business challenges. xtream was acquired by TeamSystem in September 2025. Emanuele is also a professor of AI at the Catholic University of Milan and has been a guest lecturer at Italian, Swiss, and Polish universities. He has published 8 papers in international journals with 175+ citations and contributed to over 30 international conferences, including AMLD Lausanne, ODSC London, WeAreDevelopers Berlin, PyData Berlin, PyData Paris, PyCon Italy, the Swiss Python Summit, and Codemotion Milan and Rome.",
+      "photoUrl": "https://cdn.sessionize.com/image/36fe-200o200o2-Lrx7d7JesiucfjEWSp5p4H.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-83fedb47-af35-4d0a-8cf1-699bc04fd016",
+      "sessionIds": [
+        "1319162"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "ddf81268-9ef6-47aa-a923-a2aaeb09e42f",
+      "name": "Emmanuele Villa",
+      "role": "Mobile Architect & Tech Leader",
+      "biography": "Emmanuele Villa is a Senior Technical Consultant at Fincons Group, leading mobile and web development with technologies like Kotlin Multiplatform, Compose, and SwiftUI. He also teaches at the Università della Terza Età in Carate Brianza and is pursuing a degree in Middle Age History, bridging his passion for technology and the humanities. Outside of work, he enjoys exploring Quantum Computing, running Dungeons&Dragons, and reading One Piece.",
+      "photoUrl": "https://cdn.sessionize.com/image/c6fa-200o200o2-3bZXQv8LDHxXfXZhBPGkhz.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-ddf81268-9ef6-47aa-a923-a2aaeb09e42f",
+      "sessionIds": [
+        "1210841"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "848b8bbd-0b54-45e6-ba65-73c5ea9935af",
+      "name": "Enzo Lombardi",
+      "role": "Cleafy, 🌩️ Cloud Software Architect 🦀 Learning Rust 🕹️ Mame contributor 🔬 Arduino thinkerer: ESP32, nrf52 🔍 Former Google and Microsoft dev 🥞 Almost-full stack developer (can't align with CSS)",
+      "biography": "Former software engineer, spent large part of my career in US working for Microsoft, Google and startups. In Microsoft I was part of the original .Net team and later worked on Windows Compatibility Toolkit and Windows Performance Analyzer. In Google I worked for Hangouts during its glory days, and moved to work on the Directory product part of Google Workplace offer. I moved back to Italy in Summer 2023 to pivot my career as Software Architect in order to bring my experience to use in a fast growing company working on a interesting product. I am learning by teaching Rust and successfully contributed to Mame bringing the sound effects to the Italian arcade game dribbling. Book author of: Tu lo conosci Claude vol. 1 and 2 OOP to Rust (English and Italian) Multiplatform UI in Rust",
+      "photoUrl": "https://cdn.sessionize.com/image/0bbd-200o200o2-TU33WUCQxvFJFtLdG545P.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-848b8bbd-0b54-45e6-ba65-73c5ea9935af",
+      "sessionIds": [
+        "1265570"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "e24cad72-cadf-461e-9fe4-c5f4fe385ca0",
+      "name": "Erik Pronk",
+      "role": "Passionate about people and software",
+      "biography": "Erik Pronk is a passionate software engineer that has been working in IT since 2001. During this period he has gained a lot of experience in a variety of technologies, roles, development environments and market segments. His main focus is on implementing enterprise solutions in an agile way. In his spare time, Erik loves to run and experiment with VR and domotics. Erik works at JDriven where he shares his passion and drive with other colleagues.",
+      "photoUrl": "https://cdn.sessionize.com/image/2096-200o200o2-WWSBvjRSu94DngxhB1pcQW.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-e24cad72-cadf-461e-9fe4-c5f4fe385ca0",
+      "sessionIds": [
+        "1216484"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "df75a37d-9af7-4b19-a30d-8f86d7b6e753",
+      "name": "Ettore Di Giacinto",
+      "role": "LocalAI Creator",
+      "biography": "I’m Ettore and I’m a long-time Open Source hacker and hacktivist. I’ve been involved in the Open Source community for more than 18 years. I’ve studied CS at University, and pursued my degree at full votes with a MS in Computer Science. I formerly was a Gentoo developer, I did lead Sabayon Linux and contributed to several FOSS projects among openSUSE, Cloud Foundry, openQA, llama.cpp. Previously I’ve worked at SUSE where I was leading the Elemental team. At Spectro Cloud I've created Kairos and donated it to CNCF, and collaborated with Intel on SENA ( Secure Edge-Native Architecture). I am a Golang and Kubernetes enthusiast with a strong Linux background skillset. I am the LocalAI creator and maintainer.",
+      "photoUrl": "https://cdn.sessionize.com/image/d3ec-200o200o2-hMnRhVwuJkxQLMthHJQJv1.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-df75a37d-9af7-4b19-a30d-8f86d7b6e753",
+      "sessionIds": [
+        "1331302"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "9de406b1-417a-4ac3-bf38-456cf3e8de8f",
+      "name": "Francesco Facconi",
+      "role": "Speaker on Digitalia - Senior Engineering Manager at Doctolib",
+      "biography": "Engineer, manager, former startupper, broadcasting every Monday evening on Digitalia, one of the longest-lasting Podcast in Italy, speaking about technology and how this interacts with our lives. His last book is \"Almanacco Digitaliano 2024\" from Ledizioni Publishing. Musician and performer with more than 400 gigs.",
+      "photoUrl": "https://cdn.sessionize.com/image/6760-200o200o2-eFas8hQ2zVquKzWxZKfRS.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-9de406b1-417a-4ac3-bf38-456cf3e8de8f",
+      "sessionIds": [
+        "1233101"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "5d815b92-62d8-4b0e-a5fb-e7c596cccdfc",
+      "name": "Francesco Pirrone",
+      "role": "Fullstack developer",
+      "biography": "Graduated in Computer Science from the University of Turin, he is a full-stack developer at Finwave, where he is responsible for the design and development of distributed systems. Nerd at 99%, he is trying to stay in touch with the real world for the remaining 1% of his day. Since 2018, he is one of the Community Leader for GDG Cloud Turin.",
+      "photoUrl": "https://cdn.sessionize.com/image/2721-200o200o2-DjHSTscKb98hJTM6Tcsib5.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-5d815b92-62d8-4b0e-a5fb-e7c596cccdfc",
+      "sessionIds": [
+        "1234974"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "987c2a62-d659-4204-af54-5b9b4056fe20",
+      "name": "Gabriele Negro",
+      "role": "Chief Technology Officer @altermAInd",
+      "biography": "Gabriele is a technology leader with extensive experience in building digital platforms and enterprise software solutions. He currently works on AI-driven products focused on transforming how people learn, work, and make decisions inside organizations. With a background in software architecture and large-scale systems, he has led projects in banking, fintech, and cloud-native environments, helping companies adopt modern architectures and artificial intelligence in real business scenarios. Today his main focus is on the impact of AI on society and the workplace, exploring how tools like generative AI and vibe coding are changing the way software is built and how companies operate.",
+      "photoUrl": "https://cdn.sessionize.com/image/10ec-200o200o2-DW7AXcGWqcA9JTqGCqU5mj.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-987c2a62-d659-4204-af54-5b9b4056fe20",
+      "sessionIds": [
+        "1330263"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "a660ad54-ecd0-4cae-8478-03c3cff88050",
+      "name": "Gabriele Santomaggio",
+      "role": "RabbitMQ team member",
+      "biography": "RabbitMQ team member, working with distributed systems, open source lover, Linux fan.",
+      "photoUrl": "https://cdn.sessionize.com/image/9734-200o200o2-PcaCVE2vD46ZYmKGbuxH5j.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-a660ad54-ecd0-4cae-8478-03c3cff88050",
+      "sessionIds": [
+        "1225761"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "ce14485b-4d7a-473d-8424-ce85f935125b",
+      "name": "Gianni Forlastro",
+      "role": "Google GDE Cloud, Cloud Architect, GDG Cloud Torino & Flutter Torino Community Lead",
+      "biography": "Inizia la sua avventura con un Intel 80386 e si laurea in Informatica all'Università di Torino che completa con due master: Comunicazione Digitale/Web Marketing e Social Media Management, il secondo in Cloud Computing. Dopo esperienze come sviluppatore web e mobile, oggi è Cloud Architect, docente e assistente universitario, co-organizzatore di droidcon Italy, Swift Heroes e Flutter Heroes. Lato community nel 2018 fonda il GDG Cloud Torino, diventa Google Champion Innovator nel 2023 e Google GDE Cloud nel 2025. Su Instagram è noto come @mosquitoman81, tra i creator italiani più seguiti su giochi e fiere.",
+      "photoUrl": "https://cdn.sessionize.com/image/7b52-200o200o2-7F9doPjwYton2wnPm5NdNm.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-ce14485b-4d7a-473d-8424-ce85f935125b",
+      "sessionIds": [
+        "1234974"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "cb95763f-a586-4116-a70f-894bde9c7684",
+      "name": "Giorgio Natili",
+      "role": "Head of AI Engineering for Oracle Support",
+      "biography": "Giorgio Natili is a technologist, ethicist, and builder working at the intersection of artificial intelligence, human dignity, and data sovereignty. As Senior Director and Head of AI Engineering for Oracle Cloud Support, he leads the design and deployment of AI systems that make enterprise support smarter, faster, and more trustworthy at scale. His expertise in Sovereign AI—the principle that individuals, organizations, and nations must retain control over their data, models, and AI-driven decisions—comes from years of hands-on work. At OPAQUE Systems, where he served as VP and Head of Engineering, he built confidential AI infrastructure that enabled insights from sensitive data without exposing it. This shaped his belief that ethical AI and sovereign AI are inseparable. With experience at Amazon, Mozilla, Capital One, OPAQUE Systems, and Oracle, he focuses on building AI that is powerful without being exploitative.",
+      "photoUrl": "https://cdn.sessionize.com/image/75ca-200o200o2-TkWxLkWpraTjCmdk6vdpPs.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-cb95763f-a586-4116-a70f-894bde9c7684",
+      "sessionIds": [
+        "1216673"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "17ef53a2-0ee6-4b36-a3db-ecc8041c5a3d",
+      "name": "Giovanni Galloro",
+      "role": "Specialist Customer Engineer at Google",
+      "biography": "Giovanni Galloro is a Customer Engineer at Google, where he has been working since 2017. Over the years, he has built deep expertise in developer productivity and software delivery tools and practices. Today, he partners with engineering organizations across Europe to help them unlock the full potential of AI, improving how teams build, ship, and iterate on software at scale.",
+      "photoUrl": "https://cdn.sessionize.com/image/d4b6-200o200o2-SJ6bN7FZMC5t4breX5weKV.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-17ef53a2-0ee6-4b36-a3db-ecc8041c5a3d",
+      "sessionIds": [
+        "1232889"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "b324d005-9ce8-45c9-961d-56a285369618",
+      "name": "Giulio D'Alessandro",
+      "role": "AI Knowledge Architect at Poste Italiane",
+      "biography": "Giulio D'Alessandro is a philosophy graduate who turned to software. He joined Poste Italiane five years ago and started out as a DevOps engineer. Then AI arrived and sent him back where he began. When machines can build anything, the rare skill is knowing what's worth building — and why. He now works in Poste Italiane's Digital Technology Office, between the rigour of formal models and the messiness of what people actually mean.",
+      "photoUrl": "https://cdn.sessionize.com/image/8145-200o200o2-QxMbseum7bn7HsXJ9PRcZV.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-b324d005-9ce8-45c9-961d-56a285369618",
+      "sessionIds": [
+        "1348290"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "1261e437-701b-416e-ae72-776e9f72a6d4",
+      "name": "Giulio Sciarappa",
+      "role": "Enterprise Architect, Head of Azure & AI",
+      "biography": "Enterprise architect with multiple job experiences in different fields, from banking to aerospace, with a spice of DevOps and other less known methodologies",
+      "photoUrl": "https://cdn.sessionize.com/image/67f0-200o200o2-Bv46mWRJnrWdYAeSWeHUoM.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-1261e437-701b-416e-ae72-776e9f72a6d4",
+      "sessionIds": [
+        "1218568"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "3c02a7bf-40b4-41b4-8b43-2de3be4b093c",
+      "name": "Graziano Casto",
+      "role": "Developer Relations Engineer @ Akamas | Tech Lead @ CNCF TAG DevEx | Kubernetes v1.35 Comms Lead",
+      "biography": "Graziano is a DevRel Engineer at Akamas, where he spends his days convincing computers to stop being lazy and start being efficient. A former distributed systems developer and product manager, he’s now on a mission to optimize the entire cloud-native universe, one Pod at a time. As a Tech Lead for the CNCF TAG DevEx and a member of the Kubernetes Release Team since v1.34, he balances deep infrastructure roots with a passion for developer happiness. Obsessed with AI, Platform Engineering, and saving the planet through better code, Graziano is basically trying to make the cloud faster, greener, and significantly less annoying for everyone. More on: https://castograziano.com/",
+      "photoUrl": "https://cdn.sessionize.com/image/903f-200o200o2-wCQjLBc3rcQkAf7SeDdSvV.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-3c02a7bf-40b4-41b4-8b43-2de3be4b093c",
+      "sessionIds": [
+        "1226083"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "3d9a3287-cc36-4428-b6b4-1dd1df1e70e8",
+      "name": "Gregorio Palamà",
+      "role": "GDE Cloud | Senior Enterprise Architect @ adesso.it | Community Manager @ GDG Pescara",
+      "biography": "I have been working in the IT industry for over 15 years. I currently hold the role of Senior Enterprise Architect in adesso.it. I am a Google Developer Expert on GCP and a Google Cloud Innovator Champion on the topic of modern architecture. I manage GDG Pescara together with other developers, I love sharing my knowledge and trying to do it in a fun way.",
+      "photoUrl": "https://cdn.sessionize.com/image/8e40-200o200o2-3Bzfto4MgCJbi7uwAYGkRf.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-3d9a3287-cc36-4428-b6b4-1dd1df1e70e8",
+      "sessionIds": [
+        "1235212"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "153939fb-375b-4c3f-ae72-9c542a6c2426",
+      "name": "Guglielmo Fancellu",
+      "role": "AI Knowledge Architect at Poste Italiane",
+      "biography": "Guglielmo studied philosophy, then became a software architect at Poste Italiane. Over time the focus shifted toward AI and language models, with a growing interest in computational linguistics. These days the work is ontology design: building semantic models that help machines understand what people actually mean. Turns out Plato comes in handy after all",
+      "photoUrl": "https://cdn.sessionize.com/image/9afe-200o200o2-DLGiaDWrwcZAY3r27pxoAg.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-153939fb-375b-4c3f-ae72-9c542a6c2426",
+      "sessionIds": [
+        "1348290"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "6b154a22-5948-4445-a2d5-34f03f9f2887",
+      "name": "Jigyasa Grover",
+      "role": "AI/ML Lead Engineer • 12x AI + Open Source Award Winner • Google Advisory Board Member • 'Sculpting Data for ML' Book Author • Featured @ Business Insider, Google, UN, and more!",
+      "biography": "Jigyasa Grover is a 12-time award-winning AI leader and author of Sculpting Data for ML, driving cutting-edge personalization at Uber after transforming ML systems at Twitter/X, Meta/Facebook, Faire, and Bordo AI. featured at Google I/O keynote and a Google Developer Advisory Board member, she operates at the intersection of large-scale AI, product innovation, and global influence, educating thousands as a LinkedIn Learning instructor while advising top Silicon Valley startups. Recognized by Forbes, Business Insider, World Economic Forum, and many others, she is shaping the future of AI through leadership, research, and impact at global scale.",
+      "photoUrl": "https://cdn.sessionize.com/image/5450-200o200o2-SUA72EqprKNp7aWicnecCv.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-6b154a22-5948-4445-a2d5-34f03f9f2887",
+      "sessionIds": [
+        "1219093"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "4328c3e9-6ba6-4c45-b00f-ec2dfaea6099",
+      "name": "katharine jarmul",
+      "role": "Privacy and Security in AI Systems",
+      "biography": "Katharine Jarmul focuses her work and research on privacy and security in data science, deep learning and AI. She is author of the well received O'Reilly book Practical Data Privacy (O'Reilly 2023) and has more than 10 years experience in machine learning/AI where she has helped build large scale AI systems with privacy and security built in. You can follow her work via her newsletter, Probably Private or on her website at https://kjamistan.com .",
+      "photoUrl": "https://cdn.sessionize.com/image/f66c-200o200o2-PBWA49F29erPAgpnmZM3xQ.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-4328c3e9-6ba6-4c45-b00f-ec2dfaea6099",
+      "sessionIds": [
+        "1327744"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "b7e3057a-ada5-4bf7-bb3a-aef1fa0947e0",
+      "name": "Lara Gianotti",
+      "role": null,
+      "biography": null,
+      "photoUrl": null,
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-b7e3057a-ada5-4bf7-bb3a-aef1fa0947e0",
+      "sessionIds": [
+        "1362542"
+      ],
+      "profileSource": "agenda-page-only"
+    },
+    {
+      "id": "05eb6909-e3e9-4ae3-b80f-a4306b34e594",
+      "name": "Laura Miranda",
+      "role": "C-Level Consultant, Marketing Manager, Digital Enthusiast",
+      "biography": "Ha sempre vissuto la passione per il marketing e la Comunicazione come uno strumento di Business Development. Avere un sogno, trasformarlo in obiettivi sfidanti, analizzare e pianificare le attività cercando sempre elementi di disruption e costruire un team unito. Il suo approccio al management l' ha portato a svolgere tante belle esperienze all'estero dove ha aperto la mente a stili di vita e modi di pensare differenti. Dopo una parentesi imprenditoriale, ha deciso di tornare in Italia mettendo la sua esperienza a supporto della Digital Trasformation delle PMI. Le piacciono le persone, ama ascoltare e leggere tanto. Se hai un sogno... make it happen!",
+      "photoUrl": "https://cdn.sessionize.com/image/a116-200o200o2-Qpf62Pn2nYvcM9Kc7gezzr.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-05eb6909-e3e9-4ae3-b80f-a4306b34e594",
+      "sessionIds": [
+        "1234920"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "e402b908-1f81-4c84-a589-5557498aa3fa",
+      "name": "Leonardo Cavagnis",
+      "role": "Firmware Engineer & Developer Relations @ Arduino",
+      "biography": "Since 2023, I have been working as a firmware engineer at Arduino, contributing to the development of innovative hardware and software solutions. I hold a Master's Degree in Computer Engineering from Politecnico di Milano, specializing in embedded systems. Before joining Arduino, I gained experience in various fields, including industrial, automotive, and green mobility. Passionate about technical writing and traveling, I am always seeking new experiences and knowledge.",
+      "photoUrl": "https://cdn.sessionize.com/image/8850-200o200o2-UxtwKsVoC2wTDTZKPLW8ZZ.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-e402b908-1f81-4c84-a589-5557498aa3fa",
+      "sessionIds": [
+        "1213991"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "5fdb116d-05e0-4f06-acbc-8a58d7bfb867",
+      "name": "Luca Bianchi",
+      "role": "CTO | AWS Serverless Hero | Cursor Ambassador | Production AI/ML & Event-Driven Architecture at Scale",
+      "biography": "Over the past decade, I've architected production AI/ML systems. AWS Hero and Cursor Ambassador focused on cost-optimized AI infrastructure and real-time data pipelines. Production track record: - Built production AI Agents for legal domains, managing very long contexts, planning, and dynamic loading through event-driven orchestration - Scaled cloud SaaS to 10M+ users, reducing p99 latency from 2s to 1.2s through event-driven architecture migration - Migrated 80% of workloads to serverless event-driven patterns, cutting infrastructure costs 10x while improving deployment velocity Led engineering teams of 100+ through cultural transformation toward continuous delivery and experimentation-driven development. Co-founder of the Serverless Italy community, Milano Mongo User Group, and Cursor Meetup Milano.",
+      "photoUrl": "https://cdn.sessionize.com/image/f194-200o200o2-VHyGUTXJLY5mhFFp36cYLZ.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-5fdb116d-05e0-4f06-acbc-8a58d7bfb867",
+      "sessionIds": [
+        "1296534"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "69fecef5-742d-4201-a22e-2d32983b642a",
+      "name": "Marco Ippolito",
+      "role": "Senior Security Engineer @HeroDevs | Node.js TSC",
+      "biography": "Marco is a Senior Security Engineer at HeroDevs. Active contributor, releaser, and member of the Node.js Technical Steering Committee, he is a renowned international speaker and a former Microsoft MVP. Marco is actively involved in many projects within the Node.js ecosystem and also serves as a delegate in TC39.",
+      "photoUrl": "https://cdn.sessionize.com/image/b086-200o200o2-SkXx6766j2iCudSPd9Ympj.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-69fecef5-742d-4201-a22e-2d32983b642a",
+      "sessionIds": [
+        "1260726"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "1d8c90f1-5864-4a9e-857f-e91c1dfdaa2b",
+      "name": "Marco Landi",
+      "role": "Presidente Scriba.AI",
+      "biography": "Marco Landi is an international figure of the IT sector. During his thirty-years long career he has worked as President of Texas Instruments Europe and Asia, head of BMC Europe and Asia, but his is mostly known for his years spent in Cupertino as President and COO of Apple Computer in the years before Steve Jobs' comeback to the company. Marco Landi today is an investor and a mentor for start-up companies, he sits in several high-tech companies' Boards, and acts as honorary president and advisor of Scriba.AI, where he is also a lead investor.",
+      "photoUrl": "https://cdn.sessionize.com/image/fee2-200o200o2-SSNHSA8VZsy7R9indoCc52.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-1d8c90f1-5864-4a9e-857f-e91c1dfdaa2b",
+      "sessionIds": [
+        "1342030"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "cef3a191-54c8-48fa-a8f9-0cbada23232f",
+      "name": "Marco Liberati",
+      "role": "Software Engineer. Work in visualizations, graph and interesting stuff.",
+      "biography": "I'm passionate on doing interesting things that make users/developers life easier. From writing performant code in a visualisation library to smooth the editor UX for new languages, I've been working on many different things so far.",
+      "photoUrl": "https://cdn.sessionize.com/image/7490-200o200o2-nrP4JBiXdxQSaHrqbG9pej.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-cef3a191-54c8-48fa-a8f9-0cbada23232f",
+      "sessionIds": [
+        "1218655"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "6f11c7af-94eb-4cf7-8504-22292003e656",
+      "name": "Marco Simonte",
+      "role": "xtream",
+      "biography": "AI scientist at xtream with a PhD in astrophysics, focused on machine learning systems. I work on understanding how AI systems behave beyond surface-level metrics: how architectures affect learning, how data shapes predictions, and how theoretical ideas become practical engineering tools. I enjoy making dense technical concepts clear and useful for technical audiences.",
+      "photoUrl": "https://cdn.sessionize.com/image/5e74-200o200o2-HBnCXtZsEG9Ad4BU4b8efp.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-6f11c7af-94eb-4cf7-8504-22292003e656",
+      "sessionIds": [
+        "1226525"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "abb1bcd1-2689-492b-b4a7-28a2539f5a41",
+      "name": "Mario Zechner",
+      "role": "Partner and Pi Baker at Earendil",
+      "biography": "Mario used to work in applied machine learning in the 2000s, built OSS game dev tools, wrote books, went to SF, came back, did another startup, sold, then had a nice cosy 10 years of building a market leading family business in game dev tools. Then OpenAI released a useful LLM. Then he built pi, the coding agent powering OpenClaw and it's been all downhill from there. Now Mario is doing yet another startup with friends in the AI space. Oh no.",
+      "photoUrl": "https://cdn.sessionize.com/image/1fa4-200o200o2-VXQVTPjP63RwMuoLzXCqSM.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-abb1bcd1-2689-492b-b4a7-28a2539f5a41",
+      "sessionIds": [
+        "1237064"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "56cfe09d-ecca-443e-b9c9-cd3b20d7d360",
+      "name": "Marta Scandellari",
+      "role": "IT Governance, Strategy & Management Office",
+      "biography": "Marta is a pattern seeker, cerca da sempre come funzionano le cose, umane e tecnologiche, la ragione che completa il sentimento. Ha studiato legge, cinese, scritto codice per più di dieci anni e alla fine intuito che tutte le regole hanno delle eccezioni. L'importante è saperle intercettarle.",
+      "photoUrl": "https://cdn.sessionize.com/image/3b94-200o200o2-wnWb64M6U7kbb7W7deMTi6.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-56cfe09d-ecca-443e-b9c9-cd3b20d7d360",
+      "sessionIds": [
+        "1234564"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "70b99eb6-761f-4301-bf23-0d35bab3f1b3",
+      "name": "Matteo Collina",
+      "role": "Platformatic Co-Founder and CTO, Node.js TSC member, Fastify Lead Maintainer",
+      "biography": "Matteo is the Co-Founder and CTO of Platformatic.dev. He is also a prolific Open Source author in the JavaScript ecosystem and modules he maintain are downloaded more than 12 billion times a year. Previously he was Chief Software Architect at NearForm, the best professional services company in the JavaScript ecosystem. In 2014, he defended his Ph.D. thesis titled \"Application Platforms for the Internet of Things\". Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is an renowed international speaker after more than 60 conferences, including OpenJS World, Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \"Node.js Cookbook, Third Edition\" edited by Packt. In the summer he loves sailing the Sirocco.",
+      "photoUrl": "https://cdn.sessionize.com/image/549a-200o200o2-MwoLHzhcJSuqZSP2BwgzbG.jpeg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-70b99eb6-761f-4301-bf23-0d35bab3f1b3",
+      "sessionIds": [
+        "1244834"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "6e470f2c-f90f-4b91-a4d0-e6d5d5e7e66b",
+      "name": "Matteo Flora",
+      "role": "Founder of The Fool",
+      "biography": "Matteo Flora is Professor of Fundamentals of AI and SuperIntelligence Safety at the European School of Economics and contract Professor of Corporate Reputation and Crisis Management at Università di Pavia. He combines cognitive science, data and generative AI to shape how organisations, ideas and audiences build knowledge and make choices. A serial entrepreneur, he founded The Fool through Samadhi Holding, co-founded The Magician, 40Degrees and LT42, and is Founding Partner of 42 Law Firm. A cybersecurity expert and 2012 US Department of State IVLP participant, he is President of PermessoNegato APS, supporting victims of non-consensual pornography, and co-founder of the Hermes Centre for Digital Human Rights. He hosts “Intelligenze Artifici” on Mediaset/TgCom and the tech policy YouTube channel “Ciao Internet”. A lecturer and keynote speaker, he is a three-time TEDx speaker and former Forbes podcaster.",
+      "photoUrl": "https://cdn.sessionize.com/image/2c62-200o200o2-JUExRHFZwihifpRczS23aE.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-6e470f2c-f90f-4b91-a4d0-e6d5d5e7e66b",
+      "sessionIds": [
+        "1361549"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "a363f06e-1687-4256-a2e8-6c32f64bcfb9",
+      "name": "Matteo Mortari",
+      "role": "Senior Principal Software Engineer",
+      "biography": "I believe Kubernetes is an awesome platform for app-dev, MLOps (Kubeflow) and Containerization, including OCI packaging and distribution (ORAS/Podman/Buildah) especially in relation to ML model assets and integration with signature, attestation. I contribute to Kubeflow, Oras, and other Open Source projects. I'm a co-organizer of the local JUG (JVM User Group) Milano, and I'm active in other Italian communities, often contributing my passion/hobby of live streaming and video recording.",
+      "photoUrl": "https://cdn.sessionize.com/image/1d0d-200o200o2-NA8rxoWa1UzjUEfChZLkDN.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-a363f06e-1687-4256-a2e8-6c32f64bcfb9",
+      "sessionIds": [
+        "1330362"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "bff9ee3e-05a4-4a8b-8dfc-5ca19092add2",
+      "name": "Maurizio Argoneto",
+      "role": "AWS Hero | CTO/Solution Architect | Community Lead (AWS, GDG, PLUG) | Co-founder of 'Come To Code'",
+      "biography": "Maurizio is a CTO, Solution Architect, and AWS Hero based in Basilicata, Italy. With a technical core rooted in Java, Python, and Django, he blends deep architectural expertise with a decade of experience in Project Management and community leadership. As the founder of the AWS User Group Basilicata and co-founder of 'Come To Code'—the largest IT conference in Southern Italy—Maurizio is a driving force in the Italian tech ecosystem. He also leads GDG Basilicata and the PLUG (Pignola Linux User Group), where he has spent over 10 years promoting Open Source culture and digital literacy. Maurizio’s mission is to prove that innovation knows no boundaries. He believes that real progress happens through human connection and is dedicated to fostering inclusive spaces where tech hubs can thrive anywhere—from major cities to small mountain villages.",
+      "photoUrl": "https://cdn.sessionize.com/image/2373-200o200o2-9TSA7R52yaPFRuccdyuVsz.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-bff9ee3e-05a4-4a8b-8dfc-5ca19092add2",
+      "sessionIds": [
+        "1220576"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "a7a05d04-bc83-40a6-a39f-b73453673aae",
+      "name": "Maurizio Mangione",
+      "role": "CEO & co-founder @ Faust",
+      "biography": "Russian literature lover, writer, rock climber/star. Former Google Developers Expert and Microsoft MVP, founder of great communities.",
+      "photoUrl": "https://cdn.sessionize.com/image/e3eb-200o200o2-RCFHjgHgoeUdFi5aG2xHU.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-a7a05d04-bc83-40a6-a39f-b73453673aae",
+      "sessionIds": [
+        "1213691"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "a629458c-a0db-4d84-b21c-162ba1c9aece",
+      "name": "Mauro Morales",
+      "role": "Staff Engineer at Spectro Cloud",
+      "biography": "Mauro Morales is a Guatemalan software developer and speaker. He’s currently a Staff Engineer at Spectro Cloud, where he’s part of the team building Kairos — an open-source Linux distribution for running Kubernetes at the edge. Mauro regularly speaks at conferences like KubeCon, FOSDEM, and the Open Source Summit, and co-hosts the Cloud Native Community Belgium.",
+      "photoUrl": "https://cdn.sessionize.com/image/4a33-200o200o2-WmwqgLPeWH4oDnZ8vbNBJ.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-a629458c-a0db-4d84-b21c-162ba1c9aece",
+      "sessionIds": [
+        "1246405"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "42767f6e-7503-4017-b3e3-250175e1e00a",
+      "name": "Michelantonio Trizio",
+      "role": "CTO @ Wideverse",
+      "biography": "Engineer & Digital entrepreneur. I took the master degree in computer engineering with a thesis on AI at Polytechnic University of Bari in 2007. I worked for several years in ICT companies in Italy as a backend software developer. I attended the Mind The Bridge startup school in San Francisco in 2011. Back in Italy I started working on my own companies. Now, I'm the CTO of Wideverse, a spin-off of the Polytechnic University of Bari that works on XR and AI technologies. In addition I'm the founder and the current lead of Google Developer Group Bari community. I’m a public speaker globetrotter nerd with the passion for SUP, running, Rock and photography. BBQ and IPA beers addicted.",
+      "photoUrl": "https://cdn.sessionize.com/image/5edc-200o200o2-VtvttqRrRGBh4pxGLuG3QL.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-42767f6e-7503-4017-b3e3-250175e1e00a",
+      "sessionIds": [
+        "1231176"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "f742d009-90c4-46cd-808f-d2d05880106a",
+      "name": "Michele Laurelli",
+      "role": "Founder of Scriba, University Professor adj, Author",
+      "biography": "Michele Laurelli è fondatore e CEO di Algoretico, software house milanese specializzata in intelligenza artificiale, e co-fondatore e Head of AI di Scriba AI, piattaforma per la migrazione di codice legacy rivolta ai System Integrator. È CTO di Lagiste23 e guida una software factory dedicata allo sviluppo di soluzioni AI. In ambito accademico è docente a.c. all'Università Vita-Salute San Raffaele. È autore della collana Fondamenti di Intelligenza Artificiale e scrive per ai-blog.it e varie riviste. Ha pubblicato diverse ricerche in ambito Intelligenza Artificiale e ML.",
+      "photoUrl": "https://cdn.sessionize.com/image/8f7f-200o200o2-w7XVgKRBmSVUM77teoPfez.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-f742d009-90c4-46cd-808f-d2d05880106a",
+      "sessionIds": [
+        "1342030"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "f222e97c-73d7-47e6-b070-b084d3b3c4ca",
+      "name": "Moreno Lovato",
+      "role": "RuneHeads, CEO",
+      "biography": "Moreno Lovato crea il suo primo videogioco a 14 anni programmando in assembler sul mitico Commodore 64. Dopo quindici anni di esperienza nel campo dell’ITC come project manager e responsabile di sviluppo per i contesti bancari, automotive e editoria, torna al mondo dei videogames fondando una rivista online di settore. Successivamente decide di abbandonare la carriera da manager per dedicarsi a tempo pieno al mondo dei videogames. Negli ultimi quindici anni ha lavorato su oltre venti titoli, alcuni con un successo internazionale e con oltre quindici milioni di giocatori. Alcuni dei maggiori titoli sono: Extreme Landings, Frecce Tricolori, Blue Angels, Conglomerate 451 e Journey to the Void. Nel corso degli anni ha dedicato parte del suo tempo all’insegnamento dello sviluppo di videogiochi nelle principali scuole di game development in Italia (DBGA, Event Horizon, Naba, Accademia Santa Giulia, Fastweb Academy, AIV e altre). Oggi è alla guida dello studio indipendente RuneHeads.",
+      "photoUrl": "https://cdn.sessionize.com/image/7d74-200o200o2-SxT3jnc8ShmdY2DiMfhfVt.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-f222e97c-73d7-47e6-b070-b084d3b3c4ca",
+      "sessionIds": [
+        "1348385"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "33ecf2ee-dfb9-4a4c-9d21-9d14f5205986",
+      "name": "Nicola Guglielmi",
+      "role": "GDE Cloud • Google Cloud Architect • Google Cloud Authorized Trainer • Team Manager • GDG Community Lead 🚀",
+      "biography": "I operate at the intersection of bold vision and brilliant teams. As a Principal Cloud & AI Strategist and Fractional CTO, I partner with companies to architect future-proof cloud solutions and build the high-performing engineering teams needed to execute them. With over a decade of hands-on experience in Digital Transformation, I specialize in Google Cloud Platform, Generative AI (Vertex AI), and complex multi-cloud architectures. I don't just talk theory, I have built Cloud Business Units from scratch and led mission-critical migrations in fast-paced sectors like Oil & Gas. My philosophy is simple: an elite strategy is useless without an elite team to execute it, so I build the team first, knowing that the results will follow. As a passionate advocate for open knowledge, I am a Google Cloud Authorized Trainer, a Google Developer Expert (GDE) for Cloud, and the Community Lead for GDG Campobasso.",
+      "photoUrl": "https://cdn.sessionize.com/image/dd23-200o200o2-XE88rcGuZi8wjPvDJgdM9Z.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-33ecf2ee-dfb9-4a4c-9d21-9d14f5205986",
+      "sessionIds": [
+        "1235175"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "d85d4204-b1aa-4896-b1b1-4493d057cf99",
+      "name": "Nicolò Giorgio",
+      "role": "Product Designer",
+      "biography": "Stop boring software",
+      "photoUrl": "https://cdn.sessionize.com/image/2883-200o200o2-KAkrQ3Ax9kgpMWrVMuqX3A.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-d85d4204-b1aa-4896-b1b1-4493d057cf99",
+      "sessionIds": [
+        "1260726"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "14c3f2f6-f2d3-4b5c-9f6b-9e40fb95c546",
+      "name": "Olena Borzenko",
+      "role": "Coding Consultant & Microsoft MVP at Xebia",
+      "biography": "Olena working as a consultant with the main focus on building .Net Cloud Applications. She is passionate about event-driven architecture, clean code, and modern cloud-based application development. She has previously worked in a service company based in Ukraine and took part in the creation of various products from small startups, and B2B applications, to enterprise platforms. As Microsoft MVP for Azure, Olena is contributing to the community sharing her gained knowledge at international conferences, user groups, and community meetups as a speaker.",
+      "photoUrl": "https://cdn.sessionize.com/image/2487-200o200o2-hhcCkw9PnPq9bVdi71j5Ap.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-14c3f2f6-f2d3-4b5c-9f6b-9e40fb95c546",
+      "sessionIds": [
+        "1232458"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "fbf4ed2b-e1ec-4557-85d3-4a7524b631eb",
+      "name": "Paolo Caressa",
+      "role": "GSE spa - IT Expert",
+      "biography": "Formerly: - Math BS+MS & PhD. - Math researcher. - IT consultant. - Developer & quant @big bank. - Project manager, technical consultant & writer @small sw house. - Adjunct professor @\"Sapienza\" University (Rome). - Instructor @Deep Learning Italia. Currently: - IT expert @GSE energy company.",
+      "photoUrl": "https://cdn.sessionize.com/image/59c3-200o200o2-JuJZHqwbWMmU3yYvLHrhBW.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-fbf4ed2b-e1ec-4557-85d3-4a7524b631eb",
+      "sessionIds": [
+        "1225761"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "bd633373-c9ad-4ca6-8171-5811dcb3e2d7",
+      "name": "Paolo Rubano",
+      "role": "Software designer and developer",
+      "biography": "Paolo Rubano is a software designer and developer with over 30 years of experience, having worked in the industry since 1992. Throughout his career, he has consistently been involved in the development of mission-critical systems across a wide range of industries. His technical background spans several programming languages, from C, Pascal, and Modula2 to C++, and ultimately Java. Always eager to embrace innovation, he has continuously surfed the wave of emerging technologies, methodologies, and software development processes, adapting to the rapidly evolving IT landscape.",
+      "photoUrl": "https://cdn.sessionize.com/image/bc2c-200o200o2-E2i6PFRNPxpeLnUxH5QZvW.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-bd633373-c9ad-4ca6-8171-5811dcb3e2d7",
+      "sessionIds": [
+        "1327616"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "73117d1d-312b-4364-91cb-a7b1dda5c162",
+      "name": "Riccardo Carlesso",
+      "role": "Developer Advocate, google cloud",
+      "biography": "Riccardo loves caipirinhas and 🍷 Amarone, playing 🎹 piano and 🏊🏻🚴🏿🏃‍♀️ triathlons; he's been passionate about Mathematics since he was 4. He's still in love with Ruby and Rails. Former network administrator, sysadmin, and Ruby on Rails developer, Riccardo has been in operations for 20+ years and still likes to spend time coding (better if Ruby). He loves engaging with customers and help them run their operations reliably and successfully in the cloud. More: https://g.dev/ricc",
+      "photoUrl": "https://cdn.sessionize.com/image/8a88-200o200o2-WrWArqkGzSaKjoMzfViDU.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-73117d1d-312b-4364-91cb-a7b1dda5c162",
+      "sessionIds": [
+        "1222188"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "ecc32706-8e3f-4ebd-a23f-cf7facc0d627",
+      "name": "Riccardo Galimberti",
+      "role": null,
+      "biography": null,
+      "photoUrl": null,
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-ecc32706-8e3f-4ebd-a23f-cf7facc0d627",
+      "sessionIds": [
+        "1354856"
+      ],
+      "profileSource": "agenda-page-only"
+    },
+    {
+      "id": "f5c30de4-cd93-4022-97f6-b0a58c92197c",
+      "name": "Rowdy Rabouw",
+      "role": "Front-End Focused Senior DevOps Engineer",
+      "biography": "Rowdy Rabouw is a Google Developer Expert in Web Technologies with over 25 years of experience in HTML, CSS and JavaScript. Currently, he works as a Front-End-Focused Senior DevOps Engineer on Vue, Node, and NestJS projects, with a focus on usability and accessibility. Rowdy loves his electronic drum kit and dabbles in creating music on his laptop.",
+      "photoUrl": "https://cdn.sessionize.com/image/0d0c-200o200o2-LqCirkShubcxGkm5Ac1CrN.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-f5c30de4-cd93-4022-97f6-b0a58c92197c",
+      "sessionIds": [
+        "1224608"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "36287254-0dc1-43d3-9cdd-54cc988486d7",
+      "name": "Saverio Murgia",
+      "role": "CTO at Wonderful - Forbes 30 Under 30 Europe, founder of Horus Technology",
+      "biography": "Saverio Murgia is CTO Italy at Wonderful, an enterprise agentic AI platform that enables large organizations to build their own Enterprise Super Intelligence through conversational and back-office agents. With almost ten years of experience taking AI products from zero to real-world impact, he co-founded Horus Technology in 2014, an AI company dedicated to improving the lives of blind and visually impaired people, leading it to a successful exit in 2019. He later led product development at Caricami and spent over two years as CTO of a stealth startup studio in Los Angeles, contributing to the launch of more than 20 ventures across SaaS, AI and B2B/B2C products. He holds an MSc in Advanced Robotics and a BSc in Biomedical Engineering, with research experience at EPFL, IIT and Ecole Centrale de Nantes, and is an alumnus of ISICT, the school of excellence of the University of Genoa.",
+      "photoUrl": "https://cdn.sessionize.com/image/548e-200o200o2-EyQJYhh9forHKAquUmVZeb.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-36287254-0dc1-43d3-9cdd-54cc988486d7",
+      "sessionIds": [
+        "1348517"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "bccde7db-79e9-4545-9cb8-27762496955e",
+      "name": "Simone Desantis",
+      "role": "CTO of Openapi",
+      "biography": "For years in internet technologies, he has gained experience in the design, development and maintenance of reliable and stable IT infrastructures. Naturally brought to problem solving, he is passionate about complex systems, starting from their comprehension, through the identification of critical issues, up to their optimization and improvement. Currently involved in the design and development of a new high performance all purpose API infrastructure.",
+      "photoUrl": "https://cdn.sessionize.com/image/97d1-200o200o2-KZEj3njqo1qV3t6ddAPj5Z.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-bccde7db-79e9-4545-9cb8-27762496955e",
+      "sessionIds": [
+        "1340661"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "000e7162-82b5-4498-9cca-53d356e0b427",
+      "name": "Soumaya Erradi",
+      "role": "Senior Software Developer @ Atlantis",
+      "biography": "I'm an experienced web developer and a passionate IT and electronics trainer, specializing in frontend development and enterprise applications built with Angular. I spend most of my time exploring what's new in the tech world and helping other developers improve their skills. As a conference speaker, I bring advanced Angular topics, tips for the integration of smart contracts and best solutions for web3 applications.",
+      "photoUrl": "https://cdn.sessionize.com/image/349d-200o200o2-BqmZNDXLBrgYy9Avuv7Jre.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-000e7162-82b5-4498-9cca-53d356e0b427",
+      "sessionIds": [
+        "1230228"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "be964b25-3d59-46c3-8985-7c87fb884497",
+      "name": "Stefano Bruno",
+      "role": "CTO @ CyberGrant Italia, Podcaster @ Shiftati di Testa",
+      "biography": "Ricopre attualmente la carica di CTO di CyberGrant per l'Italia. Nel corso della sua carriera ha operato per molti anni nel settore della consulenza, dapprima come imprenditore e successivamente come responsabile di area, sviluppando inoltre una consolidata competenza in ambito Data Protection e Cyber Security. Insieme a Daniel conduce Shiftati di Testa: Il podcast più atteso del web (anche se il web ancora non lo sa!)",
+      "photoUrl": "https://cdn.sessionize.com/image/d046-200o200o2-rnWu2SGz3aKd2DhWanQbcS.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-be964b25-3d59-46c3-8985-7c87fb884497",
+      "sessionIds": [
+        "1253908"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "5297f3e4-6fac-4e76-8d6a-b67f084ab50b",
+      "name": "Stefano Fiorucci",
+      "role": "AI/Software Engineer",
+      "biography": "🧑‍🚀 AI Engineer/explorer. Passionate about Language Models, open source, and knowledge sharing. 👨‍💻 I work on the open-source Haystack LLM orchestration framework, contributing code, tutorials and demos. 🧭 Fascinated by all things LLMs. From inference and orchestration (Agents, RAG) to post-training techniques. I frequently experiment with training small Language Models and Reinforcement Learning. I like sharing what I learn.",
+      "photoUrl": "https://cdn.sessionize.com/image/9d4a-200o200o2-djjCxfuyiAphubRbCFrZv.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-5297f3e4-6fac-4e76-8d6a-b67f084ab50b",
+      "sessionIds": [
+        "1233377"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "bc261ce0-3d86-40a4-9c62-764d0115dc92",
+      "name": "Valeria Salis",
+      "role": "Tech Sustainability Consultant, Speaker, Host @ Green Tech Tales",
+      "biography": "As a Green Software Advocate and Tech Sustainability Consultant, my mission is helping companies and professionals build more sustainable, low-carbon digital solutions. Since discovering technology's environmental impact in early 2023, I've become a recognized speaker at major tech conferences and co-founded Green Software Italia community. I believe in responsible technology that creates positive impact for both businesses and the environment.",
+      "photoUrl": "https://cdn.sessionize.com/image/c2ca-200o200o2-HFhWSW85MXNYMfR8REqka3.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-bc261ce0-3d86-40a4-9c62-764d0115dc92",
+      "sessionIds": [
+        "1225977"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "72578c91-9bef-4d64-bd0d-9b3645364d74",
+      "name": "Valeria Zuccoli",
+      "role": "Data Scientist",
+      "biography": "Statistician by education, Valeria is a Data Scientist specializing in real-time models for complex, challenging scenarios. Driven by a deep curiosity for the latest research, she applies advanced analytical techniques to build intelligent systems that deliver immediate and effective solutions in high-impact domains.",
+      "photoUrl": "https://cdn.sessionize.com/image/74fd-200o200o2-TJeSWPyFSRDmVnicMg1frj.jpg",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-72578c91-9bef-4d64-bd0d-9b3645364d74",
+      "sessionIds": [
+        "1234879"
+      ],
+      "profileSource": "speakers-page"
+    },
+    {
+      "id": "966a3341-884b-4bf2-8e8a-dc8f6edc5d38",
+      "name": "Vladi Stevanovic",
+      "role": "Head of Content",
+      "biography": "Head of Content at Maximize, with 10+ years of experience in building developer communities and enablement. Previously leading customer success at Prisma and MongoDB. I'm interested in all things system design, distributed systems, and observability. You can usually find me working on my couch surrounded by dogs.",
+      "photoUrl": "https://cdn.sessionize.com/image/6ecf-200o200o2-pwfuR1FsaXWa65KLESy9zA.png",
+      "profileUrl": "https://conferences.codemotion.com/milan/speakers/#sz-speaker-966a3341-884b-4bf2-8e8a-dc8f6edc5d38",
+      "sessionIds": [
+        "1249272"
+      ],
+      "profileSource": "speakers-page"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1327744",
+      "title": "I spy on my agents and you can too!",
+      "speakerIds": [
+        "4328c3e9-6ba6-4c45-b00f-ec2dfaea6099"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "dati-observability"
+      ],
+      "tags": [
+        "ai-agents",
+        "agent-observability",
+        "tracing",
+        "monitoring"
+      ],
+      "summary": {
+        "text": "Visibilità, osservazione e controllo sul comportamento degli agenti AI e sulle loro interazioni con strumenti e dati.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T09:50+01:00",
+        "endsAt": "2026-10-28T10:30+01:00",
+        "durationMinutes": 40,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1216484",
+      "title": "AI is changing your team more than your code",
+      "speakerIds": [
+        "e24cad72-cadf-461e-9fe4-c5f4fe385ca0"
+      ],
+      "categoryIds": [
+        "leadership-carriera",
+        "ai-llm"
+      ],
+      "tags": [
+        "ai-adoption",
+        "team",
+        "collaborazione",
+        "engineering-management"
+      ],
+      "summary": {
+        "text": "Come l'introduzione dell'AI influisce sulle relazioni, sui processi e sulla condivisione della conoscenza nei team di sviluppo.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T11:20+01:00",
+        "endsAt": "2026-10-28T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1213991",
+      "title": "Designing Physical AI Systems: From Sensors to On-Device Intelligence",
+      "speakerIds": [
+        "e402b908-1f81-4c84-a589-5557498aa3fa"
+      ],
+      "categoryIds": [
+        "iot-embedded",
+        "ai-llm"
+      ],
+      "tags": [
+        "edge-ai",
+        "sensors",
+        "on-device-ai",
+        "iot",
+        "embedded"
+      ],
+      "summary": {
+        "text": "Architettura di sistemi di Physical AI: sensori, interpretazione dei segnali e inferenza direttamente sui dispositivi.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T11:20+01:00",
+        "endsAt": "2026-10-28T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1244834",
+      "title": "Kill the Standup: How One Engineer Ships What Five Cannot",
+      "speakerIds": [
+        "70b99eb6-761f-4301-bf23-0d35bab3f1b3"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "leadership-carriera"
+      ],
+      "tags": [
+        "ai-coding",
+        "produttivita",
+        "team",
+        "engineering-process"
+      ],
+      "summary": {
+        "text": "Impatto degli strumenti AI sulla produttività individuale, sul coordinamento e sui processi dei team di sviluppo; benefici e rischi del lavoro più autonomo.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T11:20+01:00",
+        "endsAt": "2026-10-28T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1226083",
+      "title": "Startup veloci, Pod snelli: In-Place Pod Resize in pratica",
+      "speakerIds": [
+        "3c02a7bf-40b4-41b4-8b43-2de3be4b093c"
+      ],
+      "categoryIds": [
+        "cloud-devops"
+      ],
+      "tags": [
+        "kubernetes",
+        "in-place-pod-resize",
+        "resource-management"
+      ],
+      "summary": {
+        "text": "Come ridimensionare le risorse dei pod Kubernetes in esecuzione senza sostituirli, adattando CPU e memoria alle necessità operative.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T11:20+01:00",
+        "endsAt": "2026-10-28T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "90789"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1227394",
+      "title": "System Failure: Why Your Tech Stack Can't Fix a Communication Leak",
+      "speakerIds": [
+        "9967748f-0c55-466c-acb0-e7e5e3e6060f"
+      ],
+      "categoryIds": [
+        "leadership-carriera"
+      ],
+      "tags": [
+        "comunicazione",
+        "feedback",
+        "conflitti",
+        "team"
+      ],
+      "summary": {
+        "text": "Come riconoscere conversazioni rimandate, conflitti e feedback gestiti male; propone un framework pratico per ristabilire sicurezza, chiarezza e azioni condivise nei team.",
+        "language": "it",
+        "basis": "official-abstract-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T11:20+01:00",
+        "endsAt": "2026-10-28T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1214501",
+      "title": "We Review Code. Why Won’t We Review Each Other?",
+      "speakerIds": [
+        "0f3579a4-27fe-410e-9b48-052ccc0c17b5"
+      ],
+      "categoryIds": [
+        "leadership-carriera",
+        "software-engineering"
+      ],
+      "tags": [
+        "code-review",
+        "feedback",
+        "team",
+        "comunicazione"
+      ],
+      "summary": {
+        "text": "Come trasferire il rigore della code review al feedback tra colleghi e alle conversazioni professionali più difficili.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T11:20+01:00",
+        "endsAt": "2026-10-28T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1246405",
+      "title": "Your GPU node is a snowflake: shipping AI infrastructure as a versioned artifact",
+      "speakerIds": [
+        "a629458c-a0db-4d84-b21c-162ba1c9aece"
+      ],
+      "categoryIds": [
+        "cloud-devops",
+        "ai-llm"
+      ],
+      "tags": [
+        "gpu",
+        "mlops",
+        "immutable-infrastructure",
+        "infrastructure-as-code"
+      ],
+      "summary": {
+        "text": "Come rendere riproducibili, versionati e distribuibili i nodi GPU impiegati per l'infrastruttura AI.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T11:20+01:00",
+        "endsAt": "2026-10-28T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1348517",
+      "title": "Agents Don't Work Alone",
+      "speakerIds": [
+        "36287254-0dc1-43d3-9cdd-54cc988486d7"
+      ],
+      "categoryIds": [
+        "ai-agents"
+      ],
+      "tags": [
+        "agent-orchestration",
+        "multi-agent",
+        "collaborazione"
+      ],
+      "summary": {
+        "text": "Necessità di coordinamento e integrazione degli agenti AI con persone, strumenti o altri agenti per operare in sistemi reali.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T12:10+01:00",
+        "endsAt": "2026-10-28T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1330362",
+      "title": "Bring Your Own Agent: Building Real-World Agents for a Sovereign SDLC",
+      "speakerIds": [
+        "a349a8c8-4d72-4dcd-91da-a504fce86d59",
+        "a363f06e-1687-4256-a2e8-6c32f64bcfb9"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "software-engineering"
+      ],
+      "tags": [
+        "byoa",
+        "sdlc",
+        "coding-agents",
+        "governance"
+      ],
+      "summary": {
+        "text": "Integrazione di agenti personalizzati nel ciclo di sviluppo software, con attenzione a controllo, sovranità e funzionamento in ambienti reali.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T12:10+01:00",
+        "endsAt": "2026-10-28T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1234300",
+      "title": "Distributed Locks with MongoDB",
+      "speakerIds": [
+        "8323e944-4c6f-4534-abbd-985c2ca459ed"
+      ],
+      "categoryIds": [
+        "architettura-backend",
+        "dati-observability"
+      ],
+      "tags": [
+        "mongodb",
+        "distributed-locks",
+        "concorrenza",
+        "backend"
+      ],
+      "summary": {
+        "text": "Uso di MongoDB per implementare meccanismi di lock distribuiti e gestire la concorrenza tra processi o servizi.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T12:10+01:00",
+        "endsAt": "2026-10-28T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1237064",
+      "title": "Everything is slop, let's slow the f**k down",
+      "speakerIds": [
+        "abb1bcd1-2689-492b-b4a7-28a2539f5a41"
+      ],
+      "categoryIds": [
+        "software-engineering",
+        "ai-llm"
+      ],
+      "tags": [
+        "ai-coding",
+        "qualita-codice",
+        "produttivita",
+        "revisione"
+      ],
+      "summary": {
+        "text": "Critica alla produzione indiscriminata di codice e contenuti con AI; importanza di rallentare e giudicare qualità e valore di ciò che si produce.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T12:10+01:00",
+        "endsAt": "2026-10-28T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1235212",
+      "title": "Fast & Furious LLM: Scaling Performance with MTP Drafters",
+      "speakerIds": [
+        "3d9a3287-cc36-4428-b6b4-1dd1df1e70e8"
+      ],
+      "categoryIds": [
+        "ai-llm",
+        "cloud-devops"
+      ],
+      "tags": [
+        "llm-inference",
+        "mtp",
+        "performance",
+        "inference-optimization"
+      ],
+      "summary": {
+        "text": "Ottimizzazione delle prestazioni dei modelli linguistici con tecniche di multi-token prediction e drafter per accelerare la generazione.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T12:10+01:00",
+        "endsAt": "2026-10-28T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "90789"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1265570",
+      "title": "Racing the beam",
+      "speakerIds": [
+        "848b8bbd-0b54-45e6-ba65-73c5ea9935af"
+      ],
+      "categoryIds": [
+        "gaming-creative-coding",
+        "iot-embedded"
+      ],
+      "tags": [
+        "retrocomputing",
+        "graphics",
+        "hardware",
+        "low-level"
+      ],
+      "summary": {
+        "text": "Tecnica del “racing the beam”, tipica della programmazione di hardware grafico vincolato, presumibilmente illustrata attraverso un caso pratico.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T12:10+01:00",
+        "endsAt": "2026-10-28T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1222188",
+      "title": "Stop Grepping, Start Reasoning: Skill-Based Agentic SRE 🚀",
+      "speakerIds": [
+        "73117d1d-312b-4364-91cb-a7b1dda5c162"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "cloud-devops"
+      ],
+      "tags": [
+        "agentic-sre",
+        "skill-based",
+        "observability",
+        "troubleshooting"
+      ],
+      "summary": {
+        "text": "Uso di agenti e skill specializzate per diagnosticare incidenti e ragionare su segnali operativi nell'SRE.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T12:10+01:00",
+        "endsAt": "2026-10-28T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1340661",
+      "title": "5 API per mettere a sicuro il tuo progetto digitale",
+      "speakerIds": [
+        "bccde7db-79e9-4545-9cb8-27762496955e"
+      ],
+      "categoryIds": [
+        "sicurezza-privacy",
+        "architettura-backend"
+      ],
+      "tags": [
+        "api-security",
+        "security",
+        "web-api"
+      ],
+      "summary": {
+        "text": "Presentazione di cinque API utili per rafforzare la sicurezza di un progetto digitale; dettagli delle API non presenti nel documento.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T13:00+01:00",
+        "endsAt": "2026-10-28T13:15+01:00",
+        "durationMinutes": 15,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1232458",
+      "title": "Coding, but Make It Art",
+      "speakerIds": [
+        "14c3f2f6-f2d3-4b5c-9f6b-9e40fb95c546"
+      ],
+      "categoryIds": [
+        "gaming-creative-coding"
+      ],
+      "tags": [
+        "creative-coding",
+        "art",
+        "developer-experience"
+      ],
+      "summary": {
+        "text": "Programmazione usata come mezzo espressivo e creativo, tra aspetti tecnici e sperimentazione artistica.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T13:00+01:00",
+        "endsAt": "2026-10-28T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1234974",
+      "title": "Developer Experience 2.0: progettare software nell’era degli AI Agents",
+      "speakerIds": [
+        "ce14485b-4d7a-473d-8424-ce85f935125b",
+        "5d815b92-62d8-4b0e-a5fb-e7c596cccdfc"
+      ],
+      "categoryIds": [
+        "software-engineering",
+        "ai-agents"
+      ],
+      "tags": [
+        "devex",
+        "developer-platform",
+        "coding-agents",
+        "workflow"
+      ],
+      "summary": {
+        "text": "Evoluzione degli strumenti, dei processi e delle piattaforme interne per un'esperienza di sviluppo in cui lavorano anche agenti AI.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T13:00+01:00",
+        "endsAt": "2026-10-28T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1330247",
+      "title": "From Code Velocity to Production Value",
+      "speakerIds": [
+        "0c865efe-fc5e-457c-8753-94091d270728"
+      ],
+      "categoryIds": [
+        "software-engineering",
+        "leadership-carriera"
+      ],
+      "tags": [
+        "produttivita",
+        "engineering-metrics",
+        "quality",
+        "delivery"
+      ],
+      "summary": {
+        "text": "Passaggio dal misurare la velocità di scrittura del codice al valutare risultati utili e affidabili rilasciati in produzione.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T13:00+01:00",
+        "endsAt": "2026-10-28T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1225977",
+      "title": "Green Prompting: designing AI interactions with sustainability in mind",
+      "speakerIds": [
+        "bc261ce0-3d86-40a4-9c62-764d0115dc92"
+      ],
+      "categoryIds": [
+        "sostenibilita",
+        "ai-llm"
+      ],
+      "tags": [
+        "green-ai",
+        "prompting",
+        "sustainability",
+        "efficienza"
+      ],
+      "summary": {
+        "text": "Progettazione di prompt e interazioni AI considerando consumi, sprechi di risorse e sostenibilità.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T13:00+01:00",
+        "endsAt": "2026-10-28T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1295740",
+      "title": "Understanding at machine speed with thousands of contextual tools",
+      "speakerIds": [
+        "e1e9a44a-6c1f-46d9-99f6-c1490e19346c"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "architettura-backend"
+      ],
+      "tags": [
+        "tools",
+        "context-management",
+        "llm",
+        "mcp"
+      ],
+      "summary": {
+        "text": "Come gestire contesto e moltissimi strumenti disponibili in sistemi AI, preservando la capacità di selezionare le azioni pertinenti.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T13:00+01:00",
+        "endsAt": "2026-10-28T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1296534",
+      "title": "Documents Are Not Knowledge: Modelling Extraction as an Event-Driven Domain",
+      "speakerIds": [
+        "5fdb116d-05e0-4f06-acbc-8a58d7bfb867"
+      ],
+      "categoryIds": [
+        "architettura-backend",
+        "dati-observability"
+      ],
+      "tags": [
+        "event-driven",
+        "document-processing",
+        "knowledge-extraction",
+        "ddd"
+      ],
+      "summary": {
+        "text": "Trattare l'estrazione di conoscenza dai documenti come un dominio guidato da eventi anziché come semplice parsing o archiviazione di file.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "workshop",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T16:40+01:00",
+        "durationMinutes": 80,
+        "roomId": "83171"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1218568",
+      "title": "Emergency in production: how to survive disasters ...a small guide",
+      "speakerIds": [
+        "1261e437-701b-416e-ae72-776e9f72a6d4"
+      ],
+      "categoryIds": [
+        "cloud-devops",
+        "software-engineering"
+      ],
+      "tags": [
+        "incident-management",
+        "production",
+        "reliability",
+        "sre"
+      ],
+      "summary": {
+        "text": "Pratiche per gestire incidenti critici in produzione, diagnosticarli e recuperare il servizio.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1235175",
+      "title": "Engineering Leadership Through Multi-Agent Simulations",
+      "speakerIds": [
+        "33ecf2ee-dfb9-4a4c-9d21-9d14f5205986"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "leadership-carriera"
+      ],
+      "tags": [
+        "multi-agent",
+        "simulation",
+        "engineering-management",
+        "decision-making"
+      ],
+      "summary": {
+        "text": "Uso di simulazioni con più agenti per esplorare scenari decisionali, processi o capacità di leadership nell'ingegneria.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "90789"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1319162",
+      "title": "How Does AI Watermarking Work? A Close Look at SynthID",
+      "speakerIds": [
+        "83fedb47-af35-4d0a-8cf1-699bc04fd016"
+      ],
+      "categoryIds": [
+        "ai-llm",
+        "sicurezza-privacy"
+      ],
+      "tags": [
+        "ai-watermarking",
+        "synthid",
+        "contenuti-generati",
+        "autenticita"
+      ],
+      "summary": {
+        "text": "Funzionamento e limiti dei watermark per i contenuti generati dall'AI, con un approfondimento su SynthID.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1229817",
+      "title": "Kafka didn't fit our LLM agents, so we wrote our own broker",
+      "speakerIds": [
+        "2f17f9f6-9e49-40ab-8140-c9fa7e137594"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "architettura-backend"
+      ],
+      "tags": [
+        "llm-agents",
+        "messaging",
+        "broker",
+        "kafka",
+        "architettura"
+      ],
+      "summary": {
+        "text": "Perché Kafka non era adatto alle esigenze di agenti LLM e quali problemi affronta un broker progettato appositamente per loro.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1330263",
+      "title": "The Cost of Cheap Code",
+      "speakerIds": [
+        "987c2a62-d659-4204-af54-5b9b4056fe20"
+      ],
+      "categoryIds": [
+        "software-engineering"
+      ],
+      "tags": [
+        "technical-debt",
+        "qualita-codice",
+        "ai-coding",
+        "manutenzione"
+      ],
+      "summary": {
+        "text": "Costi nascosti del codice economico da produrre: revisione, manutenzione, integrazione, affidabilità e debito tecnico.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1224608",
+      "title": "Warp Pipes and Prefetching: Navigating the Web at Mario Speed",
+      "speakerIds": [
+        "f5c30de4-cd93-4022-97f6-b0a58c92197c"
+      ],
+      "categoryIds": [
+        "frontend-ux"
+      ],
+      "tags": [
+        "web-performance",
+        "prefetching",
+        "frontend",
+        "browser"
+      ],
+      "summary": {
+        "text": "Tecniche di prefetching e navigazione per rendere più rapida l'esperienza web, spiegate con riferimenti a Super Mario.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1348290",
+      "title": "Weapon or Tool? An Ontological Approach to Enterprise Knowledge",
+      "speakerIds": [
+        "b324d005-9ce8-45c9-961d-56a285369618",
+        "153939fb-375b-4c3f-ae72-9c542a6c2426"
+      ],
+      "categoryIds": [
+        "dati-observability",
+        "ai-llm"
+      ],
+      "tags": [
+        "ontology",
+        "knowledge-graph",
+        "enterprise-knowledge",
+        "rag"
+      ],
+      "summary": {
+        "text": "Come la modellazione ontologica della conoscenza aziendale può rendere più esplicite e utilizzabili informazioni e relazioni.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T15:20+01:00",
+        "endsAt": "2026-10-28T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1327616",
+      "title": "Da settimane a ore: modernizzare i report finanziari per WCAG con la GenAI",
+      "speakerIds": [
+        "f8f1a3a8-6682-42e9-9df8-d3f6600c9a6f",
+        "bd633373-c9ad-4ca6-8171-5811dcb3e2d7"
+      ],
+      "categoryIds": [
+        "frontend-ux",
+        "ai-llm"
+      ],
+      "tags": [
+        "wcag",
+        "accessibilita",
+        "genai",
+        "legacy-modernization"
+      ],
+      "summary": {
+        "text": "Modernizzazione di report finanziari e miglioramento dell'accessibilità WCAG con il supporto della GenAI.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T16:10+01:00",
+        "endsAt": "2026-10-28T16:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1334014",
+      "title": "E se deployare workload AI non fosse poi così complicato?",
+      "speakerIds": [
+        "5ded1f41-b33f-4e38-945f-9b6c877c5156"
+      ],
+      "categoryIds": [
+        "cloud-devops",
+        "ai-llm"
+      ],
+      "tags": [
+        "ai-infrastructure",
+        "deployment",
+        "mlops",
+        "cloud"
+      ],
+      "summary": {
+        "text": "Approcci e strumenti per semplificare il deployment di applicazioni e carichi AI, riducendo la complessità operativa.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T16:10+01:00",
+        "endsAt": "2026-10-28T16:25+01:00",
+        "durationMinutes": 15,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1213691",
+      "title": "Is getting hot in here",
+      "speakerIds": [
+        "a7a05d04-bc83-40a6-a39f-b73453673aae"
+      ],
+      "categoryIds": [
+        "sostenibilita"
+      ],
+      "tags": [
+        "sostenibilita",
+        "energia",
+        "da-verificare"
+      ],
+      "summary": {
+        "text": "Intervento su un tema legato al calore o all'impatto energetico della tecnologia; il titolo da solo non permette una classificazione più precisa.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T16:10+01:00",
+        "endsAt": "2026-10-28T16:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1216673",
+      "title": "The Ethics Layer: Architecting Sovereign AI and Digital Dignity in Agentic Systems",
+      "speakerIds": [
+        "cb95763f-a586-4116-a70f-894bde9c7684"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "sicurezza-privacy"
+      ],
+      "tags": [
+        "ai-agents",
+        "governance",
+        "sovranita-digitale",
+        "etica",
+        "policy"
+      ],
+      "summary": {
+        "text": "Come incorporare governance, autonomia controllata, dignità digitale e principi etici nelle architetture a agenti.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T16:10+01:00",
+        "endsAt": "2026-10-28T16:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1226525",
+      "title": "Transformers Are Changing: Inside the New Architecture of Long-Context AI",
+      "speakerIds": [
+        "6f11c7af-94eb-4cf7-8504-22292003e656"
+      ],
+      "categoryIds": [
+        "ai-llm"
+      ],
+      "tags": [
+        "transformers",
+        "long-context",
+        "llm",
+        "architecture"
+      ],
+      "summary": {
+        "text": "Evoluzioni delle architetture Transformer e tecniche che consentono ai modelli AI di gestire contesti molto estesi.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T16:10+01:00",
+        "endsAt": "2026-10-28T16:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1216557",
+      "title": "Unleash Your Inner Rockstar: The 5 Steps to Dynamic Public Speaking!",
+      "speakerIds": [
+        "9f65cf94-df17-447d-b1e0-6a0fb0eb92a5"
+      ],
+      "categoryIds": [
+        "leadership-carriera"
+      ],
+      "tags": [
+        "public-speaking",
+        "comunicazione",
+        "carriera"
+      ],
+      "summary": {
+        "text": "Tecniche e cinque passaggi proposti per rendere più efficaci presentazioni, public speaking e comunicazione tecnica.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T16:10+01:00",
+        "endsAt": "2026-10-28T17:20+01:00",
+        "durationMinutes": 70,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1234920",
+      "title": "Da feature a revenue: come i team tecnici possono pensare (anche) da marketer",
+      "speakerIds": [
+        "05eb6909-e3e9-4ae3-b80f-a4306b34e594"
+      ],
+      "categoryIds": [
+        "leadership-carriera"
+      ],
+      "tags": [
+        "product-thinking",
+        "business",
+        "revenue",
+        "marketing"
+      ],
+      "summary": {
+        "text": "Come collegare il lavoro tecnico a valore commerciale, metriche di prodotto e crescita dei ricavi.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T16:30+01:00",
+        "endsAt": "2026-10-28T16:45+01:00",
+        "durationMinutes": 15,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1230228",
+      "title": "Can an LLM understand your car? Real telemetry and predictive insights",
+      "speakerIds": [
+        "000e7162-82b5-4498-9cca-53d356e0b427"
+      ],
+      "categoryIds": [
+        "iot-embedded",
+        "ai-llm"
+      ],
+      "tags": [
+        "telemetry",
+        "llm",
+        "automotive",
+        "predictive-analysis"
+      ],
+      "summary": {
+        "text": "Utilizzo di dati telemetrici reali di un'automobile per ricavare interpretazioni e indicazioni predittive con modelli linguistici.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T17:00+01:00",
+        "endsAt": "2026-10-28T17:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1331302",
+      "title": "Stop Sending Everything to the Cloud: Hybrid AI with LocalAI",
+      "speakerIds": [
+        "df75a37d-9af7-4b19-a30d-8f86d7b6e753"
+      ],
+      "categoryIds": [
+        "ai-llm",
+        "cloud-devops"
+      ],
+      "tags": [
+        "localai",
+        "local-llm",
+        "hybrid-ai",
+        "self-hosting",
+        "privacy"
+      ],
+      "summary": {
+        "text": "Architetture ibride che affiancano modelli AI locali (LocalAI) al cloud, con attenzione a controllo, latenza e privacy.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T17:00+01:00",
+        "endsAt": "2026-10-28T17:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1260726",
+      "title": "The Memedex: indicizzare Internet, un meme alla volta",
+      "speakerIds": [
+        "69fecef5-742d-4201-a22e-2d32983b642a",
+        "d85d4204-b1aa-4896-b1b1-4493d057cf99"
+      ],
+      "categoryIds": [
+        "dati-observability",
+        "gaming-creative-coding"
+      ],
+      "tags": [
+        "indexing",
+        "search-engine",
+        "memes",
+        "data-pipeline"
+      ],
+      "summary": {
+        "text": "Progetto di indicizzazione e ricerca di meme su Internet; possibili tecniche di raccolta e organizzazione di contenuti multimediali.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T17:00+01:00",
+        "endsAt": "2026-10-28T17:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1231176",
+      "title": "When AI agents click buy: atomic checkouts for dynamic retail carts",
+      "speakerIds": [
+        "42767f6e-7503-4017-b3e3-250175e1e00a"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "architettura-backend"
+      ],
+      "tags": [
+        "ai-commerce",
+        "transactions",
+        "checkout",
+        "distributed-systems"
+      ],
+      "summary": {
+        "text": "Gestione di carrelli dinamici e checkout atomici quando sono agenti AI, non solo utenti umani, a effettuare acquisti.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T17:00+01:00",
+        "endsAt": "2026-10-28T17:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1233101",
+      "title": "When the Backlog Dispatches Itself: a Production Fleet of Autonomous AI Coding Agents",
+      "speakerIds": [
+        "9de406b1-417a-4ac3-bf38-456cf3e8de8f",
+        "7b1b04ee-5397-4308-bc16-3b643ce7ee74"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "software-engineering"
+      ],
+      "tags": [
+        "coding-agents",
+        "orchestrazione",
+        "backlog",
+        "automazione"
+      ],
+      "summary": {
+        "text": "Progettazione e gestione di più coding agent autonomi che prendono in carico task da un backlog e producono cambiamenti software.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T17:00+01:00",
+        "endsAt": "2026-10-28T17:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1265470",
+      "title": "Future of Programming: What's our place in the world of coding machines?",
+      "speakerIds": [
+        "4c00dc98-d1b3-4d90-b1f6-acb3b024f625"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "software-engineering"
+      ],
+      "tags": [
+        "coding-agents",
+        "spec-driven",
+        "futuro-del-lavoro",
+        "programmazione"
+      ],
+      "summary": {
+        "text": "Come cambia il mestiere del programmatore mentre le macchine generano codice: specifiche, progettazione e valore dell'intervento umano.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-28",
+        "startsAt": "2026-10-28T17:50+01:00",
+        "endsAt": "2026-10-28T18:20+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1361549",
+      "title": "What Could Possibly Go Wrong? A Crash Course in Paranoia for Developers",
+      "speakerIds": [
+        "6e470f2c-f90f-4b91-a4d0-e6d5d5e7e66b"
+      ],
+      "categoryIds": [
+        "sicurezza-privacy"
+      ],
+      "tags": [
+        "threat-modeling",
+        "security",
+        "secure-coding"
+      ],
+      "summary": {
+        "text": "Introduzione provocatoria al ragionamento sulle minacce e agli errori di sicurezza che gli sviluppatori dovrebbero prevedere.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T10:00+01:00",
+        "endsAt": "2026-10-29T10:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1218655",
+      "title": "An Emergency Decree Walks Into a Pull Request: 165 Years of Italian Law, Read Like a Repo",
+      "speakerIds": [
+        "cef3a191-54c8-48fa-a8f9-0cbada23232f"
+      ],
+      "categoryIds": [
+        "software-engineering",
+        "dati-observability"
+      ],
+      "tags": [
+        "version-control",
+        "legal-tech",
+        "github",
+        "data-modeling"
+      ],
+      "summary": {
+        "text": "Analogia tra versionamento software e storia delle leggi italiane, applicando concetti da repository e pull request ai cambiamenti normativi.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T11:20+01:00",
+        "endsAt": "2026-10-29T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "90789"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1226121",
+      "title": "Beyond Benchmarks: What ARC Teaches Us About Measuring Intelligence",
+      "speakerIds": [
+        "fc8ff68b-5890-48cd-8de6-05a062d962b5"
+      ],
+      "categoryIds": [
+        "ai-llm"
+      ],
+      "tags": [
+        "arc",
+        "benchmarks",
+        "evaluation",
+        "reasoning"
+      ],
+      "summary": {
+        "text": "Limiti dei benchmark convenzionali per l'AI e cosa insegnano le prove ARC nella valutazione dell'intelligenza e della generalizzazione.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T11:20+01:00",
+        "endsAt": "2026-10-29T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1362869",
+      "title": "How Far Can You Loop? From one tool call to a Claude Code agent that fixes itself overnight",
+      "speakerIds": [
+        "ca23aaf7-dd72-4e46-bc76-bd54b5195ffb"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "software-engineering"
+      ],
+      "tags": [
+        "claude-code",
+        "coding-agents",
+        "agentic-workflow",
+        "automation",
+        "self-healing"
+      ],
+      "summary": {
+        "text": "Evoluzione da una semplice chiamata a un tool verso un agente basato su Claude Code capace di iterare e correggere autonomamente problemi nel corso di esecuzioni prolungate.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T11:20+01:00",
+        "endsAt": "2026-10-29T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1234927",
+      "title": "In attesa dei legali della GRANDE N: come io e Gemini abbiamo portato Parachute su un HW impossibile",
+      "speakerIds": [
+        "e196e7a4-2761-40e4-8e1d-29e90d2375c4"
+      ],
+      "categoryIds": [
+        "gaming-creative-coding",
+        "ai-llm"
+      ],
+      "tags": [
+        "retrocomputing",
+        "gemini",
+        "hardware",
+        "game-development"
+      ],
+      "summary": {
+        "text": "Esperimento di porting del videogioco Parachute su hardware apparentemente inadatto, con assistenza di Gemini.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T11:20+01:00",
+        "endsAt": "2026-10-29T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1230660",
+      "title": "One Stack to Observe Them All: Open Source Observability with OpenSearch",
+      "speakerIds": [
+        "cc1e50f9-dc4a-4a1b-86fa-a012194cc751"
+      ],
+      "categoryIds": [
+        "dati-observability",
+        "cloud-devops"
+      ],
+      "tags": [
+        "opensearch",
+        "observability",
+        "logging",
+        "monitoring",
+        "open-source"
+      ],
+      "summary": {
+        "text": "Come realizzare un sistema di osservabilità open source con OpenSearch e correlare dati di monitoraggio e diagnostica.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T11:20+01:00",
+        "endsAt": "2026-10-29T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1219093",
+      "title": "When NOT to build an agent: Lessons from systems that didn't want autonomy",
+      "speakerIds": [
+        "6b154a22-5948-4445-a2d5-34f03f9f2887"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "software-engineering"
+      ],
+      "tags": [
+        "ai-agents",
+        "architettura",
+        "workflow",
+        "affidabilita"
+      ],
+      "summary": {
+        "text": "Criteri per capire quando un agente autonomo non è la soluzione giusta e quando preferire sistemi o workflow più prevedibili.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T11:20+01:00",
+        "endsAt": "2026-10-29T11:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1354856",
+      "title": "AI won't fix your Developer Experience",
+      "speakerIds": [
+        "ecc32706-8e3f-4ebd-a23f-cf7facc0d627",
+        "923911ba-8be5-43c5-a704-632013b0572c"
+      ],
+      "categoryIds": [
+        "software-engineering",
+        "leadership-carriera"
+      ],
+      "tags": [
+        "developer-experience",
+        "ai-adoption",
+        "engineering-process",
+        "team"
+      ],
+      "summary": {
+        "text": "Perché introdurre strumenti di AI non risolve automaticamente i problemi di Developer Experience e quali aspetti organizzativi e di processo richiedono ancora interventi diretti.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "90788"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1232889",
+      "title": "Build agents with agents",
+      "speakerIds": [
+        "17ef53a2-0ee6-4b36-a3db-ecc8041c5a3d"
+      ],
+      "categoryIds": [
+        "ai-agents"
+      ],
+      "tags": [
+        "ai-agents",
+        "google-adk",
+        "agent-development",
+        "automazione"
+      ],
+      "summary": {
+        "text": "Come utilizzare agenti AI come strumenti per sviluppare altri agenti e accelerare la costruzione di sistemi agentici.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1348385",
+      "title": "Dal codice in banca ai videogiochi: il lungo percorso di un indie",
+      "speakerIds": [
+        "f222e97c-73d7-47e6-b070-b084d3b3c4ca"
+      ],
+      "categoryIds": [
+        "gaming-creative-coding",
+        "leadership-carriera"
+      ],
+      "tags": [
+        "indie-games",
+        "carriera",
+        "game-development"
+      ],
+      "summary": {
+        "text": "Esperienza di transizione professionale dallo sviluppo software bancario alla creazione indipendente di videogiochi.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1342030",
+      "title": "SCRIBA.AI. soluzione IA italiana per modernizzare il codice legacy",
+      "speakerIds": [
+        "1d8c90f1-5864-4a9e-857f-e91c1dfdaa2b",
+        "f742d009-90c4-46cd-808f-d2d05880106a"
+      ],
+      "categoryIds": [
+        "ai-llm",
+        "software-engineering"
+      ],
+      "tags": [
+        "legacy-modernization",
+        "ai-coding",
+        "refactoring"
+      ],
+      "summary": {
+        "text": "Presentazione di SCRIBA.AI come strumento per comprendere e modernizzare codice legacy attraverso l'intelligenza artificiale.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "workshop",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T13:30+01:00",
+        "durationMinutes": 80,
+        "roomId": "83171"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1220576",
+      "title": "Shutup, Dependency Track! Silencing false positives locally with AST and AI",
+      "speakerIds": [
+        "bff9ee3e-05a4-4a8b-8dfc-5ca19092add2"
+      ],
+      "categoryIds": [
+        "sicurezza-privacy",
+        "software-engineering"
+      ],
+      "tags": [
+        "dependency-track",
+        "sast",
+        "ast",
+        "supply-chain",
+        "ai-security"
+      ],
+      "summary": {
+        "text": "Riduzione dei falsi positivi negli strumenti di sicurezza delle dipendenze, usando AST e AI per capire meglio l'effettivo impatto sul codice.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "90789"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1234879",
+      "title": "The Zero-Temperature Lie: Why Your Deterministic LLM is Still Hallucinating Randomness",
+      "speakerIds": [
+        "72578c91-9bef-4d64-bd0d-9b3645364d74"
+      ],
+      "categoryIds": [
+        "ai-llm"
+      ],
+      "tags": [
+        "llm",
+        "deterministic-inference",
+        "temperature",
+        "evaluation",
+        "reliability"
+      ],
+      "summary": {
+        "text": "Perché una configurazione di temperatura zero non garantisce risultati identici e perfettamente deterministici nei modelli linguistici.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1215971",
+      "title": "What comes after Git?",
+      "speakerIds": [
+        "8c159868-7bac-46db-afe8-7f76e6b494b6"
+      ],
+      "categoryIds": [
+        "software-engineering"
+      ],
+      "tags": [
+        "git",
+        "version-control",
+        "developer-tools",
+        "collaborazione"
+      ],
+      "summary": {
+        "text": "Esplorazione delle possibili evoluzioni del versionamento del codice e dei workflow di collaborazione oltre Git.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1254733",
+      "title": "Why Coding Agents Need You More Than Ever",
+      "speakerIds": [
+        "c04f20d4-cd2f-4fb0-9ee2-c7b8cac9871f"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "software-engineering"
+      ],
+      "tags": [
+        "ai-agents",
+        "coding-agents",
+        "supervisione",
+        "sviluppo-software"
+      ],
+      "summary": {
+        "text": "Il ruolo ancora indispensabile delle persone quando si usano coding agent: definizione degli obiettivi, giudizio architetturale, verifica e responsabilità sul risultato.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T12:10+01:00",
+        "endsAt": "2026-10-29T12:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1210841",
+      "title": "AI Fundamentals in Action: Evolving a Flappy Bird Agent",
+      "speakerIds": [
+        "ddf81268-9ef6-47aa-a923-a2aaeb09e42f"
+      ],
+      "categoryIds": [
+        "ai-llm",
+        "gaming-creative-coding"
+      ],
+      "tags": [
+        "ai-fundamentals",
+        "flappy-bird",
+        "agent",
+        "learning"
+      ],
+      "summary": {
+        "text": "Dimostrazione pratica di concetti fondamentali dell'AI mediante un agente che impara a giocare a Flappy Bird.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T13:00+01:00",
+        "endsAt": "2026-10-29T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "90789"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1360406",
+      "title": "Game Audio: Beyond PlaySound()",
+      "speakerIds": [
+        "6f100b75-b8fa-4181-93d4-51e905936436"
+      ],
+      "categoryIds": [
+        "gaming-creative-coding"
+      ],
+      "tags": [
+        "game-audio",
+        "game-development",
+        "sound-design"
+      ],
+      "summary": {
+        "text": "Tecniche e architetture dell'audio nei videogiochi oltre la semplice riproduzione di un suono.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T13:00+01:00",
+        "endsAt": "2026-10-29T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1216127",
+      "title": "How to Interview Engineers in the AI Era: What I Changed and What Actually Works",
+      "speakerIds": [
+        "f4d61fd8-1738-46f6-b83e-d60e833596bd"
+      ],
+      "categoryIds": [
+        "leadership-carriera"
+      ],
+      "tags": [
+        "hiring",
+        "interview",
+        "ai-era",
+        "engineering-management"
+      ],
+      "summary": {
+        "text": "Come ripensare i colloqui e la valutazione degli ingegneri quando l'AI modifica le abilità verificabili e i metodi di lavoro.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T13:00+01:00",
+        "endsAt": "2026-10-29T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1357782",
+      "title": "How to tame our Hermes minions fleet",
+      "speakerIds": [
+        "6fc71432-0fc4-4160-a7c9-0284e55e6398"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "cloud-devops"
+      ],
+      "tags": [
+        "orchestrazione",
+        "ai-agents",
+        "automazione"
+      ],
+      "summary": {
+        "text": "Organizzazione e controllo di una flotta di componenti o agenti chiamati Hermes; focus presumibile sulla loro gestione operativa.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T13:00+01:00",
+        "endsAt": "2026-10-29T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1355009",
+      "title": "Saliresti su un aereo vibecodato? Spec-driven AI con EARS e Walden",
+      "speakerIds": [
+        "cb869b7c-d81b-46f8-86b8-755c7d2f3a0c"
+      ],
+      "categoryIds": [
+        "software-engineering",
+        "ai-agents"
+      ],
+      "tags": [
+        "spec-driven",
+        "requirements",
+        "ears",
+        "walden",
+        "ai-coding"
+      ],
+      "summary": {
+        "text": "Utilizzo di requisiti strutturati e approcci spec-driven (EARS, Walden) per rendere lo sviluppo assistito dall'AI più verificabile del semplice vibe coding.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T13:00+01:00",
+        "endsAt": "2026-10-29T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1249272",
+      "title": "The Swiss cheese fix: why PR quality needs layers",
+      "speakerIds": [
+        "966a3341-884b-4bf2-8e8a-dc8f6edc5d38"
+      ],
+      "categoryIds": [
+        "software-engineering",
+        "sicurezza-privacy"
+      ],
+      "tags": [
+        "code-review",
+        "pr-quality",
+        "quality-gates",
+        "ci-cd"
+      ],
+      "summary": {
+        "text": "Controllo della qualità delle pull request mediante più barriere complementari, anziché affidarsi a una singola revisione o scansione.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T13:00+01:00",
+        "endsAt": "2026-10-29T13:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1301534",
+      "title": "Configurare l’harness: da Claude Code come tool a Claude Code come sistema di lavoro",
+      "speakerIds": [
+        "ca23aaf7-dd72-4e46-bc76-bd54b5195ffb"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "software-engineering"
+      ],
+      "tags": [
+        "claude-code",
+        "coding-agents",
+        "harness",
+        "workflow"
+      ],
+      "summary": {
+        "text": "Come impostare ambiente, regole e flussi di lavoro intorno a Claude Code, trasformandolo da singolo strumento in un sistema operativo di sviluppo.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "workshop",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T15:20+01:00",
+        "endsAt": "2026-10-29T16:40+01:00",
+        "durationMinutes": 80,
+        "roomId": "83171"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1324797",
+      "title": "Honey, We Predicted the Bits",
+      "speakerIds": [
+        "87e12d99-9e42-47d2-b6e5-73dafd25ef45"
+      ],
+      "categoryIds": [
+        "architettura-backend"
+      ],
+      "tags": [
+        "data-prediction",
+        "algoritmi",
+        "performance"
+      ],
+      "summary": {
+        "text": "Tecniche legate alla predizione di bit o dati; il titolo non consente di confermare l'approccio specifico o la tecnologia impiegata.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T15:20+01:00",
+        "endsAt": "2026-10-29T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1355799",
+      "title": "Text-to-SQL Isn't Enough: Trustworthy AI Data Agents on a Semantic Layer",
+      "speakerIds": [
+        "a46ab5b7-3951-4879-923b-2c5ee2f9ca46",
+        "91312c7d-3a93-45aa-8f81-cb280ed48a8b"
+      ],
+      "categoryIds": [
+        "ai-agents",
+        "dati-observability"
+      ],
+      "tags": [
+        "text-to-sql",
+        "semantic-layer",
+        "data-agents",
+        "database",
+        "affidabilita"
+      ],
+      "summary": {
+        "text": "Come costruire agenti di accesso ai dati più affidabili del semplice text-to-SQL grazie a un semantic layer e a concetti di business condivisi.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T15:20+01:00",
+        "endsAt": "2026-10-29T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1233377",
+      "title": "The case for Small Models: a 1M ModernBERT playing Doom in milliseconds",
+      "speakerIds": [
+        "5297f3e4-6fac-4e76-8d6a-b67f084ab50b"
+      ],
+      "categoryIds": [
+        "ai-llm",
+        "gaming-creative-coding"
+      ],
+      "tags": [
+        "small-models",
+        "modernbert",
+        "latency",
+        "doom",
+        "on-device-ai"
+      ],
+      "summary": {
+        "text": "Impiego di un piccolo modello ModernBERT da circa un milione di parametri per prendere decisioni rapidamente in Doom.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T15:20+01:00",
+        "endsAt": "2026-10-29T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1223092",
+      "title": "The Ultimate Kubernetes Challenge: An Interactive Trivia Game on concepts, components, usage...",
+      "speakerIds": [
+        "24cbeef1-2467-4bd6-9a0e-a931b625f3d5"
+      ],
+      "categoryIds": [
+        "cloud-devops"
+      ],
+      "tags": [
+        "kubernetes",
+        "cloud-native",
+        "quiz"
+      ],
+      "summary": {
+        "text": "Quiz interattivo sui concetti, componenti e casi d'uso di Kubernetes, per consolidare la conoscenza dell'ecosistema.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T15:20+01:00",
+        "endsAt": "2026-10-29T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83168"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1362542",
+      "title": "Trovare la Propria Dimensione",
+      "speakerIds": [
+        "b7e3057a-ada5-4bf7-bb3a-aef1fa0947e0",
+        "2ca97891-f213-44c1-b420-b3dd8949e05c"
+      ],
+      "categoryIds": [
+        "leadership-carriera"
+      ],
+      "tags": [
+        "carriera",
+        "crescita-professionale",
+        "motivazione"
+      ],
+      "summary": {
+        "text": "Riflessione sul trovare il proprio spazio o ruolo professionale. Il tema specifico non è precisato nell’HTML dell’agenda, quindi questa interpretazione è provvisoria.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T15:20+01:00",
+        "endsAt": "2026-10-29T15:50+01:00",
+        "durationMinutes": 30,
+        "roomId": "83170"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1235267",
+      "title": "Accessibility first: progettare una piattaforma quando l’accessibilità non è negoziabile",
+      "speakerIds": [
+        "7094a6e4-e65a-4574-8010-844557ad2edb",
+        "350e8d2b-9e61-45ee-9259-dc298452dd4d"
+      ],
+      "categoryIds": [
+        "frontend-ux"
+      ],
+      "tags": [
+        "accessibilita",
+        "wcag",
+        "ux",
+        "inclusive-design"
+      ],
+      "summary": {
+        "text": "Progettazione di una piattaforma con l'accessibilità come requisito iniziale, non come correzione successiva.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T16:10+01:00",
+        "endsAt": "2026-10-29T16:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83169"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1253908",
+      "title": "Provocazioni Artificiali: un talk così “shiftato” che ti verrà la voglia di rubarci il microfono!",
+      "speakerIds": [
+        "a68d9b27-86f2-41f9-aede-6a6a455180c2",
+        "be964b25-3d59-46c3-8985-7c87fb884497"
+      ],
+      "categoryIds": [
+        "ai-llm"
+      ],
+      "tags": [
+        "ai-culture",
+        "dibattito",
+        "innovazione"
+      ],
+      "summary": {
+        "text": "Intervento provocatorio sull'intelligenza artificiale e il suo impatto; dettagli delle tesi specifiche non disponibili nel file.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T16:10+01:00",
+        "endsAt": "2026-10-29T16:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83167"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1230211",
+      "title": "Scaling AI Adoption: The Real Challenges of Transforming 300 Engineers",
+      "speakerIds": [
+        "4f4a677c-44c3-484e-accb-5ba8b38463ef"
+      ],
+      "categoryIds": [
+        "leadership-carriera",
+        "ai-agents"
+      ],
+      "tags": [
+        "ai-adoption",
+        "engineering-management",
+        "change-management",
+        "team"
+      ],
+      "summary": {
+        "text": "Problemi organizzativi e tecnici incontrati nell'introdurre pratiche AI in un'organizzazione di centinaia di ingegneri.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T16:10+01:00",
+        "endsAt": "2026-10-29T16:40+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1225761",
+      "title": "Critica dell'informatica pura",
+      "speakerIds": [
+        "fbf4ed2b-e1ec-4557-85d3-4a7524b631eb",
+        "a660ad54-ecd0-4cae-8478-03c3cff88050"
+      ],
+      "categoryIds": [
+        "software-engineering"
+      ],
+      "tags": [
+        "informatica",
+        "etica",
+        "riflessione"
+      ],
+      "summary": {
+        "text": "Riflessione critica sull'informatica e sui suoi presupposti, con una prospettiva più concettuale rispetto ai talk dedicati a framework e strumenti.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": {
+        "date": "2026-10-29",
+        "startsAt": "2026-10-29T17:00+01:00",
+        "endsAt": "2026-10-29T17:30+01:00",
+        "durationMinutes": 30,
+        "roomId": "83166"
+      },
+      "status": "scheduled",
+      "sources": [
+        "speakers-page",
+        "agenda-page"
+      ]
+    },
+    {
+      "id": "1234564",
+      "title": "Inclusion by design: engineering team workflows for different brains",
+      "speakerIds": [
+        "56cfe09d-ecca-443e-b9c9-cd3b20d7d360"
+      ],
+      "categoryIds": [
+        "leadership-carriera"
+      ],
+      "tags": [
+        "inclusion",
+        "neurodiversity",
+        "teamwork",
+        "process"
+      ],
+      "summary": {
+        "text": "Progettazione di processi di lavoro inclusivi per persone con differenti modalità cognitive e di attenzione.",
+        "language": "it",
+        "basis": "editorial-title-based"
+      },
+      "format": "talk",
+      "schedule": null,
+      "status": "schedule-unconfirmed",
+      "sources": [
+        "speakers-page"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "ai-llm",
+      "label": "AI & LLM"
+    },
+    {
+      "id": "ai-agents",
+      "label": "AI Agents"
+    },
+    {
+      "id": "architettura-backend",
+      "label": "Architettura & Backend"
+    },
+    {
+      "id": "cloud-devops",
+      "label": "Cloud & DevOps"
+    },
+    {
+      "id": "dati-observability",
+      "label": "Dati & Observability"
+    },
+    {
+      "id": "frontend-ux",
+      "label": "Frontend & UX"
+    },
+    {
+      "id": "gaming-creative-coding",
+      "label": "Gaming & Creative Coding"
+    },
+    {
+      "id": "iot-embedded",
+      "label": "IoT & Embedded"
+    },
+    {
+      "id": "leadership-carriera",
+      "label": "Leadership & Carriera"
+    },
+    {
+      "id": "sicurezza-privacy",
+      "label": "Sicurezza & Privacy"
+    },
+    {
+      "id": "software-engineering",
+      "label": "Software Engineering"
+    },
+    {
+      "id": "sostenibilita",
+      "label": "Sostenibilità"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "83167",
+      "name": "BICOCCA",
+      "kind": "stage"
+    },
+    {
+      "id": "90788",
+      "name": "BRERA",
+      "kind": "stage"
+    },
+    {
+      "id": "83169",
+      "name": "CORVETTO",
+      "kind": "stage"
+    },
+    {
+      "id": "83170",
+      "name": "LAMBRATE",
+      "kind": "stage"
+    },
+    {
+      "id": "90789",
+      "name": "NAVIGLI",
+      "kind": "stage"
+    },
+    {
+      "id": "83166",
+      "name": "SANSIRO",
+      "kind": "stage"
+    },
+    {
+      "id": "83168",
+      "name": "TORTONA",
+      "kind": "stage"
+    },
+    {
+      "id": "83171",
+      "name": "Workshop",
+      "kind": "workshop"
+    }
+  ],
+  "agenda": [
+    {
+      "date": "2026-10-28",
+      "slots": [
+        {
+          "startTime": "09:50",
+          "sessionIds": [
+            "1327744"
+          ]
+        },
+        {
+          "startTime": "11:20",
+          "sessionIds": [
+            "1214501",
+            "1216484",
+            "1227394",
+            "1213991",
+            "1226083",
+            "1244834",
+            "1246405"
+          ]
+        },
+        {
+          "startTime": "12:10",
+          "sessionIds": [
+            "1348517",
+            "1265570",
+            "1234300",
+            "1330362",
+            "1235212",
+            "1237064",
+            "1222188"
+          ]
+        },
+        {
+          "startTime": "13:00",
+          "sessionIds": [
+            "1330247",
+            "1340661",
+            "1234974",
+            "1225977",
+            "1232458",
+            "1295740"
+          ]
+        },
+        {
+          "startTime": "15:20",
+          "sessionIds": [
+            "1330263",
+            "1218568",
+            "1229817",
+            "1348290",
+            "1235175",
+            "1319162",
+            "1224608",
+            "1296534"
+          ]
+        },
+        {
+          "startTime": "16:10",
+          "sessionIds": [
+            "1216673",
+            "1213691",
+            "1334014",
+            "1226525",
+            "1327616",
+            "1216557"
+          ]
+        },
+        {
+          "startTime": "16:30",
+          "sessionIds": [
+            "1234920"
+          ]
+        },
+        {
+          "startTime": "17:00",
+          "sessionIds": [
+            "1233101",
+            "1331302",
+            "1230228",
+            "1231176",
+            "1260726"
+          ]
+        },
+        {
+          "startTime": "17:50",
+          "sessionIds": [
+            "1265470"
+          ]
+        }
+      ],
+      "sessionCount": 42
+    },
+    {
+      "date": "2026-10-29",
+      "slots": [
+        {
+          "startTime": "10:00",
+          "sessionIds": [
+            "1361549"
+          ]
+        },
+        {
+          "startTime": "11:20",
+          "sessionIds": [
+            "1362869",
+            "1226121",
+            "1234927",
+            "1218655",
+            "1219093",
+            "1230660"
+          ]
+        },
+        {
+          "startTime": "12:10",
+          "sessionIds": [
+            "1215971",
+            "1354856",
+            "1234879",
+            "1348385",
+            "1220576",
+            "1254733",
+            "1232889",
+            "1342030"
+          ]
+        },
+        {
+          "startTime": "13:00",
+          "sessionIds": [
+            "1355009",
+            "1249272",
+            "1360406",
+            "1210841",
+            "1216127",
+            "1357782"
+          ]
+        },
+        {
+          "startTime": "15:20",
+          "sessionIds": [
+            "1233377",
+            "1355799",
+            "1362542",
+            "1324797",
+            "1223092",
+            "1301534"
+          ]
+        },
+        {
+          "startTime": "16:10",
+          "sessionIds": [
+            "1253908",
+            "1235267",
+            "1230211"
+          ]
+        },
+        {
+          "startTime": "17:00",
+          "sessionIds": [
+            "1225761"
+          ]
+        }
+      ],
+      "sessionCount": 31
+    }
+  ]
+}
