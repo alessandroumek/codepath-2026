@@ -34,7 +34,7 @@ La vista **Griglia oraria** è selezionata per impostazione predefinita. Le sale
 
 Niente viene trasmesso a un server: i dati restano **sul dispositivo e su quell'origine web**. Possono essere persi se l'utente cancella i dati del sito o naviga in modalità privata. Installazioni PWA e browser possono usare spazi di memorizzazione differenti (specialmente su iOS): per trasferire la selezione, esporta/importa il JSON. Nessuna sincronizzazione cloud automatica.
 
-Nota: lo snapshot del programma risale al **15 ottobre 2026**. Le categorie sono editoriali. Gli abstract ufficiali delle 74 sessioni sono stati recuperati da **Sessionize il 16 ottobre 2026** e conservati nella lingua originale.
+Nota: lo snapshot del programma risale al **15 ottobre 2026**. Categorie e tag sono stati revisionati leggendo titolo e abstract di tutte le sessioni; la prima categoria indica il tema principale. Le motivazioni per ogni assegnazione sono disponibili in [Revisione editoriale delle sessioni](docs/session-classification.md). Gli abstract ufficiali delle 74 sessioni sono stati recuperati da **Sessionize il 16 ottobre 2026** e conservati nella lingua originale.
 
 ## Esecuzione locale
 
