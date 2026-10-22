@@ -1,169 +1,152 @@
 # Codepath — Codemotion Milano 2026
 
-Una web app **React + TypeScript + Vite** per esplorare il programma del 28–29 ottobre 2026 e costruire un itinerario personale senza sovrapposizioni. Pronta per Netlify e installabile come **Progressive Web App (PWA)**.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1f61da33-e259-4d83-b3db-7c863bce4de6/deploy-status)](https://app.netlify.com/projects/codepath-2026/deploys)
 
-## Funzioni
+A **React + TypeScript + Vite** web app for exploring the October 28–29, 2026 schedule and building a personal itinerary without overlapping sessions. Ready for Netlify and installable as a **Progressive Web App (PWA)**.
 
-- **Nuova griglia oraria per sala** con colonne scorrevoli, durate reali dei talk/workshop, pause compresse, evidenza delle scelte e delle alternative sovrapposte.
-- **Vista a elenco alternativa** per chi preferisce consultare le sessioni per fascia oraria, con speaker, descrizioni e categorie.
-- Filtri per **categoria**, **sala**, ricerca full-text, e talk **da valutare**.
-- Schede di **86 speaker** collegate ai talk.
-- **Percorso personale** con scelta di talk per i due giorni.
-- **Controllo dei conflitti** basato su interi intervalli temporali, inclusi workshop di 80 minuti: una selezione in conflitto propone di sostituire i talk precedenti.
-- Voti da 1 a 5, preferiti e note personali per ogni talk.
-- Esportazione calendario `.ics`, esportazione/importazione del percorso in `.json`.
-- Design responsive desktop/tablet/mobile, pannello dettagli talk, avatar speaker.
-- **PWA installabile** su desktop, Android e iOS/iPadOS (dove supportato dal browser), con manifest, icone e service worker.
-- **Consultazione offline** dell'agenda, delle descrizioni, dei filtri e del proprio percorso dopo il primo caricamento online completato. Foto esterne degli speaker e font remoti potrebbero non comparire senza rete.
+## Features
 
-## Nuova griglia di pianificazione (v0.3)
+- **Room-based schedule grid** with horizontally scrolling columns, actual talk and workshop durations, compressed breaks, selected sessions, and overlapping alternatives.
+- **Alternative list view** for browsing sessions by time slot, with speakers, descriptions, and categories.
+- Filters by **category** and **room**, full-text search, and bookmarked sessions to consider.
+- Profiles for **86 speakers**, linked to their talks.
+- A **personal itinerary** covering both days.
+- **Conflict detection** based on complete time intervals, including 80-minute workshops: selecting an overlapping session offers to replace earlier selections.
+- Ratings from 1 to 5, bookmarks, and personal notes for each talk.
+- Calendar export as `.ics` and itinerary import/export as `.json`.
+- Responsive desktop, tablet, and mobile layouts, a talk details panel, and speaker avatars.
+- **Installable PWA** on desktop, Android, and iOS/iPadOS where supported, with a manifest, icons, and service worker.
+- **Offline access** to the schedule, descriptions, filters, and personal itinerary after the initial online load completes. External speaker photos and remote fonts may be unavailable offline.
 
-La vista **Griglia oraria** è selezionata per impostazione predefinita. Le sale sono disposte in colonne e gli orari in verticale. Puoi scorrere orizzontalmente la griglia, anche con i pulsanti freccia, e aprire i dettagli cliccando il titolo.
+## Schedule grid (v0.3)
 
-- **Verde**: talk già aggiunto al percorso.
-- **Arancione tratteggiato**: talk che si sovrappone a una scelta già effettuata; usando **Sostituisci** compare una conferma esplicita e il sistema rimuove soltanto i talk incompatibili.
-- **Bianco**: talk disponibile; clicca **Scegli** per aggiungerlo.
-- La geometria temporale è basata sull'agenda completa del giorno e non cambia quando applichi filtri. Le pause lunghe vengono compresse per evitare una griglia inutilmente alta, mentre i talk mantengono proporzioni coerenti alla loro durata effettiva.
-- Su telefono la griglia scorre orizzontalmente; puoi tornare alla modalità **Elenco** in qualunque momento. La preferenza per la vista viene memorizzata in `localStorage`.
+The **schedule grid** is the default view. Rooms appear as columns, with time running vertically. Scroll horizontally using gestures or the arrow buttons, and open session details by clicking a title.
 
-## Modello dati e privacy
+- **Green**: a talk already added to your itinerary.
+- **Dashed orange**: a talk that overlaps an existing selection. Choosing **Replace** (`Sostituisci`) prompts for confirmation and removes only incompatible talks.
+- **White**: an available talk. Choose **Select** (`Scegli`) to add it.
+- The time layout uses the full day's schedule and stays consistent when filters are applied. Long breaks are compressed to avoid an excessively tall grid, while talks retain proportions consistent with their actual duration.
+- On phones, the grid scrolls horizontally. Switch back to **List** (`Elenco`) at any time. The view preference is stored in `localStorage`.
 
-**I dati della conferenza sono statici e immutabili**, nella cartella `src/data/catalog.json` (74 sessioni, 86 speaker, 12 categorie, 8 sale).
+## Data model and privacy
 
-**Le scelte personali non fanno parte dei file statici.** `PlanState` è uno stato React inizializzato dal `localStorage` del browser, salvato con una chiave dedicata all'evento. Percorso, preferiti, voti e note **sopravvivono alla chiusura e alla riapertura** del browser. La versione precedente salvava in `sessionStorage`: i dati esistenti vengono migrati automaticamente al primo avvio in questo browser, se non è già presente un piano persistente.
+**Conference data is static and immutable at runtime**, stored in `src/data/catalog.json` (74 sessions, 86 speakers, 12 categories, and 8 rooms).
 
-Niente viene trasmesso a un server: i dati restano **sul dispositivo e su quell'origine web**. Possono essere persi se l'utente cancella i dati del sito o naviga in modalità privata. Installazioni PWA e browser possono usare spazi di memorizzazione differenti (specialmente su iOS): per trasferire la selezione, esporta/importa il JSON. Nessuna sincronizzazione cloud automatica.
+**Personal selections are separate from the static files.** `PlanState` is React state initialized from the browser's `localStorage`, using an event-specific key. Your itinerary, bookmarks, ratings, and notes **survive closing and reopening the browser**. Earlier versions used `sessionStorage`; existing data is migrated automatically when the app first runs in that browser, provided no persistent itinerary already exists.
 
-Nota: lo snapshot del programma risale al **15 ottobre 2026**. Categorie e tag sono stati revisionati leggendo titolo e abstract di tutte le sessioni; la prima categoria indica il tema principale. Le motivazioni per ogni assegnazione sono disponibili in [Revisione editoriale delle sessioni](docs/session-classification.md). Gli abstract ufficiali delle 74 sessioni sono stati recuperati da **Sessionize il 16 ottobre 2026** e conservati nella lingua originale.
+Personal data is not sent to a server: it stays **on your device and within that web origin**. It may be lost if you clear site data or use private browsing. Installed PWAs and browser tabs may use different storage areas, particularly on iOS. Export and import the JSON file to transfer your selections. There is no automatic cloud synchronization.
 
-## Esecuzione locale
+The schedule snapshot dates from **October 15, 2026**. Categories and tags were reviewed against every session's title and abstract; the first category identifies the primary topic. See the [editorial session classification review](docs/session-classification.md) for the rationale behind each assignment. Official abstracts for all 74 sessions were retrieved from **Sessionize on October 16, 2026** and retained in their original language.
 
-Richiede **Node.js >= 20.19**.
+## Running locally
+
+Requires **Node.js >=20.19**.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Apri l'indirizzo mostrato da Vite, solitamente `http://localhost:5173`.
+Open the address reported by Vite, usually `http://localhost:5173`.
 
-Puoi validare le relazioni e gli orari del catalogo anche senza avviare il frontend:
+Validate catalog relationships and schedules without starting the frontend:
 
 ```bash
 npm run validate:data
 ```
 
-Per preparare la build di produzione:
+Create and preview a production build:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-Dopo `npm run build` è presente in `dist/` anche `sw.js`: lo genera lo script `scripts/generate-pwa-sw.mjs` usando i nomi reali degli asset hashati da Vite. Il service worker precarica manifest, icone, bundle e catalogo (incluso nel bundle), offre fallback offline per la SPA e pulisce le vecchie cache dopo un aggiornamento. **In sviluppo (`npm run dev`) il service worker non viene registrato**, per non interferire con l'hot reload.
+After `npm run build`, `dist/` also contains `sw.js`, generated by `scripts/generate-pwa-sw.mjs` using Vite's actual hashed asset names. The service worker precaches the manifest, icons, bundles, and catalog (included in the bundle), provides an offline fallback for the SPA, and removes old caches after updates. **The service worker is not registered during development (`npm run dev`)**, so it does not interfere with hot reload.
 
-## Pubblicazione su Netlify
+## Deploying to Netlify
 
-### Collegando GitHub (consigliato)
+### Connecting GitHub (recommended)
 
-1. Crea un repository con il contenuto della cartella del progetto e pubblicalo su GitHub.
-2. Su Netlify seleziona **Add new project → Import an existing project** e scegli il repository.
-3. Netlify legge automaticamente `netlify.toml`. In alternativa:
+1. Create a repository containing the project files and push it to GitHub.
+2. In Netlify, choose **Add new project → Import an existing project** and select the repository.
+3. Netlify automatically reads `netlify.toml`. If configuring manually, use:
    - Build command: `npm run build`
    - Publish directory: `dist`
    - Node version: `22`
-4. Pubblica con **Deploy site**. Ogni successivo push aggiornerà il sito.
+4. Choose **Deploy site**. Subsequent pushes to the configured production branch update the site.
 
-La regola SPA in `netlify.toml` reindirizza le rotte a `index.html` per consentire futuri URL client-side. Sono impostate anche intestazioni di cache adeguate per `sw.js` (sempre aggiornato), manifest e bundle hashati. Non sono necessari environment variables, database o funzioni serverless.
+The SPA rule in `netlify.toml` redirects routes to `index.html` to support future client-side URLs. Cache headers are also configured for `sw.js` (always revalidated), the manifest, and hashed bundles. No environment variables, database, or serverless functions are required.
 
-## Come installarla
+### Manual deployment
 
-1. Esegui un deploy Netlify e apri l'URL in **HTTPS**. `localhost` va bene durante i test.
-2. Da Chrome/Edge (desktop/Android) usa il pulsante **Installa app** nell'interfaccia o il comando del browser; da Safari su iPhone/iPad usa **Condividi → Aggiungi alla schermata Home**.
-3. Avvia l'app dalla sua icona, come applicazione standalone.
-4. **Prima di usarla offline**, attendi che la pagina sia stata caricata una volta online e che il service worker abbia terminato la preparazione dei contenuti. Se l'aggiornamento dell'agenda è importante, collegati a Internet e riapri l'app prima dell'evento.
+After running `npm run build`, drag the **`dist/` directory** into the Netlify dashboard for a manual deployment.
 
-Nota: l'installazione dipende dal supporto del browser; `beforeinstallprompt` non è disponibile su tutte le piattaforme. Il pulsante dell'app mostra comunque le istruzioni manuali. Su iOS l'installazione può avere un'area di archiviazione distinta dalla scheda Safari.
+**Do not upload the source ZIP directly to Netlify's drag-and-drop deployment:** generate the production build first.
 
-### Deploy manuale
+## Installing the app
 
-Dopo `npm run build`, trascina **la cartella `dist/`** nella dashboard Netlify per un deploy manuale.
+1. Deploy to Netlify and open the site over **HTTPS**. `localhost` also works for testing.
+2. In Chrome or Edge on desktop or Android, use the app's **Install app** (`Installa app`) button or the browser's installation command. In Safari on iPhone or iPad, use **Share → Add to Home Screen**.
+3. Launch the app from its icon in standalone mode.
+4. **Before using it offline**, wait for one complete online page load and for the service worker to finish preparing the content. If you need the latest schedule, connect to the Internet and reopen the app before the event.
 
-**Non caricare direttamente il ZIP del codice sorgente nel drag & drop Netlify:** deve prima essere generata la build.
+Installation depends on browser support; `beforeinstallprompt` is not available on every platform. The app's installation button also provides manual instructions. On iOS, an installed app may use a separate storage area from a Safari tab.
 
-## Struttura
+## Project structure
 
 ```text
 src/
-  App.tsx              # viste, filtri, selezione, dettagli e UI
-  styles.css           # UI responsive
-  main.tsx             # entrypoint React
-  data/catalog.json    # catalogo Codemotion (statico)
-  lib/catalog.ts       # tipi, indicizzazione e intervalli temporali
-  lib/plan.ts          # localStorage, migrazione sessionStorage, import/export JSON e calendario ICS
+  App.tsx                # Views, filters, selections, details, and UI
+  AgendaGrid.tsx         # Room-based schedule grid
+  styles.css             # Responsive UI styles
+  main.tsx               # React entry point
+  data/catalog.json      # Static Codemotion catalog
+  lib/catalog.ts         # Types, indexing, and time intervals
+  lib/plan.ts            # localStorage, sessionStorage migration, JSON and ICS import/export
 public/
-  manifest.webmanifest # identità e modalità standalone PWA
-  icons/              # icone installazione 192/512/maskable
+  manifest.webmanifest   # PWA identity and standalone configuration
+  icons/                 # 192px, 512px, and maskable installation icons
 scripts/
-  generate-pwa-sw.mjs # genera SW con precache degli asset della build
+  generate-pwa-sw.mjs     # Generates the service worker and build asset precache
+  validate-data.mjs       # Validates catalog relationships and schedules
+  scrape-sessionize.mjs   # Downloads session HTML from Sessionize
+  import-sessionize.py   # Imports official abstracts into the catalog
+docs/
+  session-classification.md # Editorial classification rationale for every session
 index.html
-netlify.toml            # configurazione di deploy
+netlify.toml             # Deployment configuration
 vite.config.ts
 package.json
 ```
 
-## Aggiornamento del catalogo
+## Updating the catalog
 
-Sostituisci `src/data/catalog.json` con uno snapshot aggiornato preservando ID Sessionize e schema. Gli ID sessione sono usati per collegare la selezione utente; mantenere gli ID garantisce compatibilità con i percorsi esportati.
+Replace `src/data/catalog.json` with an updated snapshot while preserving Sessionize IDs and the schema. Session IDs link talks to personal selections; keeping them stable preserves compatibility with exported itineraries.
 
-## Prossimi miglioramenti possibili
+## Downloading abstracts from Sessionize
 
-- Link condivisibile al percorso tramite URL compressa, senza backend.
-- Confronto affiancato degli speech della stessa fascia oraria.
-- Import automatico del nuovo programma, con evidenza delle variazioni degli orari.
-- Modalità griglia multi-palco e indicazione dei tempi di trasferimento tra le sale.
-
-## Fonti
-
-- https://conferences.codemotion.com/milan/speakers/
-- https://conferences.codemotion.com/milan/agenda/
-
-Questo è un planner indipendente e non un'applicazione ufficiale Codemotion.
-
-
-## Download degli abstract da Sessionize
-
-Con Node.js >=20.19, dalla root del progetto (non richiede `npm install`):
+With Node.js >=20.19, run this from the project root (`npm install` is not required):
 
 ```bash
 node scripts/scrape-sessionize.mjs
 ```
 
-Lo script legge tutti gli ID da `src/data/catalog.json` ed esegue una POST vuota per
-sessione al feed `cdpvhngf`, con Origin e Referer del sito Codemotion. Attende un
-secondo tra le richieste, applica un timeout di 20 secondi e riprova gli errori di
-rete, HTTP 429 e HTTP 5xx fino a tre tentativi, rispettando Retry-After.
+The script reads every session ID from `src/data/catalog.json` and sends an empty POST request per session to the `cdpvhngf` feed, using the Codemotion site's Origin and Referer headers. It waits one second between requests, applies a 20-second timeout, and makes up to three attempts for network errors, HTTP 429, and HTTP 5xx, honoring Retry-After.
 
-Salva nella cartella locale ignorata da Git `.sessionize-downloads/`:
+Results are saved in the local, Git-ignored `.sessionize-downloads/` directory:
 
-- `<id>.json`: HTML originale, ID, titolo, URL sorgente e data di recupero.
-- `sessions.json`: raccolta dei risultati disponibili per il catalogo corrente.
-- `errors.json`: sessioni non scaricate e relativi errori.
+- `<id>.json`: original HTML, ID, title, source URL, and retrieval timestamp.
+- `sessions.json`: combined results available for the current catalog.
+- `errors.json`: failed sessions and their errors.
 
-Rilancia lo stesso comando per riprendere: i download validi sono riutilizzati.
-Usa `--force` per riscaricarli o `--help` per le altre opzioni. Non avviare due
-istanze contemporaneamente sulla stessa cartella di output. Il codice di uscita
-è 1 se alcune sessioni non sono state scaricate.
+Run the same command again to resume; valid downloads are reused. Use `--force` to download them again or `--help` for other options. Do not run multiple instances against the same output directory simultaneously. The exit code is 1 if any sessions could not be downloaded.
 
-Il catalogo e le scelte personali non vengono modificati. L'HTML è conservato
-integralmente: va verificato ed eventualmente sanitizzato prima di inserirlo
-nell'interfaccia. Un HTTP 200 non garantisce da solo che contenga l'abstract.
-Esegui il comando da una rete che consente l'accesso a sessionize.com.
+The catalog and personal selections are not modified. HTML is preserved in full: review it and sanitize it if needed before displaying it in an interface. An HTTP 200 response alone does not guarantee that it contains an abstract. Run the command from a network that allows access to sessionize.com.
 
+### Importing into the catalog
 
-### Importazione nel catalogo
-
-Dopo il download, con Python 3 (su Windows puoi usare `py` al posto di `python3`):
+After downloading, use Python 3 (on Windows, you can use `py` instead of `python3`):
 
 ```bash
 python3 scripts/import-sessionize.py
@@ -172,12 +155,20 @@ npm run check
 npm run build
 ```
 
-L'importatore verifica evento, copertura completa, ID, URL sorgente e titolo HTML
-prima di scrivere il catalogo. Estrae solo il testo della descrizione, decodifica
-le entità HTML e conserva gli a capo, senza eseguire o incorporare markup remoto.
-Sostituisce `summary` e aggiunge fonte/data per ogni abstract, preservando ID,
-programma, categorie e speaker. Il codice lingua `und` indica che non è stata
-eseguita una classificazione automatica della lingua; il testo non è tradotto.
-La data del programma resta distinta dalla data di aggiornamento degli abstract.
-I download originali restano in `.sessionize-downloads/`, esclusa da Git; il
-catalogo aggiornato è invece incluso nella build e disponibile offline.
+The importer checks the event, complete session coverage, IDs, source URLs, and HTML titles before writing to the catalog. It extracts only the description text, decodes HTML entities, and preserves line breaks without executing or embedding remote markup. It replaces `summary` and adds source and retrieval metadata for each abstract, preserving IDs, schedules, categories, and speakers. The `und` language code means that automatic language classification has not been performed; the text is not translated.
+
+The schedule snapshot date remains separate from the abstract update date. Original downloads stay in `.sessionize-downloads/`, excluded from Git; the updated catalog is included in the build and available offline.
+
+## Possible future improvements
+
+- Shareable itineraries using compressed URLs, without a backend.
+- Side-by-side comparison of talks in the same time slot.
+- Automatic schedule imports highlighting time changes.
+- A multi-stage grid mode with estimated travel time between rooms.
+
+## Sources
+
+- https://conferences.codemotion.com/milan/speakers/
+- https://conferences.codemotion.com/milan/agenda/
+
+This is an independent planner, not an official Codemotion application.
