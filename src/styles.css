@@ -106,3 +106,18 @@
 
 /* Preserve paragraph and list breaks from official Sessionize abstracts. */
 .official-abstract{white-space:pre-line}
+
+/* Keep the navigation scrollbar subtle against the dark sidebar. */
+.sidebar-inner{
+  scrollbar-width:thin;
+  scrollbar-color:#435167 transparent;
+}
+.sidebar-inner:hover,.sidebar-inner:focus-within{
+  scrollbar-color:#64748b transparent;
+}
+.sidebar-inner::-webkit-scrollbar{width:6px;height:6px}
+.sidebar-inner::-webkit-scrollbar-track{background:transparent}
+.sidebar-inner::-webkit-scrollbar-thumb{background:#435167;border-radius:999px}
+.sidebar-inner:hover::-webkit-scrollbar-thumb,
+.sidebar-inner:focus-within::-webkit-scrollbar-thumb{background:#64748b}
+.sidebar-inner::-webkit-scrollbar-thumb:hover{background:#8090a5}
