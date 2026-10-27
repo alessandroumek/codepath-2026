@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
   ArrowRight, ArrowUpRight, Bookmark, CalendarCheck2, CalendarDays,
   Check, CheckCircle2, ChevronRight, CircleAlert, Clock3, Compass, Download, ExternalLink,
-  Filter, Grid3X3, Info, Layers3, List, MapPin, Menu, Mic2, Plus, Search,
+  Filter, Github, Grid3X3, Info, Layers3, List, MapPin, Menu, Mic2, Plus, Search,
   Star, Trash2, Upload, UsersRound, X,
 } from 'lucide-react';
 import {
@@ -302,7 +302,7 @@ function App() {
         </section>}
 
         {view === 'speakers' && <section className="speaker-page"><div className="section-heading"><div><span className="eyebrow">LE VOCI DELLA CONFERENZA</span><h2>Tutti gli speaker <span className="heading-spark">✳</span></h2></div><span className="result-count">{speakerMatches.length} SPEAKER</span></div><div className="speaker-toolbar"><label className="search-wrap"><Search size={18}/><input placeholder="Cerca uno speaker o il suo talk..." aria-label="Cerca speaker" value={search} onChange={e => setSearch(e.target.value)}/>{search && <button aria-label="Cancella ricerca" title="Cancella" onClick={() => setSearch('')}><X size={16}/></button>}</label></div>{speakerMatches.length ? <div className="speaker-grid">{speakerMatches.map(s => <article className="speaker-card" key={s.id}><SpeakerAvatar speaker={s} size="lg"/><div className="speaker-card-bio"><h3>{s.name}</h3><p className="speaker-affiliation">{s.role || 'Profilo non ancora disponibile'}</p><p className="speaker-excerpt">{s.biography || 'Le informazioni biografiche non sono presenti nel materiale originale.'}</p><div className="speaker-talks">{s.sessionIds.map(id => {const talk = sessionsById.get(id); return talk ? <button onClick={() => setDetailId(talk.id)} key={id}><Mic2 size={14}/><span>{talk.title}</span><ArrowUpRight size={14}/></button> : null;})}</div></div></article>)}</div> : <EmptyState icon="search" title="Nessuno speaker trovato" description="Prova con un altro nome o una tecnologia."><button className="btn-secondary" onClick={() => setSearch('')}>Azzera ricerca</button></EmptyState>}</section>}
-        <footer className="site-footer"><span><span className="footer-mark">C◢</span> Codepath · Un planner indipendente per Codemotion Milano 2026</span><span>Programma: snapshot del 15 ottobre 2026 · Abstract ufficiali Sessionize · <a href={catalog.event.sourcePages.speakers} target="_blank" rel="noreferrer">Speaker ufficiali <ExternalLink size={13}/></a></span></footer>
+        <footer className="site-footer"><span><span className="footer-mark">C◢</span> Codepath · Un planner indipendente per Codemotion Milano 2026 <a href="https://github.com/alessandroumek/codepath-2026" target="_blank" rel="noopener noreferrer"><Github size={14} aria-hidden="true"/> GitHub</a></span><span>Programma: snapshot del 15 ottobre 2026 · Abstract ufficiali Sessionize · <a href={catalog.event.sourcePages.speakers} target="_blank" rel="noreferrer">Speaker ufficiali <ExternalLink size={13}/></a></span></footer>
       </div>
     </div>
     <button className="mobile-plan-shortcut" type="button" onClick={() => navigate(view === 'plan' ? 'agenda' : 'plan')} aria-label={view === 'plan' ? "Apri agenda" : 'Apri il mio percorso'}>{view === 'plan' ? <CalendarDays size={20}/> : <Compass size={20}/>}<span>{view === 'plan' ? 'Agenda' : `Percorso (${selected.length})`}</span><ArrowRight size={16}/></button>
